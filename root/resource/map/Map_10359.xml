@@ -1,0 +1,23 @@
+<Map>
+	 <NpcList>
+	 	<Npc ID="10254" Layer="depthLevel" Name="扣扣" Ex="476" Ey="361" Cmd="s" Param="2" />
+	 	<Npc ID="10257" Layer="depthLevel" Name="海贼小兵" Ex="417" Ey="417" Cmd="s" Param="3" />
+	 	<Npc ID="10249" Layer="depthLevel" Name="蛋蛋" Ex="569" Ey="397" Cmd="s" Param="4" />
+	 	<Npc ID="10259" Layer="depthLevel" Name="扣扣" Ex="476" Ey="361" Cmd="s" Param="2" />
+	</NpcList>
+	<Triggers>
+		<Trigger ResName="go_356" Layer="controlLevel" Ex="575" Ey="518" Cmd="alt_map" Param="356" Tips="浮冰岛海湾" />
+		
+		<Trigger ResName="tollgate_1" Layer="depthLevel" Ex="410" Ey="430" Cmd="act" Param="openTollgate_14"  Tips="海贼喽啰"/>
+		<Trigger ResName="tollgate_0" Layer="depthLevel" Ex="290" Ey="400" Cmd="act" Param="openTollgate_15"  Tips="挑战汉青"/>
+		<Trigger ResName="tollgate_2" Layer="depthLevel" Ex="570" Ey="415" Cmd="act" Param="openTollgate_16"  Tips="激战蛋蛋"/>
+		<Trigger ResName="tollgate_3" Layer="depthLevel" Ex="480" Ey="350" Cmd="act" Param="openTollgate_17"  Tips="决战扣扣"/>
+	</Triggers>
+	
+	<Talks>
+		
+		<Talk ID="2" NpcID="10254" Face="开心" Msg="哈哈哈哈哈哈哈哈！可爱的庄园，扣扣来疼爱你啦！" Option="坏人，我们一定会打败你！$元素骑士新套装" Cmd="none$p" Param="null$ElementKnightExploitClothesPanel" />
+		<Talk ID="3" NpcID="10257" Face="正常" Msg="跟着老大有肉吃！有肉吃！有肉吃！" Option="喂，醒醒，企鹅不吃肉！" Cmd="none" Param="2" />
+		<Talk ID="4" NpcID="10249" Face="正常" Msg="对呀，我就是那个可爱的蛋蛋呀，你没有搞错呀，就是我呀，嗯嗯！" Option="-_-|||" Cmd="none" Param="sda" />
+	</Talks>
+</Map>

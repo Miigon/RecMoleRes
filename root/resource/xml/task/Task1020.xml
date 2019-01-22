@@ -1,0 +1,111 @@
+<Tasks ID="1020" Name="沧海桑田" AwardMsg="恭喜获得摩灵刺球，牧场动物梅花鹿和1万摩尔豆哦！" AwardBean="">
+	<Step ID="1" TarMapID="390">
+		<EnterMap MapID="390">
+			<Action Cmd="PLAY_MOVIE" Param="1" Name="movie_1" IsBg="1" IsFullScreen="1"/>
+			<Action Cmd="SAY">
+				<Talk NpcID="10000" Face="悲伤" Msg="小仙草好可怜啊……" Option="乐乐，别哭了，我们去救小仙草啊……"/>
+				<Talk NpcID="10000" Face="悲伤" Msg="可是，可是，他们都已经快被灭全族了，我还要为了公主去利用他们……" Option=""/>
+				<Talk NpcID="10287" Face="失望" Msg="摩乐乐，作为勇士，你最好是可以立刻、马上站起来，向前走……" Option="勇士？怎么听着那么耳熟？"/>
+				<Talk NpcID="10287" Face="失望" Msg="小仙草一族是通过帮助别人来获得力量的，人们的信仰力量越强大，他们的种族也会越强大！！" Option="哇，那不就是神仙？"/>
+				<Talk NpcID="10287" Face="开心" Msg="孺子可教，就是神仙。在不同的时代，在不同的国家，摩灵一直以来都受到人们的尊重和膜拜，不要小看我们！" Option="( ⊙o⊙ )哇，那我们岂不是来到了神仙的世界？想想有点小激动呢！"/>
+				<Talk NpcID="10287" Face="正常" Msg="好了，别说废话了！出发吧！" Option=""/>
+				<Talk NpcID="10000" Face="悲伤" Msg="可是我们也不知道去哪里找小仙草啊……" Option=""/>
+				<Talk NpcID="10287" Face="失望" Msg="乐乐，你，哎~小仙草不是被邪恶的魔法力量给带走的吗？" Option=""/>
+				<Talk NpcID="10000" Face="悲伤" Msg="是啊！" Option=""/>
+				<Talk NpcID="10287" Face="失望" Msg="我们只要继续往前走，找到更加强大的坏蛋，他们一定会知道的更多！" Option=""/>
+				<Talk NpcID="10000" Face="惊讶" Msg="哇！！！！小C，你好聪明！！" Option="哇！！！！C老师，你好聪明！！"/>		
+			</Action>
+			<Action Cmd="DELETE_MOVIE" Param="movie_1"/>
+			
+			<Action Cmd="JUMP_TASK_UI" Param="找到小仙草，拯救么么公主，各位勇敢而充满责任心的小摩尔们，前进！下一站是哪里呢？"/>
+			<Action Cmd="SET_BUFFER" Panel="2" Step="2"/>
+			<Action Cmd="GO_MAP" MapID="391" MapType="0"/>
+		</EnterMap>
+	</Step>
+	
+	<Step ID="2" TarMapID="391">
+		<EnterMap MapID="391">
+			<Action Cmd="PLAY_MOVIE" Param="100" Name="movie_100" IsBg="1" IsFullScreen="1"/>
+			<Action Cmd="DELETE_MOVIE" Param="movie_100"/>
+			
+			<Action Cmd="SAY">
+				<Talk NpcID="10000" Face="惊讶" Msg="这是个什么啊？不忍直视……" Option="乐乐，咱们还是走吧，离他远点！"/>
+				<Talk NpcID="10000" Face="惊讶" Msg="恩恩~" Option=""/>
+				<Talk NpcID="10292" Face="正常" Msg="想要离开这里？要问问人家了哟！" Option="那个什么鱼……"/>
+				<Talk NpcID="10292" Face="生气" Msg="不要这样叫人家，人家是萌萌哒摩鱼，人家身材那么好，长得那么漂亮……" Option="整个人都不好了，我可以先去吐一会吗？"/>	
+			</Action>
+			
+			<Action Cmd="PLAY_MOVIE" Param="2" Name="movie_2" IsBg="1" IsFullScreen="1"/>			
+			<Action Cmd="SAY">
+				<Talk NpcID="10283" Face="正常" Msg="咦？来客人啦？摩鱼~" Option=""/>
+				<Talk NpcID="10292" Face="正常" Msg="小萌萌，你回来啦~！是啊是啊，他们欺负人家了啦！" Option=""/>
+				<Talk NpcID="10283" Face="正常" Msg="欺负？谁敢欺负小萌家的可爱摩摩鱼了啦？让小萌看看哦~" Option=""/>
+				<Talk NpcID="10000" Face="生气" Msg="你这个坏巫女，竟然又让我遇到你！！这次一定不会放过你。{$username}，我们把她抓去交给骑士团。" Option=""/>
+				<Talk NpcID="10283" Face="正常" Msg="原来是看到公主被抓就吓晕了的小英雄，摩乐乐呀！嘻嘻嘻，来抓我试试啊~" Option=""/>
+			</Action>
+			<Action Cmd="DELETE_MOVIE" Param="movie_2"/>
+			
+            <Action Cmd="PLAY_MOVIE" Param="3" Name="movie_3" IsBg="1" IsFullScreen="1"/>			
+			<Action Cmd="SAY">
+				<Talk NpcID="10283" Face="正常" Msg="嘻嘻嘻哈哈哈哈……" Option="太可恶了！"/>
+				<Talk NpcID="10283" Face="正常" Msg="好咯，现在就把你们的生命力量给我吧！像可爱的么么公主一样……" Option="公主？生命力量？你对公主做了什么？"/>
+				<Talk NpcID="10283" Face="正常" Msg="没什么呀？公主自愿交出了她的红鼻子，交出了她生命力量的源泉……" Option=""/>
+				<Talk NpcID="10000" Face="生气" Msg="什么？明明是你骗公主的！！竟然说这种话！气死我了！" Option=""/>
+			</Action>
+			<Action Cmd="DELETE_MOVIE" Param="movie_3"/>
+
+			<!--<Action Cmd="JUMP_TASK_UI" Param="到了这个全新的世界，小C似乎拥有了更加强大的力量，希望我们可以快些适应，快些找到救治公主的办法。"/>  -->
+			<Action Cmd="SET_BUFFER" Panel="3" Step="3"/>
+			<Action Cmd="GO_MAP" MapID="391" MapType="0"/>
+		</EnterMap>
+	</Step>
+	
+	<Step ID="3" TarMapID="391">
+		<EnterMap MapID="391">
+		    <Action Cmd="PLAY_MOVIE" Param="101" Name="movie_101" IsBg="1" IsFullScreen="1"/>
+			<Action Cmd="DELETE_MOVIE" Param="movie_101"/>
+			
+			<Action Cmd="SAY">
+				<Talk NpcID="10000" Face="惊讶" Msg="哎？蒙斯特？哎？小萌？怎么回事？" Option=""/>
+				<Talk NpcID="10282" Face="开心" Msg="欺骗公主，欺负公主的是蒙斯特王子啊~和人见人爱花见花开车见爆胎可爱无敌的小萌没有关系啊~" Option=""/>
+				<Talk NpcID="10000" Face="惊讶" Msg="蒙斯特是小萌变的？？？？原来是这样……" Option=""/>
+				<Talk NpcID="10287" Face="失望" Msg="哎，小萌，你何必呢……" Option=""/>
+				<Talk NpcID="10282" Face="开心" Msg="璨姐姐，好久不见啊~" Option=""/>
+				<Talk NpcID="10287" Face="失望" Msg="哎~" Option=""/>
+				<Talk NpcID="10282" Face="愤怒" Msg="你都已经变成这样了，什么时候轮得到你来可怜我？璨，我诅咒你！！！" Option=""/>
+				<Talk NpcID="10287" Face="失望" Msg="是，以我现在的力量我无法恢复自己的形体，但是殿下也身在诅咒之中，璨愿意和他一起受苦……" Option="咦？和开始说的不一样啊，老师……"/>
+				<Talk NpcID="10282" Face="愤怒" Msg="你！！！" Option=""/>
+			</Action>
+			
+			<Action Cmd="PLAY_MOVIE" Param="102" Name="movie_102" IsBg="1" IsFullScreen="1"/>
+			<Action Cmd="DELETE_MOVIE" Param="movie_102"/>
+			
+			<Action Cmd="PLAY_MOVIE" Param="103" Name="movie_103" IsBg="1" IsFullScreen="1"/>
+			<Action Cmd="DELETE_MOVIE" Param="movie_103"/>
+			
+			<Action Cmd="SET_BUFFER" Panel="4" Step="4"/>
+			<Action Cmd="GO_MAP" MapID="391" MapType="0"/>
+		</EnterMap>
+	</Step>
+	
+	<Step ID="4" TarMapID="391">
+		<EnterMap MapID="391">
+		    <Action Cmd="PLAY_MOVIE" Param="104" Name="movie_104" IsBg="1" IsFullScreen="1"/>
+			<Action Cmd="DELETE_MOVIE" Param="movie_104"/>
+			
+		    <Action Cmd="SAY">
+				<Talk NpcID="10293" Face="愤怒" Msg="看到我的脸就害怕了吗？哈哈哈哈哈，璨姐姐，你现在选出来的勇士就是这样的……	" Option=""/>
+				<Talk NpcID="10287" Face="失望" Msg="你执念太深了，萌，过去那么久了，殿下也无法变回原来的样子了……" Option=""/>
+				<Talk NpcID="10293" Face="愤怒" Msg="还不是因为你，就是因为你，要不是你殿下怎么会不理我？" Option=""/>
+				<Talk NpcID="10287" Face="失望" Msg="即使没有我……" option=""/>
+				<Talk NpcID="10293" Face="愤怒" Msg="现在我有了变化的能力，我有了摩鱼和我一起战斗，而你什么都没有了！黑魔法学院终究会成为世界的王者……" Option=""/>
+			</Action>
+			
+			<Action Cmd="PLAY_MOVIE" Param="105" Name="movie_105" IsBg="1" IsFullScreen="1"/>
+			<Action Cmd="DELETE_MOVIE" Param="movie_105"/>
+			
+			<Action Cmd="OVER"/>
+		</EnterMap>	
+	</Step>			
+</Tasks>
+

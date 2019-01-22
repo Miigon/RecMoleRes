@@ -1,0 +1,17 @@
+<Map>
+	<NpcList>
+		<Npc ID="10039" Layer="controlLevel" Name="库洛" Ex="331" Ey="289" Cmd="s" Param="1"  AddTaskOption="1" /> 
+	</NpcList>
+	
+	<Triggers>
+	</Triggers>
+	
+	<Talks>
+		<Talk ID="999" NpcID="10039" Face="正常" Msg="又到父亲节了呀？小摩尔也要记得给你爸爸礼物哦~" Option="好~" Cmd="act" Param="fatherDayOver" AddTaskOption="1"  />
+		
+		<Talk ID="1" NpcID="10039" Face="正常" Option="火灵骑士$没什么事" Cmd="act$none" Param="fireKnight$6" Msg="嘿，你好啊！我是SMC的消防署长库洛，负责维护整个庄园的消防安全！有什么需要我帮忙的么？"  AddTaskOption="1" />
+		<Talk ID="2" NpcID="10039" Face="正常" Option="我知道了！" Cmd="none" Param="1" AddTaskOption="1" Msg="做的不错，给你火灵骑士资格证，加油哦~" />
+		<Talk ID="3" NpcID="10039" Face="正常" Option="我知道了！" Cmd="none" Param="2" AddTaskOption="1" Msg="你还没有火之精灵，等你得到了火之精灵再来找我吧~" />
+	</Talks>
+</Map>
+

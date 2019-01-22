@@ -1,0 +1,26 @@
+<Map>
+	<NpcList>
+		<Npc ID="10079" Layer="depthLevel" Name="小树枝" Ex="760" Ey="212" Cmd="s" Param="1" />
+		<!--
+		<Npc ID="10002" Layer="controlLevel" Name="么么公主" Ex="358" Ey="460" Cmd="s" Param="1" />
+		-->
+	</NpcList>
+	
+	<Triggers>
+		<!--
+		<Trigger ResName="mermaid_mc" Layer="depthLevel" Ex="450" Ey="148" Cmd="p" Param="MermaidAndPrincePanel" Tips="美人鱼与王子的故事" /> 
+		-->
+	</Triggers>
+	
+	<Talks>
+		<!--
+		<Talk ID="1" NpcID="10015" Face="正常" Msg="Hi，你好啊。" Option="我很好" Cmd="none" Param="6" AddTaskOption="1" />
+		-->
+		<Talk ID="1" NpcID="10079" Face="正常" Msg="我知道你们都是最最勇敢的拉姆，可是你们能通过酋长的考验，获得他的传教么？" Option="拼合碎片$随便聊聊" Cmd="act$rs" Param="Lamu_LamuWorldConver$2-4" Data="111$0" AddTaskOption="1" />
+		
+		<Talk ID="2" NpcID="10079" Face="正常" Msg="我们村落盛产针刺草、朝天椒和咕噜果，如果你也想的话，那就得学会变身小树苗的技能哦！" Option="我知道了！" Cmd="none" Param="" />
+		<Talk ID="3" NpcID="10079" Face="正常" Msg="最近族人们都听说黑森林里总有怪怪的现象发生，也不知道是怎么回事，真想出去看看呢！" Option="我知道了！" Cmd="none" Param="" />
+		<Talk ID="4" NpcID="10079" Face="正常" Msg="我们的变身技能可是独一无二的，只有勇气与智慧兼备的小拉姆才能学会！" Option="我知道了！" Cmd="none" Param="" />
+		<Talk ID="5" NpcID="10079" Face="正常" Msg="" Option="" Cmd="" Param="" />
+	</Talks>
+</Map>

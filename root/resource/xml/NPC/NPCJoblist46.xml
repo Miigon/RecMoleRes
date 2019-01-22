@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ListAll>  
+	  <item  NPCID="46"  NPCname="杰西"  NPCnamess="Jesse">
+		 <npcTips   msg="想成为向导的摩尔请来我这里报道！"  tips="    很高心见到你，我是SMC向导指导官杰西，负责培养优秀的向导。;    SMC向导的主要职责是帮助指导刚来摩尔庄园的新公民。;    有兴趣成为一个乐于助人的向导吗？你可以点击右上角SMC徽章来获取就职任务。"  changID="no"  Job="ok"/>
+	     <JobList   JobID="0"  msg0="" msg1="    嘿，你的任务还未完成，你可以在任务列表中找到任务线索哦！"  msg2="    恭喜！你已经成为了一名向导。作为奖品你获得导游四件套。"   msg3="    热心助人是每个向导的职责，更多向导任务你可以点击右上角SMC徽章获取。"   needGood="190001;190002;190003;190004"  getGood="12060;12061;12062;12063"  needGoodname="红色磁带;黄色磁带;绿色磁带;蓝色磁带"  getGoodname="导游四件套"  changID="no" />
+      </item>
+
+</ListAll>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

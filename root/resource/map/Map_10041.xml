@@ -1,0 +1,32 @@
+<Map>
+	<NpcList>
+		
+	</NpcList>
+	
+	<Triggers>
+		<Trigger ResName="go_42" Layer="controlLevel" Ex="340" Ey="253" Cmd="alt_map" Param="42" Tips="彩虹瀑布" />
+		<Trigger ResName="mapBtn" Layer="controlLevel" Ex="755" Ey="175" Cmd="alt_map" Param="40" Tips="浆果密道"/>
+		<Trigger ResName="mapBtn204" Layer="controlLevel" Ex="678" Ey="447" Cmd="alt_map" Param="204" Tips="天空树"/>
+		<Trigger ResName="interact_mc" Layer="controlLevel" Ex="447" Ey="420" Cmd="act" Param="openBQL" Tips="五色浆果" />
+		
+		
+	</Triggers>
+	
+	<Talks>
+		<Talk ID="2" NpcID="10019" Face="正常" Msg="只要有我艾尔在，摩尔庄园一定会平平安安！" Option="我有事，先走了" Cmd="none" Param="3" />
+		<Talk ID="3" NpcID="10019" Face="正常" Msg="每个SMC警官都必须付出自己的努力，进行日常的站岗值勤。如果你想加入值勤可以直接点击右上角的SMC徽章哦！" Option="哦，我知道了！" Cmd="none" Param="3" />
+		<Talk ID="99" NpcID="10148" Face="正常" Msg="谢谢你，{$username}，又找到了一颗黑暗种子，送你一些礼物以表谢意！我们一定要阻止零的阴谋！" Option="嗯！一定不能让他得逞！" Cmd="act" Param="getItemseven" AddTaskOption="1" />
+		<Talk ID="7" NpcID="10159" Face="正常" Msg="小摩尔去读一读边上的“说明”木牌吧" Option="好，我去看个究竟~" Cmd="none" Param="1" AddTaskOption="1" />
+		<Talk ID="4" NpcID="10159" Face="正常" Msg="这一轮我已经收集满了，小摩尔等会再来吧！" Option="好的~" Cmd="none" Param="1" AddTaskOption="1" />		
+		<Talk ID="5" NpcID="10159" Face="正常" Msg="你好像没有我要的迷你波板糖耶，再帮我去找一找吧！" Option="好，我再去找找！~" Cmd="none" Param="1" AddTaskOption="1" />
+		<Talk ID="6" NpcID="10159" Face="正常" Msg="谢谢你，热心的小摩尔！等彩虹桥出现时，只要你还呆在浆果丛林，就会获得一份彩虹送给你的礼物！不过在那之前，还请你多多帮助我哦！" Option="太棒了！没问题！~" Cmd="none" Param="1" AddTaskOption="1" />
+		<Talk ID="500" NpcID="10311" Face="正常" Msg="神秘的黑衣人把我变成了满头白发的老摩尔，谁来帮我恢复青春。" Option="喂他喝药$没什么事" Cmd="act$none" Param="takeTheMedicine$null" />
+		<Talk ID="501" NpcID="10310" Face="正常" Msg="谢谢你好心的小摩尔。" Option="是谁把你变成这样的？" Cmd="act" Param="backToYouthOver" />
+		<Talk ID="502" NpcID="10310" Face="正常" Msg="我隐约看到她好像有一头长发" Option="哦，我知道了。" Cmd="act" Param="backToYouthReward" />
+		<Talk ID="503" NpcID="10310" Face="正常" Msg="她身上有阵迷人的香气" Option="哦，我知道了。" Cmd="act" Param="backToYouthReward" />
+		<Talk ID="504" NpcID="10310" Face="正常" Msg="听说吸取摩尔的青春可以让他们永葆青春" Option="哦，我知道了。" Cmd="act" Param="backToYouthReward" />
+		<Talk ID="505" NpcID="10310" Face="正常" Msg="神秘黑衣人，好可怕，我不知道，不要问我了,55555" Option="哦，我知道了。" Cmd="act" Param="backToYouthReward" />
+		<Talk ID="506" NpcID="10310" Face="正常" Msg="如果她再出现，我一定会认出她。" Option="哦，我知道了。" Cmd="act" Param="backToYouthReward" />
+	</Talks>
+</Map>
+

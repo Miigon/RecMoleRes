@@ -1,0 +1,46 @@
+<Map>
+	<NpcList>
+		<Npc ID="10077" Layer="depthLevel" Name="小树叶" Ex="188" Ey="280" Cmd="s" Param="30" />
+		<Npc ID="10078" Layer="depthLevel" Name="小树根" Ex="664" Ey="187" Cmd="s" Param="40" />
+		<!--
+		<Npc ID="10002" Layer="controlLevel" Name="么么公主" Ex="358" Ey="460" Cmd="s" Param="1" />
+		-->
+	</NpcList>
+	
+	<Triggers>
+		<!--
+		<Trigger ResName="mermaid_mc" Layer="depthLevel" Ex="450" Ey="148" Cmd="p" Param="MermaidAndPrincePanel" Tips="美人鱼与王子的故事" /> 
+		-->
+	</Triggers>
+	
+	<Talks>
+		<Talk ID="100" NpcID="10072" Face="正常" Msg="最近黑森林发生了好多事情，我偶尔有听见奇怪的声音，你听到了吗？对了，有什么事吗？" Option="学习技能$拼合碎片$随便聊聊" Cmd="act$act$rs" Param="tree_studyTree$Lamu_LamuWorldConver$1-3" Data="0$110$0" AddTaskOption="1" />
+		
+		<Talk ID="1" NpcID="10072" Face="正常" Msg="我们的族人都很友善，如果你能够把收集到的碎片与他们拼合，他们一定会更喜欢你的。" Option="我知道了！" Cmd="none" Param="" />
+		<Talk ID="2" NpcID="10072" Face="正常" Msg="一直以来恶魔树精占领着我们的地盘，没有拉姆敢进去，但幸好它也从不出来干涉我们的生活。" Option="我知道了！" Cmd="none" Param="" />
+		<Talk ID="3" NpcID="10072" Face="正常" Msg="小小的拉姆碎片可神奇了，如果你能从恶魔树精那得到碎片的另一半与我们的族人拼合，那好事一定会降临到你身上的哦！：）" Option="我知道了！" Cmd="none" Param="" />
+		
+		<Talk ID="10" NpcID="10072" Face="正常" Msg="哼，你们为什么都闯了进来！这里可是至高无上的木系村落，你有这个勇气挑战吗？" Option="我一定行的$下次再说！" Cmd="s$none" Param="11" />
+		<Talk ID="11" NpcID="10072" Face="正常" Msg="我们村落里有一个恶魔树精，如果你能够战胜它，那么说明还有点潜质。" Option="我一定可以的！$恶魔？那我先走了！" Cmd="s$s" Param="13$12" />
+		<Talk ID="12" NpcID="10072" Face="正常" Msg="哼，就你这点勇气还想进入神殿把自己进化为第五阶段？想都不要想！赶紧让你主人带你回家吧！" Option="我知道了！" Cmd="none" Param="" />
+		<Talk ID="13" NpcID="10072" Face="正常" Msg="哼，那你就从旁边的门进去吧。这个树精招数不多但生存力很强。你有办法破解它的防御，那可能就有希望。呵呵，别忘了把我们的木系信物带出来！" Option="看我的吧！" Cmd="none" Param="" />
+		<Talk ID="14" NpcID="10072" Face="正常" Msg="没有能耐就别来见我！这个树精招数不多，但它会自己给自己加血，生存能力非常强。你有办法破解它的防御，那可能就有希望。呵呵，别忘了把我们的木系信物带出来！" Option="我知道了！" Cmd="none" Param="" />
+		
+		<Talk ID="16" NpcID="10072" Face="正常" Msg="啊！我们的信物！看来你还真不错呢，我会教你如何变身小树苗，现在，跟着我做，利用技能拿到高处的东西！" Option="好的！$下次再说！" Cmd="act$none" Param="tree_treePlay$1" />
+		<Talk ID="17" NpcID="10072" Face="正常" Msg="现在，你也开始变身吧，把自己变成小树苗，然后去拿高处的东西！怎么样，需要我再演示一遍吗？" Option="看懂了！$再演示一遍！" Cmd="act$act" Param="tree_treeOK$tree_treePlay" />
+		<Talk ID="18" NpcID="10072" Face="正常" Msg="你已经学会变身小树苗的技能啦，我可不确定其他两位酋长也会教你技能。不然你可是没办法进化为神力拉姆的。" Option="我会努力的！" Cmd="s" Param="20" />
+		<Talk ID="19" NpcID="10072" Face="正常" Msg="你已经拿到朝天椒啦，只要把朝天椒交给我，我就会把基础变身技能传授给你哦！" Option="给你朝天椒！" Cmd="act" Param="tree_treeTaskOK" />
+		<Talk ID="20" NpcID="10072" Face="正常" Msg="小拉姆使用技能时，会消耗它的饥饿、口渴、清洁和心情值，当拉姆状态不好时，是无法使用变身技能的，需要补充后才能继续使用哦！" Option="我知道了！" Cmd="none" Param="" />
+			   
+		
+		<Talk ID="30" NpcID="10077" Face="正常" Msg="我们木系的技能可是独一无二的，想要学会的小拉姆可多呢，酋长可不是每一个都会教的！" Option="拼合碎片$随便聊聊" Cmd="act$rs" Param="Lamu_LamuWorldConver$31-32" Data="112$0" AddTaskOption="1" />
+		<Talk ID="31" NpcID="10077" Face="正常" Msg="我们木系的酋长虽然很温柔，可他也不会轻易把自己的技能传授给外人哦，你能通过它的考验吗？" Option="我知道了！" Cmd="none" Param="6" />
+		<Talk ID="32" NpcID="10077" Face="正常" Msg="黑森林里所有的一切都很神秘，我们族人生活在这里很久了，不知道外面现在变得什么样子了呢？" Option="我知道了！" Cmd="none" Param="6" />
+		
+		<Talk ID="40" NpcID="10078" Face="正常" Msg="很久没有看见外界的拉姆来到我们村落了，你好呀，希望你能和我们成为好朋友哦！" Option="拼合碎片$随便聊聊" Cmd="act$rs" Param="Lamu_LamuWorldConver$41-43" Data="113$0" AddTaskOption="1" />
+		<Talk ID="41" NpcID="10078" Face="正常" Msg="把自己进化为神力拉姆，那可是所有拉姆族人的向往！" Option="我知道了！" Cmd="none" Param="6" AddTaskOption="1" />
+		<Talk ID="42" NpcID="10078" Face="正常" Msg="小小的幸福就要降临啦！如果你能找到另一半的碎片与我拼合，我一定满足你小小的愿望哦！" Option="我知道了！" Cmd="none" Param="6" AddTaskOption="1" />
+		<Talk ID="43" NpcID="10078" Face="正常" Msg="水系族长可是个老顽固，哦不，他们的族人都很顽固。" Option="我知道了！" Cmd="none" Param="6" AddTaskOption="1" />
+		
+	</Talks>
+</Map>

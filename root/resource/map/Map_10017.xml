@@ -1,0 +1,18 @@
+<Map>
+	<NpcList>
+		<Npc ID="10042" Layer="depthLevel" Name="尼克" Ex="314" Ey="268" Cmd="s" Param="1" AddTaskOption="1" />
+	</NpcList>
+	
+	<Triggers>
+	</Triggers>
+	
+	<Talks>
+		<Talk ID="1" NpcID="10042" Face="正常" Msg="好棒哟，摩摩餐厅正式营业了，你拥有自己的餐厅了吗？大家可都忙着呢！咦？找我有事吗？" Option="帮忙打工$学习餐厅礼仪" Cmd="act$act" Param="nicWork$nicLearn" AddTaskOption="1"  />
+		<Talk ID="30" NpcID="10042" Face="正常" Msg="哇哦，周年庆邀请函，真是期待已久啊。" Option="那怎样才能邀请你？" Cmd="s" Param="31" />
+		<Talk ID="31" NpcID="10042" Face="正常" Msg="NO,NO,NO身为摩尔餐厅厨师，我可是忙的不可开交。要不，你帮我经营一会儿餐厅吧！(经营餐厅通过第一关)" Option="可以，那你一定要收下邀请函。" Cmd="act" Param="beginGame"/>
+		<Talk ID="32" NpcID="10042" Face="正常" Msg="咦！这个邀请函好像不是送给我的，呜呜呜~真伤心！" Option="不好意思啦，我弄错了o(╯□╰)o" Cmd="null" Param="none" />
+		<Talk ID="101" NpcID="10042" Face="正常" Msg="你是个值得信赖，一诺千金的人吗？" Option="不是这样。$当然是。$关键时刻，不敢保证。" Cmd="s$s$s" Param="102$102$102" />
+		<Talk ID="102" NpcID="10042" Face="正常" Msg="诶，想当年我也只是个小小的厨师。虽然我长得玉树临风潇洒倜傥，但支撑我一步步坐上主厨，走到现在的还是我脚踏实地的性格。" Option="总觉得当中有八个字看起来好刺眼。受教了。" Cmd="act" Param="loveTestMap" />
+	</Talks>
+</Map>
+

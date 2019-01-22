@@ -1,0 +1,19 @@
+<Map>
+	<NpcList>
+		<!--
+		<Npc ID="10002" Layer="controlLevel" Name="么么公主" Ex="358" Ey="460" Cmd="s" Param="1" />
+		-->
+	</NpcList>
+	
+	<Triggers>
+		<Trigger ResName="green_mc" Layer="controlLevel" Ex="487" Ey="308" Cmd="act" Param="sayOver" Tips=" Miss 绿茸茸" /> 
+		<Trigger ResName="red_mc" Layer="controlLevel" Ex="621" Ey="314" Cmd="act" Param="sayOver" Tips="  Mr.红彤彤" /> 
+		<Trigger ResName="blue_mc" Layer="controlLevel" Ex="722" Ey="392" Cmd="act" Param="sayOver" Tips="   Mr.蓝幽幽 " /> 
+	</Triggers>
+	
+	<Talks>
+		<!--
+		<Talk ID="1" NpcID="10015" Face="正常" Msg="Hi，你好啊。" Option="我很好" Cmd="none" Param="6" AddTaskOption="1" />
+		-->
+	</Talks>
+</Map>

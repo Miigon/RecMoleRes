@@ -1,0 +1,20 @@
+<Map>
+	 <NpcList>
+		<Npc ID="10246" Layer="depthLevel" Name="健达宝宝" Ex="235" Ey="435" Cmd="s" Param="1" />
+	</NpcList>
+	<Triggers>
+		<Trigger ResName="go_142" Layer="controlLevel" Ex="136" Ey="518" Cmd="alt_map" Param="142" Tips="米勒大道" />
+		<Trigger ResName="board_mc" Layer="controlLevel" Ex="186" Ey="418" Cmd="act" Param="eden" Tips="公告" />
+		<Trigger ResName="happy_mc" Layer="controlLevel" Ex="329" Ey="247" Cmd="act" Param="happyBirthday" Tips="生日" />
+		<Trigger ResName="wanju_mc" Layer="controlLevel" Ex="329" Ey="247" Cmd="act" Param="happyBirthday" Tips="生日" />
+		<Trigger ResName="dan_mc" Layer="controlLevel" Ex="472" Ey="326" Cmd="p" Param="KinderMakeEggPanel" Tips="健达奇趣蛋" />
+		<Trigger ResName="machine_mc" Layer="controlLevel" Ex="855" Ey="449" Cmd="p" Param="KinderMakeEggPanel" Tips="健达奇趣蛋" />
+	</Triggers>
+	
+	<Talks>
+		<Talk ID="1" NpcID="10246" Face="正常" Msg="欢迎来到充满欢乐和惊喜的蛋屋！" Option="健达奇趣屋新年派对$奇趣蛋翻翻看$制作奇趣蛋$生日礼物$健达奇趣乐园$没什么事" Cmd="p$p$p$s$act" Param="KindaNewyearPartyPanel$FabulousEggPanel$KinderMakeEggPanel$2$eden" />
+		<Talk ID="2" NpcID="10246" Face="正常" Msg="点击生日墙登记生日吧！到了你生日那天可以来蛋屋礼物领取区收礼啦！" Option="好的" Cmd="act" Param="checkBirthday" />
+		<Talk ID="3" NpcID="10246" Face="正常" Msg="健达奇趣屋还给庄园的每一位小摩尔准备了生日礼物哦！快来登记吧！" Option="现在登记$以后再说" Cmd="act$none" Param="happyBirthday$2" />
+		<Talk ID="4" NpcID="10246" Face="正常" Msg="欢迎来到我的健达奇趣屋！" Option="哇！！(O(∩_∩)O)这里好漂亮" Cmd="none" Param="sda" />
+	</Talks>
+</Map>

@@ -1,0 +1,13 @@
+﻿<Map>
+	<NpcList>
+	
+	</NpcList>
+	
+	<Triggers>
+	
+		<Trigger ResName="door_95" Layer="controlLevel" Ex="439" Ey="240" Cmd="alt_map" Param="313" Tips="沼泽东岸" />
+	</Triggers>
+	
+	<Talks>
+	</Talks>
+</Map>

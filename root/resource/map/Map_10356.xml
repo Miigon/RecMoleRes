@@ -1,0 +1,32 @@
+<Map>
+	<NpcList>
+		<Npc ID="10240" Layer="depthLevel" Name="肖恩" Ex="535" Ey="233" Cmd="s" Param="341" Data="7" AddTaskOption="1"/>
+		<Npc ID="10241" Layer="depthLevel" Name="杰西" Ex="777" Ey="326" Cmd="s" Param="2" Data="8" AddTaskOption="1"/>
+	</NpcList>
+	
+	<Triggers>
+		<Trigger ResName="go_355" Layer="controlLevel" Ex="462" Ey="330" Cmd="alt_map" Param="355" Tips="进入东部沙滩码头"/>
+		<Trigger ResName="go_357" Layer="controlLevel" Ex="762" Ey="221" Cmd="alt_map" Param="357" Tips="进入积雪镇"/>
+	
+		<Trigger ResName="seat1_mc" Layer="controlLevel" Ex="366" Ey="200" Cmd="sit" Param="6$Seat" Data="1" Tips="钓鱼" />
+		<Trigger ResName="seat2_mc" Layer="controlLevel" Ex="296" Ey="211" Cmd="sit" Param="6$Seat" Data="2" Tips="钓鱼"  />
+		
+<!-- 		<Trigger ResName="tollgate_mc" Layer="depthLevel" Ex="330" Ey="150" Cmd="p" Param="ElementKnightPanel" Tips="浮冰岛海湾"/> -->
+		<Trigger ResName="tollgate_mc" Layer="depthLevel" Ex="458" Ey="200" Cmd="act" Param="openTollgate" Tips="浮冰岛海湾"/>
+	</Triggers>
+	 
+	<Talks>
+		<Talk ID="1" NpcID="10240" Face="正常" Msg="HI，我叫肖恩。我的座右铭是干一行爱一行。" Option="你是做哪一行的？$我要和你做朋友！" Cmd="s$p" Param="3$PenguinFriendChoosePanel"/>
+		<Talk ID="2" NpcID="10241" Face="正常" Msg="给我5金豆，我就告诉你浮冰岛海湾的秘密，想知道这个天大的秘密嘛？" Option="我才不会给你呢！" Cmd="none" Param="12"/>
+		<Talk ID="3" NpcID="10240" Face="正常" Msg=" 我是盗……不，我是导游。" Option="好吧！" Cmd="none" Param="3"/>
+		
+		<Talk ID="341" NpcID="10240" Face="正常" Msg="HI，我叫肖恩。我的座右铭是干一行爱一行。" Option="你是做哪一行的？$我要和你做朋友！" Cmd="s$p" Param="3$PenguinFriendChoosePanel"/>
+		<Talk ID="342" NpcID="10240" Face="正常" Msg="HI，我叫肖恩。我的座右铭是干一行爱一行。" Option="肖恩，你是什么专业的？$你是做哪一行的？$我要和你做朋友！" Cmd="s$s$p" Param="343$3$PenguinFriendChoosePanel"/>
+		<Talk ID="343" NpcID="10240" Face="正常" Msg="我是数学系的~所以我只喜欢和聪明人交朋友！" Option="完全看不出来。。。" Cmd="act" Param="npcSwapPrize" AddTaskOption="1" Data="7" />
+		
+		<Talk ID="344" NpcID="10241" Face="正常" Msg="给我5金豆，我就告诉你浮冰岛海湾的秘密，想知道这个天大的秘密嘛？" Option="我才不会给你呢！$杰西，你还是这么财迷！" Cmd="none$s" Param="12$345"/>
+		<Talk ID="345" NpcID="10241" Face="正常" Msg="有钱走遍天下，无钱寸步难行！" Option="真是没救了！" Cmd="act" Param="npcSwapPrize" AddTaskOption="1" Data="8"/>
+		<Talk ID="346" NpcID="10241" Face="正常" Msg="给我5金豆，我就告诉你浮冰岛海湾的秘密，想知道这个天大的秘密嘛？" Option="我才不会给你呢！" Cmd="none" Param="12"/>
+	</Talks>
+</Map>
+

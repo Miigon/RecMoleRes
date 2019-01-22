@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+	pig:猪种
+	feed:饲料
+	dress:装扮
+	prop:道具
+	material:材料
+	other:其他
+		rebate:促销
+	time:限时
+	itemID:物品ID
+	goodsID:金豆购买所使用的商品ID
+	payType:购买类别, 1表示摩尔豆, 2表示金豆 3兑换
+	count:数量(单价)
+	shwoType:商品类别（热卖1、促销2、限时3.猪票4）
+	content:提示信息
+ -->
+<shop>
+	<pig>
+		<rebate>
+			<items itemID="1593010" goodsID="" node="1"  payType="1" count="100" showType="2" content="初始体重15KG，成猪前长肉速度3KG/小时，出售价格5摩尔豆/KG。"/>
+			<items itemID="1593011" goodsID="" node="1" payType="1" count="100" showType="2" content="初始体重15KG，成猪前长肉速度3KG/小时，出售价格5摩尔豆/KG。"/>
+			<items itemID="1593012" goodsID="" node="1" payType="1" count="300" showType="2" content="初始体重35KG，成猪前长肉速度2KG/小时，出售价格8摩尔豆/KG。"/>
+			<items itemID="1593013" goodsID="" node="1" payType="1" count="300" showType="2" content="初始体重35KG，成猪前长肉速度2KG/小时，出售价格8摩尔豆/KG。"/>
+			<items itemID="1593043" goodsID="" node="2" payType="1" count="3500" showType="2" content="初始魅力值为10点，成猪前魅力成长速度1点/小时，出售价格30摩尔豆/点。"/>
+			<items itemID="1593044" goodsID="" node="2" payType="1" count="3500" showType="2" content="初始魅力值为10点，成猪前魅力成长速度1点/小时，出售价格30摩尔豆/点。"/>
+			<items itemID="1593045" goodsID="" node="2" payType="1" count="4000" showType="2" content="初始魅力值为12点，成猪前魅力成长速度1点/小时，出售价格32摩尔豆/点。"/>
+			<items itemID="1593046" goodsID="" node="2" payType="1" count="4000" showType="2" content="初始魅力值为12点，成猪前魅力成长速度1点/小时，出售价格32摩尔豆/点。"/>
+			<items itemID="1593014" goodsID="" node="1" payType="1" count="500" showType="2" content="初始体重50KG，成猪前长肉速度4KG/小时，出售价格7摩尔豆/KG。"/>
+			<items itemID="1593015" goodsID="" node="1" payType="1" count="500" showType="2" content="初始体重50KG，成猪前长肉速度4KG/小时，出售价格7摩尔豆/KG。"/>
+			<items itemID="1593016" goodsID="" node="1" payType="1" count="800" showType="2" content="初始体重80KG，成猪前长肉速度3KG/小时，出售价格10摩尔豆/KG。"/>
+			<items itemID="1593017" goodsID="" node="1" payType="1" count="800" showType="2" content="初始体重80KG，成猪前长肉速度3KG/小时，出售价格10摩尔豆/KG。"/>
+			<items itemID="1593047" goodsID="" node="2" payType="1" count="4500" showType="2" content="初始魅力值为14点，成猪前魅力成长速度1点/小时，出售价格34摩尔豆/点。"/>
+			<items itemID="1593048" goodsID="" node="2" payType="1" count="4500" showType="2" content="初始魅力值为14点，成猪前魅力成长速度1点/小时，出售价格34摩尔豆/点。"/>
+			<items itemID="1593049" goodsID="" node="2" payType="1" count="5000" showType="2" content="初始魅力值为16点，成猪前魅力成长速度1点/小时，出售价格36摩尔豆/点。"/>
+			<items itemID="1593050" goodsID="" node="2" payType="1" count="5000" showType="2" content="初始魅力值为16点，成猪前魅力成长速度1点/小时，出售价格36摩尔豆/点。"/>
+			<items itemID="1593018" goodsID="" node="1" payType="1" count="1000" showType="2" content="初始体重90KG，成猪前长肉速度5KG/小时，出售价格7摩尔豆/KG。"/>
+			<items itemID="1593019" goodsID="" node="1" payType="1" count="1000" showType="2" content="初始体重90KG，成猪前长肉速度5KG/小时，出售价格7摩尔豆/KG。"/>
+			<items itemID="1593039" goodsID="" node="1" payType="1" count="1000" showType="2" content="初始体重90KG，成猪前长肉速度9KG/小时，出售价格7摩尔豆/KG。"/>
+			<items itemID="1593040" goodsID="" node="1" payType="1" count="1000" showType="2" content="初始体重90KG，成猪前长肉速度9KG/小时，出售价格7摩尔豆/KG。"/>
+		</rebate>
+		<time>
+		  <items itemID="1593016" goodsID="" node="1" payType="1" count="800" showType="3" content="初始体重80KG，成猪前长肉速度3KG/小时，出售价格10摩尔豆/KG。"/>
+			<items itemID="1593017" goodsID="" node="1" payType="1" count="800" showType="3" content="初始体重80KG，成猪前长肉速度3KG/小时，出售价格10摩尔豆/KG。"/>
+			<items itemID="1593018" goodsID="" node="1" payType="1" count="1000" showType="3" content="初始体重90KG，成猪前长肉速度5KG/小时，出售价格7摩尔豆/KG。"/>
+			<items itemID="1593019" goodsID="" node="1" payType="1" count="1000" showType="3" content="初始体重90KG，成猪前长肉速度5KG/小时，出售价格7摩尔豆/KG。"/>
+			<items itemID="1593039" goodsID="" node="1" payType="1" count="1000" showType="3" content="初始体重90KG，成猪前长肉速度9KG/小时，出售价格7摩尔豆/KG。"/>
+			<items itemID="1593040" goodsID="" node="1" payType="1" count="1000" showType="3" content="初始体重90KG，成猪前长肉速度9KG/小时，出售价格7摩尔豆/KG。"/>
+		</time>
+		<exg>
+			<items itemID="1593030" payType="3" node="1" count="1"  Type="778"  showType="4" isOutDate = "1" content="限量版猪仔，绝对值得收藏！一套彩虹猪票即可兑换，截止日期：10月27日。"/>
+			<items itemID="1593037" payType="3" node="1" count="1"  Type="778"  showType="4" isOutDate = "1" content="万圣节限量版猪仔，绝对值得收藏！一套彩虹猪票即可兑换，截止日期：11月10日。"/>
+			<items itemID="1593032" payType="3" node="1" count="1"  Type="778"  showType="4" isOutDate = "1" content="肥肥猪新品种，绝对值得收藏！一套彩虹猪票即可兑换，截止日期：12月8日。"/>
+			<items itemID="1593033" payType="3" node="1" count="1"  Type="912"  showType="4" isOutDate = "1" content="肥肥猪新品种，绝对值得收藏！一套彩虹猪票即可兑换，截止日期：12月8日。"/>
+			<items itemID="1593062" payType="3" node="2" count="1"  Type="778"  showType="4" isOutDate = "1" content="美美猪新品种，绝对值得收藏！一套彩虹猪票即可兑换，截止日期：1月5日。"/>
+			<items itemID="1593073" payType="3" node="2" count="1"  Type="778"  showType="4" isOutDate = "1" content="美美猪新品种，绝对值得收藏！一套彩虹猪票即可兑换，截止日期：2月16日。"/>
+		</exg>
+	</pig>
+  
+	<feed>
+			<rebate>
+			<items itemID="1613100" goodsID="" payType="1" count="300" showType="2" content="    上等玉米，可持续增长12小时，成长速度增加1倍。"/>
+			<items itemID="1613101" goodsID="101381" payType="2" count="10" showType="2" content="    包含10份鸡蛋麦片粥，可持续增长12小时，成长速度增加1倍，且使每头猪一次性增长10KG。"/>
+			<items itemID="1613102" goodsID="" payType="1" count="300" showType="2" content="    使用营养液，可使每头猪猪的体重一次性增长3KG。"/>
+			<items itemID="1613104" goodsID="101382" payType="2" count="20" showType="2" content="    使用高级蛋白粉，可使每头猪猪的体重一次性增长20KG。"/>
+			<items itemID="1613105" goodsID="101384" payType="2" count="40" showType="2" content="    包含3瓶营养液和3瓶高级蛋白粉。"/>
+			<items itemID="1613106" goodsID="101385" payType="2" count="100" showType="2" content="   包含5瓶营养液、5瓶高级蛋白粉和50份鸡蛋麦片粥。"/>
+			<items itemID="1613107" goodsID="101386" payType="2" count="200" showType="2" content="   包含10瓶营养液、10瓶高级蛋白粉和100份鸡蛋麦片粥。"/>
+			</rebate>
+		<time>
+			<items itemID="1613101" goodsID="101381" payType="2" count="10" showType="3" content="    包含10份鸡蛋麦片粥，可持续增长12小时，成长速度增加1倍，且使每头猪一次性增长10KG。"/>
+			<items itemID="1613104" goodsID="101382" payType="2" count="20" showType="3" content="    使用高级蛋白粉，可使每头猪猪的体重一次性增长20KG。"/>
+			<items itemID="1613105" goodsID="101384" payType="2" count="40" showType="3" content="    包含3瓶营养液和3瓶高级蛋白粉。"/>
+			<items itemID="1613106" goodsID="101385" payType="2" count="100" showType="3" content="    包含5瓶营养液、5瓶高级蛋白粉和50份鸡蛋麦片粥。"/>
+			<items itemID="1613107" goodsID="101386" payType="2" count="200" showType="3" content="    包含10瓶营养液、10瓶高级蛋白粉和100份鸡蛋麦片粥。"/>
+		</time>
+	</feed>
+  
+	<dress>
+			<rebate>
+			</rebate>
+		<time>
+			</time>
+	</dress>
+  
+	<prop>
+		<rebate>
+			<items itemID="1613128" node="1" goodsID="101431" payType="2" count="20" showType="2" content="    使用天使卡，可以使肥肥馆内的猪仔成长速度加快一倍哦，持续时间为3天。"/>
+			<items itemID="1613129" node="1" goodsID="101432" payType="2" count="20" showType="2" content="    使用恶魔卡，有几率使好友的猪仔出现体力不支，持续时间为3天。"/>
+			<items itemID="1613130" node="1" goodsID="101433" payType="2" count="20" showType="2" content="    使用丘比特卡，可以使肥肥馆内新出生的猪仔初始体重+100KG哦，持续时间为3天。"/>
+			<items itemID="1613131" node="1" goodsID="101434" payType="2" count="10" showType="2" content="    使用恶魔拜拜卡，可以解除肥肥馆受到的恶魔卡效果。"/>
+			<items itemID="1613108" node="1" goodsID="" payType="1" count="10000" showType="2" content="    使用延寿药剂，可以使猪猪的寿命延长10天或者复活死亡的猪仔哦。"/>
+			<items itemID="1613109" node="1" goodsID="" payType="1" count="5000" showType="2" content="    使用闪电成长药剂，可以使幼年猪猪立即成年。"/>
+			<items itemID="1613110" node="1" goodsID="101387" payType="2" count="30" showType="2" content="    培育前使用基因药水，可以使怀孕的猪猪100%生出变异猪仔。"/>
+			<items itemID="1613111" node="1" goodsID="" payType="1" count="500" showType="2" content="    使用催产针，可以减少母猪猪怀孕时间12小时。每头猪每天可使用一次。"/>
+			<items itemID="1613112" node="1" goodsID="101388" payType="2" count="10" showType="2" content="    使用给力催产针，可使怀孕的母猪猪立即生出幼猪仔。"/>
+			<items itemID="1613113" node="1" goodsID="101389" payType="2" count="10" showType="2" content="    培育前使用多仔药剂，可以使母猪猪100%生出2只小猪。"/>
+			<items itemID="1613250" node="2" goodsID="" payType="1" count="500" showType="2" content="    美美猪表演中使用加油棒可提高20点得分。"/>
+			<items itemID="1613251" node="2" goodsID="" payType="1" count="2000" showType="2" content="    美美猪表演中使用粉丝团掌声可提高100点得分。"/>
+			<items itemID="1613252" node="2" goodsID="" payType="1" count="3000" showType="2" content="    美美猪表演中使用专家肯定可提高150点得分。"/>
+			<items itemID="1613253" node="2" goodsID="" payType="1" count="1000" showType="2" content="    美美猪表演中使用闪电手可提高50点得分。"/>
+			<items itemID="1613270" node="2" goodsID="" payType="1" count="500" showType="2" content="    美美猪表演中使用烟雾弹可降低对方20点得分。"/>
+			<items itemID="1613271" node="2" goodsID="" payType="1" count="3000" showType="2" content="    美美猪表演中使用冰冻陷阱可降低对方150点得分。"/>
+			<items itemID="1613272" node="2" goodsID="" payType="1" count="2000" showType="2" content="    美美猪表演中使用闯祸小猪可降低对方100点得分。"/>
+			<items itemID="1613273" node="2" goodsID="" payType="1" count="1000" showType="2" content="    美美猪表演中使用沉默可降低对方50点得分。"/>
+			<items itemID="1613290" node="3" goodsID="" payType="1" count="10000" showType="2" content="    美美屋地灯可以让你的美美屋更加漂亮，作用时间为96小时。"/>
+			<items itemID="1613291" node="3" goodsID="" payType="1" count="10000" showType="2" content="    美美屋缎带可以让你的美美屋更加漂亮，作用时间为96小时。"/>
+			<items itemID="1613292" node="3" goodsID="" payType="1" count="50000" showType="2" content="    美美屋康乐鼓手可以让你的美美屋更加漂亮，作用时间为168小时。"/>
+			<items itemID="1613293" node="3" goodsID="" payType="1" count="40000" showType="2" content="    美美屋潇洒吉他手可以让你的美美屋更加漂亮，作用时间为168小时。"/>
+			<items itemID="1613294" node="3" goodsID="" payType="1" count="30000" showType="2" content="    美美屋当红主唱可以让你的美美屋更加漂亮，作用时间为168小时。"/>
+			<items itemID="1613295" node="3" goodsID="" payType="1" count="40000" showType="2" content="    美美屋性格BASS手可以让你的美美屋更加漂亮，作用时间为168小时。"/>
+			<items itemID="1613296" node="3" goodsID="" payType="1" count="20000" showType="2" content="    美美屋烟雾使用后可以让你在表演中更加精彩，作用时间为96小时。"/>
+			<items itemID="1613297" node="3" goodsID="" payType="1" count="15000" showType="2" content="    美美屋纸花使用后可以让你在表演中更加精彩，作用时间为96小时。"/>
+			<items itemID="1614000" node="4" goodsID="101755" payType="2" count="5" showType="2" content="    机械工坊道具，对超级猪使用恢复10点能量值"/>
+			<items itemID="1614001" node="4" goodsID="101756" payType="2" count="10" showType="2" content="    机械工坊道具，对超级猪使用恢复最大能量值"/>
+			<items itemID="1614002" node="4" goodsID="101757" payType="2" count="5" showType="2" content="    机械工坊道具，对熔炉使用，加快冶炼5分钟"/>
+			<items itemID="1614003" node="4" goodsID="101758" payType="2" count="10" showType="2" content="    机械工坊道具，对熔炉使用，加快冶炼10分钟"/>
+			<items itemID="1614004" node="4" goodsID="" payType="1" count="5000" showType="2" content="    机械工坊道具，对机床使用，加快加工5分钟"/>
+			<items itemID="1614005" node="4" goodsID="" payType="1" count="10000" showType="2" content="    机械工坊道具，对机床使用，加快加工10分钟"/>
+			<items itemID="1614006" node="4" goodsID="101759" payType="2" count="10" showType="2" content="    机械工坊道具，对机床使用，加快加工30分钟"/>
+			<items itemID="1614007" node="4" goodsID="101760" payType="2" count="20" showType="2" content="    机械工坊道具，对机床使用，加快加工1小时"/>
+			<items itemID="1614008" node="4" goodsID="101761" payType="2" count="50" showType="2" content="    机械工坊道具，对机床使用，加快加工3小时"/>
+			<items itemID="1614017" node="4" goodsID="101762" payType="2" count="20" showType="2" content="    机械工坊道具，给积劳成疾的猪仔补充能量，喝了就会恢复活力！"/>
+			</rebate>
+		<time>
+			<items itemID="1613128" node="1" goodsID="101431" payType="2" count="20" showType="3" content="    使用天使卡，可以使肥肥馆内的猪仔成长速度加快一倍哦，持续时间为3天。"/>
+			<items itemID="1613129" node="1" goodsID="101432" payType="2" count="20" showType="3" content="    使用恶魔卡，有几率使好友的猪仔出现体力不支，持续时间为3天。"/>
+			<items itemID="1613130" node="1" goodsID="101433" payType="2" count="20" showType="3" content="    使用丘比特卡，可以使肥肥馆内新出生的猪仔初始体重+100KG哦，持续时间为3天。"/>
+			<items itemID="1613131" node="1" goodsID="101434" payType="2" count="10" showType="3" content="    使用恶魔拜拜卡，可以解除肥肥馆受到的恶魔卡效果。"/>
+			<items itemID="1613110" node="1" goodsID="101387" payType="2" count="30" showType="3" content="    培育前使用基因药水，可以使怀孕的猪猪100%生出变异猪仔。"/>
+			<items itemID="1613112" node="1" goodsID="101388" payType="2" count="10" showType="3" content="    使用给力催产针，可使怀孕的母猪猪立即生出幼猪仔。"/>
+			<items itemID="1613113" node="1" goodsID="101389" payType="2" count="10" showType="3" content="    培育前使用多仔药剂，可以使母猪猪100%生出2只小猪。"/>
+			</time>
+	</prop>
+  
+	<material>
+		<rebate>
+			<items itemID="1613000" goodsID="" payType="1" count="1500" showType="2" content="一种上好香料，可让加工出的午餐肉、红烧肉和火腿香飘四溢、回味无穷。"/>
+			<items itemID="1613001" goodsID="" payType="1" count="3000" showType="2" content="用面包粉搭配猪猪肉做出可口的食物，那种滋味无比美妙。"/>
+			<items itemID="1613002" goodsID="" payType="1" count="2500" showType="2" content="一种辅助调料，对猪柳、火腿等菜品的口味起着至关重要的作用。"/>
+			<items itemID="1613003" goodsID="" payType="1" count="2500" showType="2" content="想要做皮蛋瘦肉粥，皮蛋可不能少。"/>
+			<items itemID="1613004" goodsID="" payType="1" count="500" showType="2" content="用秘制酱料做出的必然也是秘制菜品，红烧肉、炸猪排，都可以试试哟！"/>
+			<items itemID="1613005" goodsID="" payType="1" count="2500" showType="2" content="是制作沙拉和培根的必需品哟！"/>
+			<items itemID="1613006" goodsID="" payType="1" count="4500" showType="2" content="是制作草莓土司的必需原料。"/>
+			<items itemID="1613007" goodsID="" payType="1" count="5500" showType="2" content="用蓝莓可以制作出好吃的蓝莓派和浆果甜心。"/>
+			<items itemID="1613008" goodsID="" payType="1" count="2000" showType="2" content="制作培根和松饼可不能少了蜂蜜的润色哟！"/>
+			<items itemID="1613009" goodsID="" payType="1" count="500" showType="2" content="在制作沙拉和火焰冰激凌时，加上水果罐头会更美味哟！"/>
+			<items itemID="1613025" goodsID="" payType="1" count="4000" showType="2" content="要做火焰冰激凌，冰激凌当然不能少。"/>
+			<items itemID="1613026" goodsID="" payType="1" count="1500" showType="2" content="要做寿喜烧，豆腐当然不能少。"/>
+			<items itemID="1613029" goodsID="" payType="1" count="6000" showType="2" content="鸡蛋可是加工很多配方不可缺少的材料。"/>
+			<items itemID="1613030" goodsID="" payType="1" count="5000" showType="2" content="这个季节吃秋刀鱼是最好不过的了。"/>
+			</rebate>
+		<time>
+			<items itemID="1613006" goodsID="" payType="1" count="4500" showType="3" content="是制作草莓土司的必需原料。"/>
+			<items itemID="1613007" goodsID="" payType="1" count="5500" showType="3" content="用蓝莓可以制作出好吃的蓝莓派和浆果甜心。"/>
+			<items itemID="1613008" goodsID="" payType="1" count="2000" showType="3" content="制作培根和松饼可不能少了蜂蜜的润色哟！"/>
+			<items itemID="1613009" goodsID="" payType="1" count="500" showType="3" content="在制作沙拉和火焰冰激凌时，加上水果罐头会更美味哟！"/>
+			<items itemID="1613025" goodsID="" payType="1" count="4000" showType="3" content="要做火焰冰激凌，冰激凌当然不能少。"/>
+			<items itemID="1613026" goodsID="" payType="1" count="1500" showType="3" content="要做寿喜烧，豆腐当然不能少。"/>
+			<items itemID="1613029" goodsID="" payType="1" count="6000" showType="3" content="鸡蛋可是加工很多配方不可缺少的材料。"/>
+			<items itemID="1613030" goodsID="" payType="1" count="5000" showType="3" content="这个季节吃秋刀鱼是最好不过的了。"/>
+		</time>
+	</material>
+  
+	<other>
+		<rebate>
+			<items itemID="1613114" node="1" goodsID="" payType="1" count="1500" showType="2" content="使用改名卡，可以给猪猪换个新的名字。"/>
+			<items itemID="1613115" node="1" goodsID="101390" payType="2" count="10" showType="2" content="某些特定加工配方需要有小当家证书才能使用。"/>
+			<items itemID="1613117" node="1" goodsID="" payType="1" count="20000" showType="2" content="购买后开启中级加工厂神奇配方，需要初级加工厂才能购买。"/>
+			<items itemID="1613118" node="1" goodsID="" payType="1" count="50000" showType="2" content="购买后开启高级加工厂神奇配方，需要中级加工厂才能购买。"/>
+			<items itemID="1613132" node="1" goodsID="" payType="1" count="80000" showType="2" content="购买后开启红钻加工厂神奇配方，需要高级加工厂才能购买。"/>
+			<items itemID="1613134" node="1" goodsID="" payType="1" count="20000" showType="2" Max="1" content="全新梦幻岛背景，不可思议的地方，梦想启程的国度。"/>
+			<items itemID="1613135" node="1" goodsID="" payType="1" count="30000" showType="2" Max="1" content="全新海盗港背景，非常著名的海盗聚集地，被称为“海盗乐园”。"/>
+			<items itemID="1613136" node="1" goodsID="" payType="1" count="50000" showType="2" content="购买中级美美屋后，可以开启2人表演。"/>
+			<items itemID="1613137" node="1" goodsID="" payType="1" count="100000" showType="2" content="购买中级美美屋后，可以开启3人表演。"/>
+			<items itemID="1603000" node="2" goodsID="" payType="1" count="5000" showType="2" content="美美猪装扮成此套装，可变身成为小丑乔克。"/>
+			<items itemID="1603001" node="2" goodsID="" payType="1" count="30000" showType="2" content="美美猪装扮成此套装，可变身成为丛林精灵。"/>
+			<items itemID="1603002" node="2" goodsID="" payType="1" count="50000" showType="2" content="美美猪装扮成此套装，可变身成为小小侦探。"/>
+			<items itemID="1603003" node="2" goodsID="" payType="1" count="100000" showType="2" content="美美猪装扮成此套装，可变身成为当红歌星。"/>
+			<items itemID="1603004" node="2" goodsID="" payType="1" count="150000" showType="2" content="美美猪装扮成此套装，可变身成为绅士假面。"/>
+		</rebate>
+		<time>
+			<items itemID="1613115" node="1" goodsID="101390" payType="2" count="10" showType="3" content="某些特定加工配方需要有小当家证书才能使用。"/>
+			<items itemID="1613117" node="1" goodsID="" payType="1" count="20000" showType="3" content="购买后开启中级加工厂神奇配方，需要初级加工厂才能购买。"/>
+			<items itemID="1613118" node="1" goodsID="" payType="1" count="50000" showType="3" content="购买后开启高级加工厂神奇配方，需要中级加工厂才能购买。"/>
+			<items itemID="1613132" node="1" goodsID="" payType="1" count="80000" showType="3" content="购买后开启红钻加工厂神奇配方，需要高级加工厂才能购买。"/>
+			<items itemID="1613134" node="1" goodsID="" payType="1" count="20000" showType="3" Max="1" content="全新梦幻岛背景，不可思议的地方，梦想启程的国度。"/>
+			<items itemID="1613135" node="1" goodsID="" payType="1" count="30000" showType="3" Max="1" content="全新海盗港背景，非常著名的海盗聚集地，被称为“海盗乐园”。"/>
+			<items itemID="1613136" node="1" goodsID="" payType="1" count="50000" showType="3" content="购买中级美美屋后，可以开启2人表演。"/>
+			<items itemID="1613137" node="1" goodsID="" payType="1" count="100000" showType="3" content="购买中级美美屋后，可以开启3人表演。"/>
+		</time>
+	</other>
+</shop>

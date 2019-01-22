@@ -1,0 +1,29 @@
+<Tasks ID="619" Name="健达宝宝来啦" AwardMsg="恭喜你获得了奇趣蛋装扮,2000摩尔豆!" AwardBean="2000">
+	<Step ID="1" TarMapID="358">
+		<EnterMap MapID="358">
+			<Action Cmd="SAY">
+				<Talk NpcID="10246" Face="正常" Msg="欢迎来到我的健达奇趣屋！" Option="哇！！( ⊙o⊙ ) 这里好漂亮！"/>
+				<Talk NpcID="10246" Face="正常" Msg="我叫健达宝宝，很开心能够来到这里！" Option="很高兴认识你，健达宝宝！你是从哪里来的呀？"/>
+				<Talk NpcID="10246" Face="正常" Msg="我来自健达奇趣乐园，在那里有好玩的游戏而且还可以教小朋友们很多知识哦！" Option="欢迎欢迎！健达宝宝你长的好可爱啊！"/>
+				<Talk NpcID="10246" Face="正常" Msg="摩尔庄园真是太美了！我想在这里建造健达奇趣屋，为小摩尔们送来惊喜和奖励! !" Option="送来惊喜和奖励的健达奇趣屋？太棒了！有什么可以帮忙吗？"/>
+				<Talk NpcID="10246" Face="正常" Msg="我想在蛋屋做一些奇趣蛋送给小摩尔们作为见面礼." Option="好嘞，我可以来帮忙！"/>
+				<Talk NpcID="10246" Face="正常" Msg="真的可以吗？" Option="交给我吧！"/>
+				<Talk NpcID="10246" Face="正常" Msg="谢谢！右边是生产装置啦，你也看到了，操作它可不那么容易，需要考验你的动手动脑能力！" Option="我一定努力完成！"/>
+				<Talk NpcID="10246" Face="正常" Msg="点击奇趣蛋生产装置，就可以开工咯！" Option="恩！事不宜迟，赶紧开工！"/>
+			</Action>
+			<Action Cmd="SET_BUFFER" Panel="2" Step="2"/>
+			<Action Cmd="OPEN_PANEL" Param="KinderMakeEggPanel" ClearMap="1"/>
+		</EnterMap>
+	</Step>
+	
+	<Step ID="2" TarMapID="358">
+		<SubmitScore ModuleID="10084" MinScore="1" LoseMsg="不对不对哦，再研究下小精灵们说的话吧！">
+			<Action Cmd="SAY">
+				<Talk NpcID="10246" Face="正常" Msg="你做的真棒！没想到你这么厉害！" Option="O(∩_∩)O哈哈哈~能帮到你真是太好了！"/>
+				<Talk NpcID="10246" Face="正常" Msg="亲爱的小摩尔，这是我送给你的礼物，以后还有更多有趣的奖品，经常到我的奇趣屋来玩哦！" Option="谢谢健达宝宝！我一定会来的！"/>
+			</Action>
+			<Action Cmd="ACT_EVENT" Param="eden" />
+			<Action Cmd="OVER"/>
+		</SubmitScore>
+	</Step>
+</Tasks>

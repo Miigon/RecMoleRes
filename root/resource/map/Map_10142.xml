@@ -1,0 +1,21 @@
+<Map>
+	<NpcList>
+	</NpcList>
+	
+	<Triggers>
+		<!--
+		<Trigger ResName="mermaid_mc" Layer="depthLevel" Ex="450" Ey="148" Cmd="p" Param="MermaidAndPrincePanel" Tips="美人鱼与王子的故事" /> 
+		
+		 <Trigger ResName="exeBtn" Layer="depthLevel" Ex="359" Ey="411" Cmd="act" Param="openExePanel"/>
+		 <Trigger ResName="ruleBtn" Layer="depthLevel" Ex="478" Ey="407" Cmd="p" Param="FireGodCupIntroPanel"/>
+		 <Trigger ResName="rankBtn" Layer="depthLevel" Ex="478" Ey="407" Cmd="p" Param="FireGodCup4TeamRankPanel"/>
+		 <Trigger ResName="buildintr_btn" Layer="depthLevel" Ex="-1" Ey="-1" Cmd="intr" Param="FireGodScene" Tips="" />-->
+		 <Trigger ResName="eggDoor_mc" Layer="depthLevel" Ex="314" Ey="547" Cmd="act" Param="qiehuan" Tips="蛋屋场景"/>
+	</Triggers>
+	
+	<Talks>
+<!-- 		<Talk ID="1" NpcID="10208" Face="正常" Msg="我们是风驰电掣的疾风队，我们的口号是“八面威风，必胜无疑！”这场比赛的起跑线就在主场，我们疾风队可不能输在起跑线上呀！ " Option="参加火神杯" Cmd="act" Param="sport1" /> -->
+		
+<!-- 		<Talk ID="8888" NpcID="10208" Face="正常" Msg="你已经是我们风元素队的队员咯！" Option="我要交纹章$领取袖章$领取队服" Cmd="act$act$act" Param="sport2$sport3$sport4" /> -->
+	</Talks>
+</Map>

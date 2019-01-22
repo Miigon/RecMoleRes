@@ -1,0 +1,27 @@
+<Tasks ID="628" Name="健达奇趣屋新年派对" AwardMsg="恭喜你获得1个健达宝宝天使，3个健达奇趣蛋,1000个摩尔豆。" AwardBean="1000">
+	<Step ID="1" TarMapID="358">
+		<EnterMap MapID="358">
+			<Action Cmd="PLAY_MOVIE" Param="1" Name="movie_1" IsBg="1" IsFullScreen="1"/>
+			<Action Cmd="SAY">
+				<Talk NpcID="10246" Face="正常" Msg="新年好呀！我们正在举行健达奇趣屋的新年派对哦！" Option="健达奇趣屋新年派对？"/>
+				<Talk NpcID="10246" Face="正常" Msg="对呀！新年可是个大日子，勤劳的小摩尔们来到这里参加新年派对，会有新年礼物送给你哦！" Option="哇！好棒呀！健达宝宝为什么会在新年举办派对呢？"/>
+				<Talk NpcID="10246" Face="正常" Msg="因为我要感谢勤劳、善良的小摩尔们帮忙制作奇趣蛋！" Option="不客气~健达宝宝过奖了！"/>
+				<Talk NpcID="10246" Face="正常" Msg="还有一个原因，小摩尔或许不知道哦！" Option="快告诉我吧！"/>
+				<Talk NpcID="10246" Face="正常" Msg="新年在中国是最重要的节日之一。太古时期，有一种凶猛的怪兽叫“年兽”。它的形貌狰狞、生性凶残，每到新年就会出山袭击大家。" Option="(⊙o⊙)哦！！！！"/>
+				<Talk NpcID="10246" Face="正常" Msg="后来，人们每到新年都提前做好晚饭，关好家门，全家人在一起吃“年夜饭”，饭后坐在一起聊天，玩游戏“守岁”，慢慢的形成了现在的新年习俗哦！" Option="长知识~\(≧▽≦)/~啦！"/>
+				<Talk NpcID="10246" Face="正常" Msg="小摩尔以后多来健达奇趣屋，我会有更多的知识告诉你呢！" Option="恩！太有意思了，我一定会常来的！"/>
+				<Talk NpcID="10246" Face="正常" Msg="现在，让我们一起来参加新年派对吧！发挥无限创意动手贴窗花！" Option="好棒！"/>
+			</Action>
+			<Action Cmd="DELETE_MOVIE" Param="movie_1"/>
+			<Action Cmd="SET_BUFFER" Panel="2" Step="2"/>
+			<Action Cmd="OPEN_PANEL" Param="KindaNewyearPartyPanel" ClearMap="0"/>
+		</EnterMap>
+	</Step>
+	
+	<Step ID="2" TarMapID="358">
+		<SubmitScore ModuleID="10086" MinScore="1" LoseMsg="不对不对哦，小摩尔没有制作成功哦！">
+			<Action Cmd="ACT_EVENT" Param="eden" />
+			<Action Cmd="OVER"/>
+		</SubmitScore>
+	</Step>
+</Tasks>

@@ -1,0 +1,19 @@
+<Map>
+	<NpcList>
+	
+	</NpcList>
+	
+	<Triggers>
+	</Triggers>
+	
+	<Talks>
+		<Talk ID="500" NpcID="10311" Face="正常" Msg="神秘的黑衣人把我变成了满头白发的老摩尔，谁来帮我恢复青春。" Option="喂他喝药$没什么事" Cmd="act$none" Param="takeTheMedicine$null" />
+		<Talk ID="501" NpcID="10310" Face="正常" Msg="谢谢你好心的小摩尔。" Option="是谁把你变成这样的？" Cmd="act" Param="backToYouthOver" />
+		<Talk ID="502" NpcID="10310" Face="正常" Msg="我隐约看到她好像有一头长发" Option="哦，我知道了。" Cmd="act" Param="backToYouthReward" />
+		<Talk ID="503" NpcID="10310" Face="正常" Msg="她身上有阵迷人的香气" Option="哦，我知道了。" Cmd="act" Param="backToYouthReward" />
+		<Talk ID="504" NpcID="10310" Face="正常" Msg="听说吸取摩尔的青春可以让他们永葆青春" Option="哦，我知道了。" Cmd="act" Param="backToYouthReward" />
+		<Talk ID="505" NpcID="10310" Face="正常" Msg="神秘黑衣人，好可怕，我不知道，不要问我了,55555" Option="哦，我知道了。" Cmd="act" Param="backToYouthReward" />
+		<Talk ID="506" NpcID="10310" Face="正常" Msg="如果她再出现，我一定会认出她。" Option="哦，我知道了。" Cmd="act" Param="backToYouthReward" />
+	</Talks>
+</Map>
+

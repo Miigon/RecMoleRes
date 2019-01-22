@@ -1,0 +1,17 @@
+<Map>
+	 <NpcList>
+	 	<Npc ID="10260" Layer="depthLevel" Name="库拉" Ex="423" Ey="353"  Cmd="s" Param="1" AddTaskOption="1"/>
+	</NpcList>
+	<Triggers>
+		<Trigger ResName="goto_357" Layer="controlLevel" Ex="488" Ey="542" Cmd="alt_map" Param="357" Tips="进入积雪镇" />
+		<Trigger ResName="goto_361" Layer="controlLevel" Ex="488" Ey="337" Cmd="alt_map" Param="361" Tips="进入积雪神殿" />
+	</Triggers>
+	
+	<Talks>
+		<Talk ID="1" NpcID="10260" Face="感动" Msg="我的女神是不是特别可爱？特别优雅？特别迷人？特别……" Option="庄园周年庆到来啦！$库拉的考验$元素骑士新套装" Cmd="act$act$p" Param="npcTalk$openTollgate$ElementKnightExploitClothesPanel"/>
+		
+		<Talk ID="30" NpcID="10260" Face="正常" Msg="哇哈哈，竟然有人邀请我去参加周年庆舞会，小子你以为我是那么容易被邀请的吗？" Option="那怎样才能邀请你？" Cmd="s" Param="31" />
+		<Talk ID="31" NpcID="10260" Face="正常" Msg="接受我的考验吧，看看你实力如何，我再考虑要不要收下这邀请函。(挑战元素骑士副本一次)" Option="那看我的厉害！" Cmd="act" Param="beginGame"/>
+		<Talk ID="32" NpcID="10260" Face="正常" Msg="咦！这个邀请函好像不是送给我的，呜呜呜~真伤心！" Option="不好意思啦，我弄错了o(╯□╰)o" Cmd="null" Param="none" />
+	</Talks>
+</Map>

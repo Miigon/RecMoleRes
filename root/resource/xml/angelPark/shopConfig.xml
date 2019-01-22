@@ -1,0 +1,21 @@
+<!--天使园商店配置
+type:
+	1, 摩尔豆
+	2，点点豆
+	3，米币
+price：
+	米币类型不用配置价格
+discount:超拉折扣
+-->
+
+<root>
+	<item id="1353106" type="1" price="1500"/>
+	<item id="1353107" type="2" price="30"/>
+	<item id="1353108" type="3" discount="20"/>
+	<item id="1353103" type="1" price="1500"/>
+	<item id="1353104" type="2" price="30"/>
+	<item id="1353105" type="3" discount="20"/>
+	<item id="1353100" type="1" price="500"/>
+	<item id="1353101" type="2" price="10"/>
+	<item id="1353102" type="3" discount="5"/>
+</root>

@@ -1,0 +1,13 @@
+<Map>
+	<NpcList>
+		<Npc ID="10034" Layer="controlLevel" Name="汉青" Ex="542" Ey="208" Cmd="s" Param="1" />
+	</NpcList>
+	
+	<Triggers>
+		<Trigger ResName="seat_1" Layer="controlLevel" Ex="386" Ey="348" Cmd="sit" Param="6$Seat" Data="1" Tips="燃放烟花" />
+	</Triggers>
+	
+	<Talks>
+		<Talk ID="1" NpcID="10034" Face="正常" Msg="小摩尔新年好！赶快去阿福号里参加新年盛宴获得福字贴来【阿福店】兑换礼物吧！" Option="兑换【阿福店】礼物$没什么事" Cmd="act$none" Param="aFuDian$4" AddTaskOption="1" />
+	</Talks>
+</Map>

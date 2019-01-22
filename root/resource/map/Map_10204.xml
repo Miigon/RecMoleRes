@@ -1,0 +1,12 @@
+<Map>
+	<NpcList>
+		<Npc ID="10001" Layer="controlLevel" Name="拉仔" Ex="632" Ey="314" Cmd="s" Param="1" />
+	</NpcList>
+	
+	<Triggers>
+	</Triggers>
+	
+	<Talks>
+		<Talk ID="1" NpcID="10001" Face="正常" Msg="你好呀，我就是拉仔，我身后的这棵大树就是我和摩乐乐的新家——美丽的天空树哦。" Option="好的" Cmd="none" Param="6" AddTaskOption="1" />
+	</Talks>
+</Map>

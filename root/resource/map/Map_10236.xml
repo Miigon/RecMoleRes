@@ -1,0 +1,12 @@
+<Map>
+	<NpcList>
+		<Npc ID="10025" Layer="controlLevel" Name="臭臭" Ex="378" Ey="216" Cmd="s" Param="1" />
+	</NpcList>
+	
+	<Triggers>
+	</Triggers>
+	
+	<Talks>
+		<Talk ID="1" NpcID="10025" Face="正常" Msg="哦！亲爱的小摩尔！最近我有一个新的发现，不知道小摩尔是否感兴趣？" Option="没什么事情，我先走了！" Cmd="none" Param="6" AddTaskOption="1" />
+	</Talks>
+</Map>

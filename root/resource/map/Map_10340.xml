@@ -1,0 +1,12 @@
+<Map>
+	<NpcList>
+	</NpcList>
+	
+	<Triggers>
+		<Trigger ResName="door_5" Layer="depthLevel" Ex="800" Ey="171" Cmd="gm" Param="5"  Tips="摩尔拉雅滑冰场"/>
+		<Trigger ResName="start_btn" Layer="controlLevel" Ex="915" Ey="342" Cmd="act" Param="start_game"  Tips="开始游戏"/>
+	</Triggers>
+	
+	<Talks>
+	</Talks>
+</Map>

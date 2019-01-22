@@ -1,0 +1,31 @@
+<Tasks ID="482" Name="新手引导" >
+	<Step ID="1" >
+		<NPC ID="10037" Option="我要成为超级蘑菇向导" >
+			<Action Cmd="SAY" >
+				<Talk NpcID="10037" Face="正常" Msg="超级蘑菇向导的职责是在庄园中尽心尽责的巡逻，举报庄园中不文明的小摩尔，它们的投诉公民管理处会更快的处理。你能完成这个艰巨的任务吗？" Option="我一定行！" />
+				<Talk NpcID="10037" Face="正常" Option="我准备好了！" Msg="不知道小摩尔能不能通过超级蘑菇向导任命考试！我们的考验现在就开始咯！"/>
+			</Action>
+			
+			<Action Cmd="ACT_EVENT" Param="openMoleGridePanel" /><!-- 抛事件 -->
+		</NPC>
+	</Step>
+	
+	<Step ID="2" >
+		<NPC ID="10037" Option="我要成为超级蘑菇向导" >
+			<Action Cmd="SAY" >
+				<Talk NpcID="10037" Face="正常" Msg="恭喜你答对了所有的题目，具备成为超级蘑菇向导的能力，但是成为优秀的超级蘑菇向导必须要有很强的责任感。你能够做到吗？" Option="我可以、我一定行！" />
+				<Talk NpcID="10037" Face="正常" Option="哦！我一定坚定不移！" Msg="那我们做一个宣誓活动，正式欢迎你的加入。希望你的加入能够更好的维护庄园文明、健康的生活氛围。"/>
+			</Action>
+				
+			<Action Cmd="PLAY_MOVIE" Param="1" Name="movie_1" IsBg="1" IsFullScreen="1" />
+			<Action Cmd="DELETE_MOVIE" Param="movie_1" />
+			
+			<Action Cmd="SAY" >
+				<Talk NpcID="10037" Face="正常" Msg="恭喜你成为优秀的超级蘑菇向导，这是送你的超级蘑菇向导装。快点击菜单栏中的“向导行动”，去进行巡逻，并监督不文明的小摩尔吧！" Option="菜单栏中的“向导行动”，我知道了！" />
+			</Action>
+			
+			<Action Cmd="ACT_EVENT" Param="openTopicMC" /><!-- 抛事件 -->
+		</NPC>
+	</Step>
+					
+</Tasks>

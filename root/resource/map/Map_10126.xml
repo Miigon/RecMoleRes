@@ -1,0 +1,37 @@
+<Map>
+	<NpcList>
+		<Npc ID="10074" Layer="controlLevel" Name="小火烛" Ex="460" Ey="173" Cmd="s" Param="1" />
+		<Npc ID="10075" Layer="controlLevel" Name="小火星" Ex="122" Ey="230" Cmd="s" Param="10" />
+	</NpcList>
+	
+	<Triggers>
+		<!--
+		<Trigger ResName="mermaid_mc" Layer="depthLevel" Ex="450" Ey="148" Cmd="p" Param="MermaidAndPrincePanel" Tips="美人鱼与王子的故事" /> 
+		-->
+	</Triggers>
+	
+	<Talks>
+		<Talk ID="1" NpcID="10074" Face="正常" Msg="每一只小拉姆都想学会我们火系特有的技能呢，你有这个能耐吗？" Option="拼合碎片$随便聊聊" Cmd="act$rs" Param="Lamu_LamuWorldConver$2-3" Data="107$0" AddTaskOption="1" />
+		<Talk ID="2" NpcID="10074" Face="正常" Msg="我可是这里的老村民啦，想要得到火岩石吗，还是去火烈鸟身边看看吧！" Option="我知道了！" Cmd="none" Param="6" />
+		<Talk ID="3" NpcID="10074" Face="正常" Msg="每个村民身上都有一块特有的碎片，如果你能找到它的另一半与村民拼合，那就会有好事情发生在你身上哦！" Option="我知道了！" Cmd="none" Param="6" />
+		
+		<Talk ID="10" NpcID="10075" Face="正常" Msg="你好呀红鼻子，很高兴能和你们成为朋友，我在这里保护着酋长，有什么问题你也可以来问我哟！" Option="拼合碎片$随便聊聊" Cmd="act$rs" Param="Lamu_LamuWorldConver$11-13" Data="106$0" AddTaskOption="1" />
+		<Talk ID="11" NpcID="10075" Face="正常" Msg="最近一直听见黑森林里有奇怪的声音，你有感觉到异常吗？" Option="我知道了！" Cmd="none" Param="6" AddTaskOption="1" />
+		<Talk ID="12" NpcID="10075" Face="正常" Msg="你也想要进化为神力拉姆吗？那就赶快通过酋长的考验吧，加油！" Option="我知道了！" Cmd="none" Param="6" AddTaskOption="1" />
+		<Talk ID="13" NpcID="10075" Face="正常" Msg="其实拉姆世界里还有水村和木村，勇气与智慧兼备的你，应该去闯一闯吧！" Option="我知道了！" Cmd="none" Param="6" AddTaskOption="1" />
+		
+		<Talk ID="20" NpcID="10076" Face="正常" Msg="我是火系拉姆的酋长，拥有火系基础变身技能的传授能力，你经过千辛万苦进来找我，一定有事吧？" Option="学习技能$拼合碎片$随便聊聊" Cmd="act$act$rs" Param="sheik_studySkills$Lamu_LamuWorldConver$21-23" Data="0$108$21-23" AddTaskOption="1" />
+		<Talk ID="21" NpcID="10076" Face="正常" Msg="" Option="" Cmd="none" Param="6" AddTaskOption="1" />
+		<Talk ID="22" NpcID="10076" Face="正常" Msg="" Option="" Cmd="none" Param="6" AddTaskOption="1" />
+		<Talk ID="23" NpcID="10076" Face="正常" Msg="" Option="" Cmd="none" Param="6" AddTaskOption="1" />
+		<Talk ID="24" NpcID="10076" Face="正常" Msg="你的目的我早就知道了，但你必须通过我的考验我才能教你变身小火苗。门的那头有一只火烈鸟，你必须在它召唤出小火烈鸟的时候，自己站到召唤阵上变身为小火苗才能打败它，接受挑战吧！" Option="我知道了！" Cmd="none" Param="6" AddTaskOption="1" />
+		<Talk ID="25" NpcID="10076" Face="正常" Msg="" Option="" Cmd="none" Param="6" AddTaskOption="1" />
+		<Talk ID="26" NpcID="10076" Face="正常" Msg="其实你的条件不错，很适合学习技能。现在看我利用技能来拿到火焦木。然后请你跟着做，如果你拿不到火焦木，那就别来见我了！" Option="好的！$下次再说！" Cmd="act$none" Param="sheik_sheikPlay$0" />
+		<Talk ID="27" NpcID="10076" Face="正常" Msg="就是这样，当你变成小火苗时，点击你想得到的东西，现在就去岩浆里拿一块火焦木给我吧！你看懂了吗，需要我再演示一遍吗？" Option="看懂了！$再演示一遍！" Cmd="act$act" Param="sheik_sheikOk$sheik_sheikPlay" />
+		<Talk ID="28" NpcID="10076" Face="正常" Msg="你已经学会变身小火苗的技能啦，如果其他两位酋长也肯教会你他们种族的特有技能，你就可以进入神殿进化为神力拉姆咯！" Option="我会努力的！" Cmd="s" Param="30" />
+		<Talk ID="29" NpcID="10076" Face="正常" Msg="你已经拿到火焦木啦，只要把火焦木交给我，我就会把基础变身技能传授给你哦！" Option="给你火焦木！" Cmd="act" Param="sheik_sheikTaskOK"  />
+		<Talk ID="30" NpcID="10076" Face="正常" Msg="小拉姆使用技能时，会消耗它的饥饿、口渴、清洁和心情值，当拉姆状态不好时，是无法使用变身技能的，需要补充后才能继续使用哦！" Option="我知道了！" Cmd="none" Param="6" />
+		<Talk ID="31" NpcID="10076" Face="正常" Msg="" Option="" Cmd="none" Param="6" />
+		<Talk ID="32" NpcID="10076" Face="正常" Msg="" Option="" Cmd="none" Param="6" />
+	</Talks>
+</Map>

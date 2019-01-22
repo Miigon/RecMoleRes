@@ -1,0 +1,35 @@
+<Map>
+	<NpcList>
+		<Npc ID="10051" Layer="controlLevel" Name="小仔" Ex="100" Ey="286" Cmd="s" Param="1" AddTaskOption="1" />
+		<Npc ID="10133" Layer="depthLevel" Name="迷你星" Ex="517" Ey="401" Cmd="s" Param="20" AddTaskOption="1" />
+	</NpcList>
+	
+	<Triggers>
+		<!--  <Trigger ResName="tailor_mc" Layer="depthLevel" Ex="700" Ey="430" Cmd="p" Param="UpdateClothesPanel" />-->
+	</Triggers>
+	
+	<Talks>
+		<Talk ID="1" NpcID="10051" Face="正常" Msg="你好，我是小仔哟，汤米最亲近的小拉姆就是我啦！庄园里很多漂亮的房子都是我和主人一起建设的，你想打工赚摩尔豆的话，也可以来找我哦！" Option="我要打工$没什么事" Cmd="act$none" Param="tommy_doWork$1" />
+		
+		<Talk ID="10" NpcID="10027" Face="正常" Msg="可恶，谁偷走了我的时装，最近庄园越来越不太平了。" Option="这里是哪？$没什么事" Cmd="s$act$none" Param="14$sendPaint$" />
+		
+		<Talk ID="11" NpcID="10027" Face="正常" Msg="你一定是听说我给大家设计了套爱心装，这套衣服的理念是友情，当两个好朋友穿上一样的衣服是就像双胞胎一样的亲密，多好呀！" Option="我想和好友穿上套衣服呢！" Cmd="s" Param="12" />
+		<Talk ID="12" NpcID="10027" Face="正常" Msg="恩恩，那你收到好朋友邮件送的美味巧克力礼盒了吗？收到的巧克力礼盒越多呢，你一定是越受大家欢迎喜爱的摩尔呢！有巧克力礼盒就可以和我换爱心碰碰装了。" Option="你喜欢吃巧克力吧！呵！" Cmd="s" Param="13" />
+		<Talk ID="13" NpcID="10027" Face="正常" Msg="哈哈，这也被你猜到了，嘻嘻我的确是很喜欢吃巧克力，不过吃多了是会长胖的，我也不敢太贪嘴哟！悄悄告诉你花婶也喜欢巧克力，听说她在收购这个巧克力礼盒呢！" Option="我有巧克力，我们交换吧！" Cmd="p" Param="FriendTouchPanel" />
+		
+		<Talk ID="14" NpcID="10027" Face="正常" Msg="这里是服装店，神圣的服装店，带领摩尔庄园时尚的地方，是一切灵感被实现的地方！噢~我又太陶醉了，我是设计师西索，制作出完美的服饰是我的梦想！" Option="恩，我明白了" Cmd="none" Param="1" />
+		
+		<Talk ID="20" NpcID="10133" Face="正常" Msg="亲爱的小摩尔，你好！我叫迷你星，是服装店新来的小助手，请问有什么需要我帮忙的吗？" Option="小小设计师投票！$领取设计奖励$我有事先走了！" Cmd="p$act$none" Param="DressGamePanel$getAward$21" AddTaskOption="1"/>
+		<Talk ID="21" NpcID="10027" Face="正常" Msg="{$username}，新年快乐，又到服装店最忙的时候咯。为了让每个小摩尔都有新衣服，我可得努力工作了！" Option="新年快乐！我找你帮忙了。" Cmd="s" Param="22" />
+		<Talk ID="22" NpcID="10027" Face="正常" Msg="帮忙？只要我西索设计师能办到的，义不容辞！" Option="你能帮忙做一套新衣服吗？" Cmd="s" Param="23" />
+		<Talk ID="23" NpcID="10027" Face="正常" Msg="当然可以啦！你给你做吗？" Option="是我找的一个孤单摩尔" Cmd="s" Param="24" />
+		<Talk ID="24" NpcID="10027" Face="正常" Msg="好的，放心交给我，我一定给他设计一套华丽的新年装！" Option="一定要哦！" Cmd="act" Param="notOneLessStep2Over" />
+		
+		<Talk ID="25" NpcID="10027" Face="正常" Msg="{$username}，我从西域引进了一批神奇丝线，用它制作出来的装扮，色泽明亮，质量上乘。你要买一点吗？" Option="我要买！$我有事，先走了！" Cmd="act$none" Param="partyMaskBuy$null" />
+		
+		<Talk ID="30" NpcID="10027" Face="正常" Msg="哇，周年庆邀请函，太棒啦，我好想去参加，可是……" Option="当然不能少了大设计师西索啦！" Cmd="s" Param="31" />
+		<Talk ID="31" NpcID="10027" Face="正常" Msg="嘻嘻，你也知道我最近新开了摩尔时尚，想让更多的小摩尔看到漂亮的新衣服呢！你来(玩一次套圈圈)，我不仅收下邀请函，还给你奖励哦。" Option="好嘞！" Cmd="act" Param="beginGame"/>
+		<Talk ID="32" NpcID="10027" Face="正常" Msg="咦！这个邀请函好像不是送给我的，呜呜呜~真伤心！" Option="不好意思啦，我弄错了o(╯□╰)o" Cmd="null" Param="none" />
+	</Talks>
+</Map>
+

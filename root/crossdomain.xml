@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<cross-domain-policy>
+  <site-control permitted-cross-domain-policies="all"/> 
+  <allow-access-from domain="*.taomee.com" />
+  <allow-access-from domain="*.61.com" />
+  <allow-access-from domain="*.51mole.com" />
+</cross-domain-policy>

@@ -1,0 +1,26 @@
+<Map>
+	<NpcList>
+	<!-- 
+		<Npc ID="10097" Layer="depthLevel" Name="龙大侠" Ex="696" Ey="346" Cmd="s" Param="3" />
+		 -->
+		<Npc ID="10101" Layer="controlLevel" Name="" Ex="300" Ey="370" Cmd="s" Param="431" Data="3"/>
+	</NpcList>
+	<Triggers>
+		<Trigger ResName="mermaid_mc" Layer="depthLevel" Ex="350" Ey="390" Cmd="p" Param="SummerMainPanel" Tips="" />
+		
+		<Trigger ResName="surfBtn" Layer="controlLevel" Ex="742" Ey="298" Cmd="act" Param="goSurf" Tips="冲浪滑梯" />
+		<Trigger ResName="btn_woodIntro" Layer="topLevel" Ex="494" Ey="406" Cmd="pm" Param="resource/task/seaPark/woodInfo.swf" Tips="超级大水桶说明" />
+	</Triggers>
+	
+	<Talks>
+		<Talk ID="1" NpcID="10101" Face="正常" Option="怎样获得游戏币$礼券兑换奖励$我知道了！" Cmd="s$act$none" Param="2$openSwap$0" AddTaskOption="1" Msg="这里是海底世界最华丽，最好玩的乐园。每年都会有很多来自世界各地的游客到此参观。您需要帮忙吗？" />
+		<Talk ID="2" NpcID="10101" Face="正常" Option="我知道了！" Cmd="none" Param="2" AddTaskOption="1" Msg="1、参加超级大水桶，有机会获得海量游戏币。2、被水柱喷到，有机会进入神秘关卡，赚取大量游戏币。3、在海底熔洞参加迷失的海底乐园系列活动。" />
+		<Talk ID="3" NpcID="10101" Face="正常" Option="我知道了！" Cmd="none" Param="2" AddTaskOption="1" Msg="做的不错，给你水灵骑士资格证，加油哦~" />
+		<Talk ID="4" NpcID="10101" Face="正常" Option="我知道了！" Cmd="none" Param="2" AddTaskOption="1" Msg="你还没有水之结晶，等你得到了水之结晶再来找我吧~" />
+		<Talk ID="8" NpcID="10097" Face="正常" Option="" Cmd="s" Param="2" AddTaskOption="1" Msg="" />
+		
+		<Talk ID="431" NpcID="10101" Face="正常" Option="怎样获得游戏币$礼券兑换奖励$我知道了！" Cmd="s$act$none" Param="2$openSwap$0" AddTaskOption="1" Msg="这里是海底世界最华丽，最好玩的乐园。每年都会有很多来自世界各地的游客到此参观。您需要帮忙吗？" />
+		<Talk ID="432" NpcID="10101" Face="正常" Option="珍妮，你好呀！$怎样获得游戏币$礼券兑换奖励$我知道了！" Cmd="s$s$act$none" Param="433$2$openSwap$0" AddTaskOption="1" Msg="这里是海底世界最华丽，最好玩的乐园。每年都会有很多来自世界各地的游客到此参观。您需要帮忙吗？" />
+		<Talk ID="433" NpcID="10101" Face="正常" Option="嗯，新年快乐！" Cmd="act" Param="npcSwapPrize" AddTaskOption="1" Msg="小摩尔，你怎么来了~新年快乐哈~"  Data="3"/>
+	</Talks>
+</Map>

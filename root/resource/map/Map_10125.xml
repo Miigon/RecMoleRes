@@ -1,0 +1,20 @@
+<Map>
+	<NpcList>
+		<Npc ID="10073" Layer="controlLevel" Name="小火花" Ex="587" Ey="116" Cmd="s" Param="1" />
+	</NpcList>
+	
+	<Triggers>
+		<!--
+		<Trigger ResName="mermaid_mc" Layer="depthLevel" Ex="450" Ey="148" Cmd="p" Param="MermaidAndPrincePanel" Tips="美人鱼与王子的故事" /> 
+		-->
+	</Triggers>
+	
+	<Talks>
+		<Talk ID="1" NpcID="10073" Face="正常" Msg="真高兴见到你，虽然我们在这生活了很久，这还是第二次有新朋友进来呢！第一次？是一个带着眼罩的坏家伙，你见过他吗？" Option="拼合碎片$随便聊聊" Cmd="act$rs" Param="Lamu_LamuWorldConver$2-4" Data="105$0" AddTaskOption="1" />
+		
+		<Talk ID="2" NpcID="10073" Face="正常" Msg="你知道吗，水火木每个村都有一个酋长，他们都各自掌握着一种基础技能，我们可是学了好久才学会的，不知道你掌握三种基础技能需要多久呢！" Option="我知道了！" Cmd="none" Param="" />
+		<Talk ID="3" NpcID="10073" Face="正常" Msg="只有学习了水、火、木三位酋长传授的技能，才能进入藏宝神殿进化为神力拉姆呢。" Option="我知道了！" Cmd="none" Param="" />
+		<Talk ID="4" NpcID="10073" Face="正常" Msg="我们的村落里有许多只有用火系技能才能得到的材料哦，你学会技能了就可以找找看哦!" Option="我知道了！" Cmd="none" Param="" />
+		<Talk ID="5" NpcID="10073" Face="正常" Msg="" Option="" Cmd="" Param="" />
+	</Talks>
+</Map>

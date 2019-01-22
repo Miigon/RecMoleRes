@@ -1,0 +1,25 @@
+<Map>
+	<NpcList>
+		<Npc ID="10204" Layer="controlLevel" Name="时之女神石像" Ex="443" Ey="339" Cmd="act" Param="click10204" />
+	</NpcList>
+	
+	<Triggers>
+		<Trigger ResName="go_335" Layer="controlLevel" Ex="123" Ey="350" Cmd="alt_map" Param="335" Tips="元素骑士训练营" />
+		<Trigger ResName="go_120" Layer="controlLevel" Ex="756" Ey="453" Cmd="alt_map" Param="120" Tips="云雾谜桥" />
+		<Trigger ResName="go_337" Layer="controlLevel" Ex="516" Ey="357" Cmd="alt_map" Param="337" Tips="蘑菇森林" />
+		
+		
+	</Triggers>
+	
+	<Talks>
+		<Talk ID="1" NpcID="10204" Face="正常" Msg="小摩尔，你有什么事吗？" Option="时空之门$邀请参加时空之门$我要成为元素骑士$没什么事" Cmd="act$act$act$none" Param="openSpaceTimeGame$inviteGame$openTransf$2" AddTaskOption="1" />
+		
+		<Talk ID="2" NpcID="10204" Face="正常" Msg="元素石碑已启动，小摩尔，拿出你的勇气接受考验吧。" Option="知道了" Cmd="none" Param="2" AddTaskOption="1" />
+		<Talk ID="3" NpcID="10204" Face="正常" Msg="没有拿到骑士资格证书的小摩尔是无法接受元素的考验的。元素骑士资格证书可以去元素骑士训练营参与活动后获得" Option="我现在就去$知道了" Cmd="alt_map$none" Param="335$2" AddTaskOption="1" />
+		
+		<Talk ID="4" NpcID="10204" Face="正常" Msg="小摩尔，你有什么事吗？" Option="时空之门$邀请参加时空之门$我要成为水灵骑士$我要成为火灵骑士$我要成为风灵骑士$我要成为地灵骑士$没什么事" Cmd="act$act$act$act$act$act$none" Param="openSpaceTimeGame$inviteGame$waterKnight$fireKnight$windKnight$groundKnight$2" AddTaskOption="1" />
+		<Talk ID="5" NpcID="10204" Face="正常" Msg="小摩尔，你还没有拿到相应资格证，无法转职。" Option="知道了" Cmd="none" Param="2" AddTaskOption="1" />
+		<Talk ID="6" NpcID="10204" Face="正常" Msg="小摩尔，你已经成为元素骑士了，好好表现。" Option="时空之门$邀请参加时空之门$知道了" Cmd="act$act$none" Param="openSpaceTimeGame$inviteGame$2" AddTaskOption="1" />
+		
+	</Talks>
+</Map>

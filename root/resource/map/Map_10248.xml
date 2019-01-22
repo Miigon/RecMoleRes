@@ -1,0 +1,27 @@
+<Map>
+	<NpcList>
+		<!--
+		<Npc ID="10002" Layer="controlLevel" Name="么么公主" Ex="358" Ey="460" Cmd="s" Param="1" />
+		-->
+	</NpcList>
+	
+	<Triggers>
+		<!--
+		<Trigger ResName="mermaid_mc" Layer="depthLevel" Ex="450" Ey="148" Cmd="p" Param="MermaidAndPrincePanel" Tips="美人鱼与王子的故事" /> 
+		-->
+	</Triggers>
+	
+	<Talks>
+		<Talk ID="23" NpcID="10036" Face="正常" Msg="魔豆，魔豆快快长大吧！听说天上有座巨人的城堡，好想上去看看呢！" Option="你在做什么？$下次再说" Cmd="s$none" Param="24$6" AddTaskOption="1" />
+		<Talk ID="24" NpcID="10036" Face="正常" Option="你是杰克？我听过你的故事。" Cmd="s" Param="25"  Msg="啊~！可爱的小摩尔，我在给我的魔豆浇水，我的魔豆将来会长得很高很高，一直冲入云霄呢！哈哈~" />
+		<Talk ID="25" NpcID="10036" Face="正常" Option="我好想去云上看看。" Cmd="s" Param="26"  Msg="哈哈，我听说拥有超级拉姆的小摩尔具有不可思议的能力，如果帮我的魔豆浇水，我的魔豆肯定能快速生长呢！" />
+		<Talk ID="26" NpcID="10036" Face="正常" Option="太好了！" Cmd="none" Param="6"  Msg="只要我的魔豆长大了，庄园里的每个小摩尔都能去云端看看呢！" />
+		
+		<Talk ID="27" NpcID="10036" Face="正常" Option="好高呀！爬上去会到哪呢？$下次再说" Cmd="s$none" Param="28$6" AddTaskOption="1" Msg="我的魔豆冲入云霄了！哈哈，金鹅我来了！" />
+		<Talk ID="28" NpcID="10036" Face="正常" Option="会下金蛋的鹅？" Cmd="s" Param="29"  Msg="哈哈，上面有座巨人的城堡，巨人豢养一群会下金蛋的鹅，如果我拥有那只鹅，我和妈妈就可以过上幸福的日子了。" />
+		<Talk ID="29" NpcID="10036" Face="正常" Option="好的，我一定会拿到的！" Cmd="none" Param="6" Msg="是呀，顺着这棵树就能爬上去就能看到了，不过想要从巨人手里拿到那只金鹅非常困难。祝你好运哟！" />
+		<Talk ID="30" NpcID="10036" Face="正常" Option="" Cmd="none" Param="6" Msg="" />
+		<Talk ID="31" NpcID="10036" Face="正常" Option="" Cmd="none" Param="6" Msg="" />
+		<Talk ID="32" NpcID="10036" Face="正常" Option="" Cmd="none" Param="6" Msg="" />
+	</Talks>
+</Map>

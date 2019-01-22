@@ -1,0 +1,34 @@
+<Map>
+	<NpcList>
+		<Npc ID="10013" Layer="depthLevel" Name="花婶" Ex="641" Ey="460" Cmd="s" Param="1" />
+		<Npc ID="10155" Layer="controlLevel" Name="珠宝商人" Ex="740" Ey="350" Cmd="s" Param="3" />
+	</NpcList>
+	
+	<Triggers>
+		<Trigger ResName="openNotice" Layer="controlLevel" Ex="140" Ey="240" Cmd="p" Param="MoleNewNoticePanel" Tips="庄园新公告" />
+		<Trigger ResName="go_76" Layer="controlLevel" Ex="45" Ey="198" Cmd="alt_map" Param="76" Tips="礼物小屋" />
+		<Trigger ResName="go_19" Layer="controlLevel" Ex="229" Ey="273" Cmd="alt_map" Param="19" Tips="道具店" />
+		<Trigger ResName="go_20" Layer="controlLevel" Ex="716" Ey="239" Cmd="alt_map" Param="20" Tips="服装店" />
+		<Trigger ResName="go_21" Layer="controlLevel" Ex="463" Ey="231" Cmd="alt_map" Param="21" Tips="宠物店" />
+		<Trigger ResName="go_1" Layer="depthLevel" Ex="88" Ey="464" Cmd="alt_map" Param="1" Tips="摩尔城堡" />
+		<Trigger ResName="go_28" Layer="controlLevel" Ex="603" Ey="191" Cmd="alt_map" Param="28" Tips="拉姆学院" />
+		<Trigger ResName="go_59" Layer="controlLevel" Ex="310" Ey="203" Cmd="alt_map" Param="60" Tips="露天剧场" />
+		<Trigger ResName="go_142" Layer="controlLevel" Ex="917" Ey="358" Cmd="alt_map" Param="142" Tips="米勒大道" />
+	</Triggers>
+	
+	<Talks>
+		<Talk ID="1" NpcID="10013" Face="正常" Msg="花婶的压箱宝游戏虽然关门儿了，但是小摊买卖还是照做！哎哟哟，{$username}，警察来了告诉我一声哈！" Option="我要买卖东西!$下次再来" Cmd="act$none" Param="openAgicalGoods$1" AddTaskOption="1" />
+		<Talk ID="2" NpcID="10013" Face="正常" Msg="这周由于花婶去神秘湖边做生意了，小摊就由我先接管一下啦！" Option="我要买卖东西$下次再来！" Cmd="act$none" Param="openAgicalGoods$1" />
+		<Talk ID="3" NpcID="10155" Face="正常" Msg="久闻摩尔庄园大名，初到庄园，果然名不虚传！" Option="宝石挑选游戏" Cmd="act" Param="openBubble" AddTaskOption="1" />
+		<Talk ID="6" NpcID="10159" Face="正常" Msg="新年送好运,惊喜不容错过!2013年1月1日,19点到20点,来小丑圆蛋摊,每5分钟可砸一次蛋,百分之百中奖哦" Option="有什么奖励呢?$我要砸蛋$好的,我知道了!" Cmd="s$act$none" Param="7$bonousEgg$1" AddTaskOption="1" />
+		<Talk ID="7" NpcID="10159" Face="正常" Msg="奖励包你满意!有天使属性加成道具,永久提升天使属性,小丑圆蛋摊绝无仅有哦!还有各种二阶天使赠送!错过了绝对后悔!" Option="哇,我一定不会错过的!" Cmd="none" Param="1" AddTaskOption="1" />	
+	
+	
+		<Talk ID="8" NpcID="10038" Face="正常" Msg="又是一年拉姆运动会啊~春暖花开的日子，正适合户外运动。{$username}，一起加油吧！" Option="我要报名$领取本队拉姆队服$我想更换队伍$查看赛程表$查看积分排行和奖励$好的！" Cmd="act$act$s$act$p$none" Param="signUp$getTeamCloth$10$gameIntr$GameTopAndScorePanel" AddTaskOption="1" />
+		<Talk ID="9" NpcID="10038" Face="正常" Msg="想要报名的话，需要让你的小拉姆展示自己的运动天赋哦，吸引住哪位队长就可以加入他的队伍！" Option="好的，没问题！" Cmd="p" Param="GamesSignUpPanel" AddTaskOption="1" />
+		<Talk ID="10" NpcID="10038" Face="正常" Msg="{$username}，更换队伍需要花费100金豆重新购买队服，你确定要这样做吗？" Option="我想加入摩乐乐队！$我想加入库拉队！$我想加入丫丽队！$我开玩笑的，我不换~" Cmd="act$act$act$none" Param="changeTeam1$changeTeam2$changeTeam3$1" AddTaskOption="1" />
+		
+	</Talks>
+</Map>
+
+

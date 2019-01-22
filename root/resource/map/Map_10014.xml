@@ -1,0 +1,11 @@
+<Map>
+	<NpcList>
+	</NpcList>
+	
+	<Triggers>
+		<Trigger ResName="goBigHall_mc" Layer="topLevel" Ex="100" Ey="336" Cmd="alt_map" Param="15" Tips="城堡大厅" />
+	</Triggers>
+	
+	<Talks>
+	</Talks>
+</Map>

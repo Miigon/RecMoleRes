@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<house>
+<!--
+lanlevel 0初级 1高级
+attr  0饥饿 1口渴 2清洁 3心情 4健康　5治疗　6复活
+ lang0(0-30) lang1(31-60) lang2(61-100)  (中间以“_”分开) 话中的第一个字母是“x”的话。显示主人昵称
+lang3 吃完一样这个属性的东西　100％出现的语言！
+-->
+<Item lanlevel="0" attr="0" lang0="饿……没力气了~_肚肚瘪瘪的" lang1="肚肚叫了……_咕噜……" lang2="" lang3="好好吃哦……_太棒了~下次我还要吃这个"/> 
+<Item lanlevel="0" attr="1" lang0="我要喝……我要喝水水_我~渴~渴……" lang1="么~么~渴~_嘴巴干干……" lang2="" lang3="HAHA~真是太棒咯~啦啦_哇~真是太好喝了"/> 
+<Item lanlevel="0" attr="2" lang0="痒痒……浑身痒痒" lang1="臭臭……我臭臭了" lang2="" lang3="我好香好香哦……_干干净净~人见人爱"/> 
+<Item lanlevel="0" attr="3" lang0="你不喜欢我了，5555555_我是一棵没人喜欢的小草~~囧" lang1="好无聊好无聊哦……_没劲~没劲~~真没劲" lang2="我和你~~心连心……_啦啦啦，我要好好学习，天天向上^o^_看我今天可爱吧~嘿嘿，嘿嘿_真希望每天都这么开心!" lang3="好好玩~好开心哦!_太好玩了~我还要玩嘛！"/> 
+<Item lanlevel="0" attr="4" lang0="" lang1="" lang2="" lang3="好难受……好难受哦"/> 
+<Item lanlevel="0" attr="5" lang0="" lang1="" lang2="" lang3="呼呼……舒服多了！"/> 
+<Item lanlevel="0" attr="6" lang0="" lang1="" lang2="" lang3="YE……我终于复活了！"/> 
+
+<Item lanlevel="1" attr="0" lang0="肚子里都在打雷了，好饿呀！_吧嗒吧嗒，咕噜咕噜，听到我的肚肚在演奏哇~饿哦" lang1="要是能吃上你亲手煮的粽子该多好啊_x，你听见了吗？我的肚子在咕咕叫~" lang2="" lang3="这是我吃过最美味最无敌的食物_太不可思议了~好吃的已经无法用语言来形容_嗝~肚子饱饱哩~o(∩-∩)o"/> 
+<Item lanlevel="1" attr="1" lang0="x，我知道你好忙的，不过不过我真的渴了囧_我快要喷火了！真想跳到神秘湖喝个痛快" lang1="大西瓜，牛奶，萝卜汁……哪个都不能少_来点果汁，润润喉该多好啊" lang2="" lang3="呼~给我一个支点我能搬起摩尔庄园啦~_比吃了梅子还解渴！主人你真可爱~"/> 
+<Item lanlevel="1" attr="2" lang0="我身上都能搓出大泥丸了囧_别带我出门，我脏的不想见人" lang1="它们都不和我玩了，说我是臭臭拉姆，555_哇~好多苍蝇围着我转悠哦！" lang2="" lang3="左三圈，右三圈，天天洗澡身体好好^O^_洗澡澡，好宝宝，我是漂漂的小拉姆！"/> 
+<Item lanlevel="1" attr="3" lang0="别理我，让我在冰箱里呆着吧！_你都不来陪我玩，干脆把我丢到外太空吧！" lang1="我好孤独哦~~_最近比较烦，比较烦，比较烦" lang2="我的心情和太阳一样晴朗！_我得意的笑，得意的笑，开开心心蹦蹦跳！" lang3="夜幕下的隐形客！_骰子的魔力！_摩达尼号探险！_数字六的魔力！"/>
+<Item lanlevel="1" attr="4" lang0="" lang1="" lang2="" lang3="好难受……好难受哦_我一点力气都没有，好难受……"/> 
+<Item lanlevel="1" attr="5" lang0="" lang1="" lang2="" lang3="哇哦~我又充满了力量了，要细心照顾我哦~_蓝天好蓝哦，彩虹好漂亮呀，健健康康心情好！"/> 
+<Item lanlevel="1" attr="6" lang0="" lang1="" lang2="" lang3="555还以为再也见不到主人了！我再也不想变幽灵了，怕怕"/> 
+
+<Item lanlevel="14" attr="0" lang0="I'm so hungry!" lang1="I want to eat something!"  lang2="" lang3="It's very delicious!"/> 
+<Item lanlevel="14" attr="1" lang0="I'm very thirsty!" lang1="I want to drink something!" lang2="" lang3="Thank you!"/> 
+<Item lanlevel="14" attr="2" lang0="I would like to take a bath!" lang1="I would like to take a bath!" lang2="" lang3="Thank you!"/> 
+<Item lanlevel="14" attr="3" lang0="" lang1="Oh! No!" lang2="" lang3="Hello_Hi_Good_Great_Good luck!_Come on!Baby!_How are you?_How do you do?_Apple_Tree_Ok_No problem!_Yes!_Thank you!"/>
+<Item lanlevel="14" attr="4" lang0="" lang1="" lang2="" lang3="I feel sick!"/>
+<Item lanlevel="14" attr="5" lang0="" lang1="" lang2="" lang3="I feel very good!"/>
+<Item lanlevel="14" attr="6" lang0="" lang1="" lang2="" lang3=""/>
+
+</house>

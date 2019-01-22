@@ -1,0 +1,47 @@
+<Map>
+	<NpcList>
+		<Npc ID="10016" Layer="depthLevel" Name="大卫" Ex="660" Ey="335" Cmd="s" Param="2" AddTaskOption="1" />
+	
+	<!-- 
+		<Npc ID="10022" Layer="depthLevel" Name="阿七" Ex="495" Ey="477" Cmd="s" Param="2" AddTaskOption="1" />
+		-->
+	</NpcList>
+	
+	<Triggers>
+	</Triggers>
+					
+	<Talks>
+		<Talk ID="999" NpcID="10016" Face="正常" Msg="我有很多事情要忙呢，小摩尔带着小C别处玩去吧！有新发明了会找你们来试用的！" Option="一言为定！" Cmd="act" Param="fatherDayOver" AddTaskOption="1"  />
+	
+		<Talk ID="2" NpcID="10016" Face="正常" Msg="现在是下午，你今天来的挺早啊，人还不太多，你该晚上来看看。有什么事吗？" Option="我的R7机器狗$关于时光门$没什么事" Cmd="s$act$none" Param="4$getSGMFun$null" />
+		<Talk ID="3" NpcID="10016" Face="正常" Msg="圣诞树需要枞树，你的枞树在哪呢？种好枞树再来找我吧，枞树种子可是很稀有的，圣诞老人会那么大方送给你吗？" Option="希望圣诞老人会送我树种$没什么事" Cmd="none$none" Param="null" />
+		<Talk ID="4" NpcID="10016" Face="正常" Msg="hi～知道我最新最有用的发明是什么吗？那就是专门租给超级拉姆的R7机器狗，我们都喜欢叫他阿七，不过无所谓啦，总之他是一个照顾家园和牧场的能手，连梅森都租了一个过去帮忙呢，你也去大卫发明屋看看吧，保证你会喜欢的。" Option="我知道了" Cmd="none" Param="null" />
+		
+		<Talk ID="17" NpcID="10016" Face="正常" Msg="好消息，时光门修补好啦！你是来祝贺我的吗？我应该好好谢谢你呢！我的很多发明都在这里，有时光门、双层小屋还有魔法衣柜，你可以随便看看。" Option="我知道了！" Cmd="s" Param="18" />
+		<Talk ID="18" NpcID="10016" Face="正常" Msg="哦，哦！难道你是来领取时光门的？！这么说，你相信我真的制造出来啦？" Option="相信$不相信" Cmd="s$s" Param="19$20" />
+		<Talk ID="19" NpcID="10016" Face="正常" Msg="哈哈，原来你这么相信我，我好感动啊！实话告诉你，时光门我研制成功啦！" Option="领取时光之链" Cmd="s" Param="20" />
+		<Talk ID="20" NpcID="10016" Face="正常" Msg="哈哈，谢谢支持哦！时光之链我放你背包里啦，只要你拿在手上，用力一挥，它就会出现在你身边啦！" Option="谢谢！" Cmd="act" Param="getSGMSuc" />
+		<Talk ID="21" NpcID="10016" Face="正常" Msg="" Option="" Cmd="none" Param="1" />
+		<Talk ID="22" NpcID="10016" Face="正常" Msg="" Option="" Cmd="none" Param="1" />
+		<Talk ID="23" NpcID="10016" Face="正常" Msg="" Option="" Cmd="none" Param="1" />
+		<Talk ID="24" NpcID="10016" Face="正常" Msg="大卫制作时光门成功啦，赶快把超级拉姆召唤过来领取吧！" Option="我知道了！" Cmd="none" Param="1" />
+		<Talk ID="25" NpcID="10016" Face="正常" Msg="只要你把时光之链拿在手上，用力一挥，时光门将会出现在你身边哦！" Option="我知道了！" Cmd="none" Param="1" />
+		
+		<Talk ID="30" NpcID="10016" Face="正常" Msg="嗯？你说的时光机，我想想……我记得那机器应该是借给了菩提大伯了。" Option="嗯，知道了" Cmd="act" Param="goMapTimeMachine" Data="2,53"/>
+		<Talk ID="31" NpcID="10016" Face="正常" Msg="你们找到了时光机，那我们发动它吧，哦，对了，发动他需要密码，密码是什么来着……" Option="你的记忆力和菩提大伯有得一拼" Cmd="s" Param="32" />
+		<Talk ID="32" NpcID="10016" Face="正常" Msg="我发明的东西都设置了密码的，主要是怕被坏人夺走用在不好的地方，但发明的东西实在太多了，所以一时想不起来了。" Option="那到底怎么获得密码呢？" Cmd="s" Param="33" />
+		<Talk ID="33" NpcID="10016" Face="正常" Msg="我记得在每台机器上都有解开密码的暗号，你们仔细看看这个机器上的图案，我把暗号对照表给你们，你们自己破解下吧！" Option="最后还是要靠自己。" Cmd="act" Param="clickOldMachine" />
+		<Talk ID="34" NpcID="10016" Face="正常" Msg="小摩尔，还没找到时光机吗？快去其他找找看。" Option="我这就去！" Cmd="none" Param="1" />
+		<Talk ID="35" NpcID="10016" Face="正常" Msg="哎呀，估计年代太久了，早知道先修理一下了！" Option="马后炮！现在怎么办？" Cmd="s" Param="36" />
+		<Talk ID="36" NpcID="10016" Face="正常" Msg="别慌，我大卫是谁？既然能做出时光机当然也能再做出一台！" Option="那赶紧啊！" Cmd="s" Param="37" />
+		<Talk ID="37" NpcID="10016" Face="正常" Msg="不过制作材料不够啊，你们能帮我弄点材料来么？" Option="又是跑腿？好吧" Cmd="s" Param="38" />
+		<Talk ID="38" NpcID="10016" Face="正常" Msg="其实是需要一些特殊的农作物，这些农作物也是我发明的，厉害吧！" Option="别臭美了。" Cmd="s" Param="39" />
+		<Talk ID="39" NpcID="10016" Face="正常" Msg="这些农作物种子都给你，制作新时光机至少需要时光古树*5, 白色浆果*5，大卫铁桦树*10" Option="这么麻烦！" Cmd="act" Param="getTreeSeedTimeMachine" />
+		<Talk ID="40" NpcID="10016" Face="正常" Msg="很好，材料齐了，小摩尔一起来帮忙！ " Option="好！" Cmd="act" Param="playMakeMachineMovie" />
+		<Talk ID="41" NpcID="10016" Face="正常" Msg=" 现在就差组装了，这是图纸，帮忙组装下吧！" Option="你非要留个尾巴给别人吗！" Cmd="act" Param="openMakePanelTimeMachine" />
+		<Talk ID="42" NpcID="10016" Face="正常" Msg="小摩尔，还没凑齐时光古树*5, 白色浆果*5，大卫铁桦树*10吗？快去种树吧。" Option="我这就去！" Cmd="none" Param="1" />
+		<Talk ID="101" NpcID="10016" Face="正常" Msg="发明就是个不断创意的过程，小摩尔，你经常有一些创意浮现在脑海里吗？" Option="很少。$对，经常有。$过去很多，现在很少。" Cmd="s$s$s" Param="102$102$102" />
+		<Talk ID="102" NpcID="10016" Face="正常" Msg="哈哈，我大卫可是摩尔庄园最伟大的发明家，好的创意那是从来都不会缺的！最近我就在和尼克讨论研究，制造一个机器人服务员！啊，啊啊啊，这么好的创意你可不要告诉别人！" Option="放心吧，我口风是很紧的。" Cmd="act" Param="loveTestMap" />
+	</Talks>
+</Map>
+

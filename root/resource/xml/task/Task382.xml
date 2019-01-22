@@ -1,0 +1,61 @@
+<!-- 
+<Action Cmd="PLAY_MOVIE" Param="1" Name="movie_1" IsBg="0" IsFullScreen="0" />
+<Action Cmd="ACT_EVENT" Param="playOverMovie1"/>
+<Action Cmd="ADD_EVENT" Param="task590PanelOver"/>
+<Action Cmd="DELETE_MOVIE" Param="movie_1" />
+
+"beginTask382InMap15"==>设定按钮隐藏==>
+
+==>签订公约，确定完成关闭提示面板后==>广播overCommonUI382==>
+
+showTopBtn382==>点亮top按钮、npcsay7-10 ==> if(>10)npcsay15
+==>加载透明按钮文件，等用户点击地图，打开世界地图，点击跳转地图==>
+
+
+"beginTask382InMap1"==>设定按钮隐藏==>
+openClothBookUI382==>原版选取装备书籍==>overClothBookUI382==>over task382
+
+监听完成任务后打开新手登录礼包panel
+ -->
+<Tasks ID="382" Name="新手引导"  AwardMsg="" >
+	<Step ID="1"  TarMapID="15">
+		<EnterMap MapID="15" >
+			
+			<Action Cmd="TASK_SHOW_SELF" Hide="1"/>
+			<Action Cmd="ACT_EVENT" Param="beginTask382InMap15"/>
+			
+			<!-- 么么 -->
+			<Action Cmd="PLAY_MOVIE" Param="7" Name="movie_7" IsBg="1" IsFullScreen="1" />
+			<Action Cmd="SAY" >
+				<Talk ID="1"  NpcID="10002" Face="正常" Msg="亲爱的{$username}，欢迎来到摩尔庄园！我叫么么，是摩尔八世的女儿，摩尔庄园的公主。真高兴今天能见到你！" Option="咦，奇怪，你怎么知道我的名字？" />
+				<Talk ID="2"  NpcID="10002" Face="正常" Option="哈~原来名字就在我的脚底！" Msg="是啊，我怎么会知道呢？（么么公主笑着指了指你的脚底）那里写着呢，嘻嘻" />
+				<Talk ID="3"  NpcID="10002" Face="正常" Option="什么公约？" Msg="只要你够细心，就会在摩尔庄园发现隐藏的有趣事物！对了，在成为一名正式的摩尔庄园公民之前，{$username}需要签署一份公约哦！"/>
+			</Action>
+			<Action Cmd="DELETE_MOVIE" Param="movie_7" />
+			
+			<!-- 公约从桌上移动到屏幕中央打开、点击完成动画 -->
+			<Action Cmd="PLAY_MOVIE" Param="1" Name="movie_1" IsBg="1" IsFullScreen="1" />
+			<Action Cmd="DELETE_MOVIE" Param="movie_1" />
+			
+			<Action Cmd="OPEN_PANEL" Param="Task382Panel_1" ClearMap="0"/>
+			
+			<!-- 一件件衣服放入背包 -->
+			<Action Cmd="ADD_EVENT" Param="overCommonUI382"/>
+			<Action Cmd="ACT_EVENT" Param="showBagBtn_task382"/>
+			<Action Cmd="PLAY_MOVIE" Param="2" Name="movie_2" IsBg="1" IsFullScreen="1" />
+			<Action Cmd="DELETE_MOVIE" Param="movie_2" />
+			
+			<Action Cmd="SAY" >
+				<Talk ID="5"  NpcID="10002" Face="正常" Option="原来如此！" Msg="恭喜{$username}成为正式的摩尔庄园公民！摩尔豆是摩尔庄园的通用货币，可以通过打工、玩游戏、经营餐厅等途径获得。" />
+				<Talk ID="6"  NpcID="10002" Face="正常" Option="好的，谢谢你" Msg="刚才{$username}领养的小拉姆，正在家里等着你呢，我陪你一起回家看看吧~"/>
+			</Action>
+			<Action Cmd="SET_BUFFER" Panel="2" Step="2" />
+			<Action Cmd="ACT_EVENT" Param="overTask382tohome"/>
+			
+			<!-- Action Cmd="PLAY_MOVIE" Param="3" Name="movie_3" IsBg="1" IsFullScreen="1" />
+			<Action Cmd="DELETE_MOVIE" Param="movie_3" />
+			<Action Cmd="OVER" />	 -->
+		</EnterMap>
+	</Step>
+	
+</Tasks>

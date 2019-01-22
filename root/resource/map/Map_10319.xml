@@ -1,0 +1,21 @@
+﻿<Map>
+	<NpcList>
+		<Npc ID="10129" Layer="depthLevel" Name="神秘占星师" Ex="245" Ey="434" Cmd="s" Param="1" AddTaskOption="1" />
+	</NpcList>
+	
+	<Triggers>
+		<Trigger ResName="go_318" Layer="controlLevel" Ex="449" Ey="509" Cmd="alt_map" Param="318" Tips="仙堡大厅" />
+	</Triggers>
+	
+	<Talks>
+		<!--<Talk ID="1" NpcID="10129" Face="正常" Msg="亲爱的小摩尔，请问有什么需要我帮忙的吗？" Option="购买12星座时装！$我有事先走了！" Cmd="p" Param="StarSalePanel" AddTaskOption="1" />-->
+	
+		<Talk ID="1" NpcID="10129" Face="正常" Msg="占卜术有很多奥秘，东西方的占卜法各不相同，你要来一起探究吗？" 			Option="没什么事！" 					Cmd="none$p" 	Param="null" AddTaskOption="1"/>
+		<Talk ID="3" NpcID="10129" Face="正常" Msg="请问：你在路上看见一只无家可归的拉姆，你会？" 	Option="抱它回家。$带它去爱心教堂。$神马都不做。$放弃占卜。" 				Cmd="act$act$act$act" 	Param="dream0Event1$dream0Event3$dream0Event0$dream0Abandon"/>
+		<Talk ID="4" NpcID="10129" Face="正常" Msg="请问：你发现身上的摩尔豆少了，你认为？" 		Option="一定是别人偷的！$可能掉了吧。$坚信是自己记错了。$放弃占卜。" 		Cmd="act$act$act$act" 	Param="dream0Event3$dream0Event0$dream0Event1$dream0Abandon"/>
+		<Talk ID="5" NpcID="10129" Face="正常" Msg="请问：当一群小恶魔欺负一个小摩尔时，你会？" 	Option="和小恶魔一起欺负他。$去找骑士团帮忙。$帮他赶跑小恶魔。$放弃占卜。" 	Cmd="act$act$act$act" 	Param="dream0Event0$dream0Event1$dream0Event3$dream0Abandon"/>
+		<Talk ID="6" NpcID="10129" Face="正常" Msg="请问：觉得现在的自己比平时漂亮？" 				Option="是。$否。$放弃占卜。" 											Cmd="act$act$act" 		Param="dream1Event1$dream1Event0$dream1Abandon"/>
+		<Talk ID="7" NpcID="10129" Face="正常" Msg="请问：这周跟朋友吵架过吗？" 					Option="是。$否。$放弃占卜。" 											Cmd="act$act$act" 		Param="dream1Event1$dream1Event0$dream1Abandon"/>
+		<Talk ID="8" NpcID="10129" Face="正常" Msg="请问：觉得自己第六感很准？" 					Option="是。$否。$放弃占卜。" 											Cmd="act$act$act" 		Param="dream1Event1$dream1Event0$dream1Abandon"/>
+	</Talks>
+</Map>

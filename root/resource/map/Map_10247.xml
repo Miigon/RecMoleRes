@@ -1,0 +1,26 @@
+<Map>
+	<NpcList>
+		<Npc ID="10066" Layer="depthLevel" Name="丑小鸭" Ex="754" Ey="476" Cmd="s" Param="1" />
+	</NpcList>
+	
+	<Triggers>
+		<!--
+		<Trigger ResName="mermaid_mc" Layer="depthLevel" Ex="450" Ey="148" Cmd="p" Param="MermaidAndPrincePanel" Tips="美人鱼与王子的故事" /> 
+		-->
+	</Triggers>
+	
+	<Talks>
+		<Talk ID="1" NpcID="10066" Face="正常" Msg="都怪我，要不是我和妈妈吵架，妈妈也不会失踪了。。。。。。" Option="了解丑小鸭的故事$帮丑小鸭做翅膀$训练丑小鸭飞翔$没什么事" Cmd="s$act$act$none" Param="23$duck_openPanel$duck_openGame$"  />
+		
+		<Talk ID="23" NpcID="10066" Face="正常" Msg="从小，我就是一只丑小鸭，但我却有个漂亮又会飞的妈妈，大家都笑话我！" Option="啊？" Cmd="s" Param="24" />
+		<Talk ID="24" NpcID="10066" Face="正常" Msg="妈妈说，等我长大了也会和她一样，可我已经长大了，却根本没变！我和妈妈大吵一架后离家出走了。" Option="那后来呢？" Cmd="s" Param="25" />
+		<Talk ID="25" NpcID="10066" Face="正常" Msg="后来我后悔了，等我回去，妈妈却不见了，只发现了她的日记本……" Option="说了些什么呢？" Cmd="act" Param="duck_openDiary"  />
+		<Talk ID="26" NpcID="10066" Face="正常" Msg="原来我并不是妈妈的亲生孩子，妈妈还这么爱我，我对不起她……" Option="我们找哈哈魔法师打听你妈妈的下落！" Cmd="avy" Param="duck_duckMovie"  />
+		<Talk ID="27" NpcID="10066" Face="正常" Msg="妈妈竟然为了我，冒险去找飞行石！都怪我，我不该说什么我也想飞……是我害了妈妈！" Option="丑小鸭你别伤心！" Cmd="s" Param="28"  />
+		<Talk ID="28" NpcID="10066" Face="正常" Msg="妈妈把所有的好东西都留给我，为了我付出一切，我却如此对她，我真是个坏孩子……" Option="所以你更要为了妈妈好好活下去！" Cmd="s" Param="29"  />
+		<Talk ID="29" NpcID="10066" Face="正常" Msg="不行！我得去把妈妈给找回来！" Option="悬崖那边很危险，怎么办呢？" Cmd="s" Param="30"  />
+		<Talk ID="30" NpcID="10066" Face="正常" Msg="只要我能飞起来就可以去找妈妈了！小摩尔你能帮我一起造一对翅膀吗？" Option="造翅膀！我们可以吗？" Cmd="s" Param="31"  />
+		<Talk ID="31" NpcID="10066" Face="正常" Msg="为了最爱我的妈妈，一定可以！小摩尔可以帮我准备一些材料来制造飞机吗？" Option="好，我这就去！" Cmd="none" Param="6"  />
+		
+	</Talks>
+</Map>

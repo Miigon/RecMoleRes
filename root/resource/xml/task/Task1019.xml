@@ -1,0 +1,131 @@
+<Tasks ID="1019" Name="黑森林深处" AwardMsg="恭喜获得2个瓶子草种子、1顶狸猫探险帽和1万摩尔豆哦！" AwardBean="">
+	<Step ID="1" TarMapID="389">
+		<EnterMap MapID="389">
+			<Action Cmd="PLAY_MOVIE" Param="1" Name="movie_1" IsBg="1" IsFullScreen="1"/>
+			<Action Cmd="SAY">
+				<Talk NpcID="10291" Face="正常" Msg="小家伙们，你们快进去，这里有大伯！" Option="大伯……你当心点啊……我们……"/>
+				<Talk NpcID="10291" Face="正常" Msg="好了，别唧唧歪歪的，公主还在昏迷，快去给公主找解药……" Option="恩，大伯，你……"/>
+				<Talk NpcID="10291" Face="正常" Msg="快走……" Option="……"/>
+			</Action>
+			<Action Cmd="DELETE_MOVIE" Param="movie_1"/>
+			
+			<Action Cmd="JUMP_TASK_UI" Param="危机时刻，菩提大伯赶到，大伯，我们一定不辱使命，一定找到救治么么公主的方法！！"/>
+			<Action Cmd="SET_BUFFER" Panel="2" Step="2"/>
+			<Action Cmd="GO_MAP" MapID="390" MapType="0"/>
+		</EnterMap>
+	</Step>
+	
+	<Step ID="2" TarMapID="390">
+		<EnterMap MapID="390">
+			<Action Cmd="PLAY_MOVIE" Param="100" Name="movie_100" IsBg="1" IsFullScreen="1"/>
+			<Action Cmd="DELETE_MOVIE" Param="movie_100"/>
+			
+			<Action Cmd="PLAY_MOVIE" Param="2" Name="movie_2" IsBg="1" IsFullScreen="1"/>			
+			<Action Cmd="SAY">
+				<Talk NpcID="10000" Face="悲伤" Msg="我怎么感觉有点晕啊？" Option="好像我们是从下面掉上来的……咦？怎么说得这么拗口？"/>
+				<Talk NpcID="10000" Face="疑惑" Msg="下面掉上来？魔灵的世界和我们的世界是反的吗？会不会突然掉下去啊？" Option="乐乐别说了，越说越吓人……"/>
+			</Action>
+			<Action Cmd="DELETE_MOVIE" Param="movie_2"/>
+			
+            <Action Cmd="PLAY_MOVIE" Param="3" Name="movie_3" IsBg="1" IsFullScreen="1"/>			
+			<Action Cmd="SAY">
+				<Talk NpcID="10000" Face="悲伤" Msg="我觉得再转下去我要吐了！！" Option="为什么从刚才开始就一直在转啊？我什么都看不清了啊！"/>
+				<Talk NpcID="10000" Face="悲伤" Msg="不知道，不会继续转吧，这样下去我们今天就在这里一直转了啊……" Option="我想回去了怎么办？(ㄒoㄒ)"/>
+			</Action>
+			<Action Cmd="DELETE_MOVIE" Param="movie_3"/>
+			
+			<Action Cmd="PLAY_MOVIE" Param="4" Name="movie_4" IsBg="1" IsFullScreen="1"/>			
+			<Action Cmd="SAY">
+				<Talk NpcID="10287" Face="正常" Msg="冷静，别给摩尔丢脸了！！" Option="咦？？？？小C你说话了？"/>
+				<Talk NpcID="10287" Face="正常" Msg="是的，去了你们的世界，我的力量受到限制，无法正常说话，现在可以了！" Option="太好了，小C这个乱转到底是怎么回事？"/>
+				<Talk NpcID="10287" Face="正常" Msg="来到这个陌生的世界，这个对心灵有着巨大考验的世界，请你们一定要冷静下来，用平静的心面对一切艰难！" Option="C老师，略复杂我听不懂！！"/>
+				<Talk NpcID="10287" Face="正常" Msg="总之，第一步就是保持冷静！能做到吗？" Option="报告老师，知道啦！老师今天萌萌哒！"/>
+				<Talk NpcID="10287" Face="正常" Msg="你们再这样闹下去我就没法萌萌哒了！" Option="哦~~~~~"/>
+				<Talk NpcID="10287" Face="正常" Msg="好，现在调顺呼吸，世界的转动，就是你心灵的转动，放轻松……" Option="报告老师，乐乐吐了……"/>
+				<Talk NpcID="10287" Face="失望" Msg="╮(╯▽╰)╭"/>
+			</Action>
+			<Action Cmd="DELETE_MOVIE" Param="movie_4"/>
+			
+			<Action Cmd="PLAY_MOVIE" Param="101" Name="movie_101" IsBg="1" IsFullScreen="1"/>
+			<Action Cmd="DELETE_MOVIE" Param="movie_101"/>
+
+			<!--<Action Cmd="JUMP_TASK_UI" Param="到了这个全新的世界，小C似乎拥有了更加强大的力量，希望我们可以快些适应，快些找到救治公主的办法。"/>  -->
+			<Action Cmd="SET_BUFFER" Panel="3" Step="3"/>
+			<Action Cmd="GO_MAP" MapID="390" MapType="0"/>
+		</EnterMap>
+	</Step>
+	
+	<Step ID="3" TarMapID="390">
+		<EnterMap MapID="390">
+		    <Action Cmd="PLAY_MOVIE" Param="5" Name="movie_5" IsBg="1" IsFullScreen="1"/>			
+			<Action Cmd="SAY">
+				<Talk NpcID="10000" Face="惊讶" Msg="啊~~~~~~~~~~~~~~~~妖怪啊~~~~~~~~~~~~~~~~~~" Option="乐乐，冷静点~"/>
+				<Talk NpcID="10287" Face="正常" Msg="在这个世界里，遇到什么样的怪物都不奇怪啦，冷静点冷静点！" Option="C老师，接下来我们该怎么办？"/>
+				<Talk NpcID="10287" Face="正常" Msg="当然是开始战斗！！请加入到这个腥风血雨的世界吧！" Option="咦？和开始说的不一样啊，老师……"/>
+			</Action>
+			<Action Cmd="DELETE_MOVIE" Param="movie_5"/>
+			
+			<Action Cmd="PLAY_MOVIE" Param="200" Name="movie_200" IsBg="1" IsFullScreen="1"/>
+			<Action Cmd="DELETE_MOVIE" Param="movie_200"/>
+			
+			<!--<Action Cmd="JUMP_TASK_UI" Param="在小C的帮助下，那么恐怖的怪兽竟然也可以打败！！！我们摩尔一族真是太强大了……怎么感觉哪里不对？"/>  -->
+			<Action Cmd="SET_BUFFER" Panel="4" Step="4"/>
+			<Action Cmd="GO_MAP" MapID="390" MapType="0"/>
+		</EnterMap>
+	</Step>
+	
+	<Step ID="4" TarMapID="390">
+		<EnterMap MapID="390">
+		    <Action Cmd="SAY">
+				<Talk NpcID="10287" Face="开心" Msg="还不错哟！我看好你哟！" Option="多亏了C老师的鼎力相助~"/>
+				<Talk NpcID="10287" Face="开心" Msg="刚才是我用自己的力量分裂出来的模拟摩灵，真正的摩灵队伍要靠你自己一点点摸索，一点点组合，期待你的成功！" Option="C老师我好爱你！乐乐也可以一起战斗吗？"/>
+				<Talk NpcID="10287" Face="正常" Msg="可惜的很，乐乐的体质有些特殊，恐怕很难和摩灵同步进行战斗！以后要多多当心！" Option=""/>
+				<Talk NpcID="10000" Face="悲伤" Msg="不要这样吧……" option=""/>
+				<Talk NpcID="10287" Face="正常" Msg="好了，让我们看看，这个怪物能告诉我们什么……" Option=""/>
+			</Action>
+			
+			<Action Cmd="PLAY_MOVIE" Param="6" Name="movie_6" IsBg="1" IsFullScreen="1"/>			
+			<Action Cmd="SAY">
+				<Talk NpcID="10289" Face="悲伤" Msg="花啦啦，你们要知道什么？" Option=""/>
+				<Talk NpcID="10287" Face="正常" Msg="告诉我这块领地发生了什么？" Option=""/>
+				<Talk NpcID="10289" Face="悲伤" Msg="花啦啦，小妖不懂……" Option=""/>
+				<Talk NpcID="10288" Face="生气" Msg="不要耍花招！！" Option=""/>
+				<Talk NpcID="10289" Face="悲伤" Msg="花啦啦，花啦啦，我只是一只普通的小妖……" Option=""/>
+				<Talk NpcID="10288" Face="生气" Msg="你明明占用了小仙草的领地，你敢说你什么都不知道？" Option=""/>
+				<Talk NpcID="10289" Face="悲伤" Msg="花啦啦，大人，我们来的时候这里空无一人，我们不知道这里发生过什么？" Option=""/>
+				<Talk NpcID="10288" Face="生气" Msg="难道这里没有原住民了？"/>
+				<Talk NpcID="10289" Face="悲伤" Msg="大人，有一位，不过她好久好久都不说话了" Option=""/>
+			</Action>
+			<Action Cmd="DELETE_MOVIE" Param="movie_6"/>
+			
+			<Action Cmd="PLAY_MOVIE" Param="103" Name="movie_103" IsBg="1" IsFullScreen="1"/>
+			<Action Cmd="DELETE_MOVIE" Param="movie_103"/>
+			
+			<Action Cmd="SAY">
+				<Talk NpcID="10287" Face="正常" Msg="哎~要让禁言的摩灵开口说话，我们要做很多……" Option="我们要怎么做？"/>
+				<Talk NpcID="10287" Face="正常" Msg="花朵需要的阳光、土壤和水分，请先给到她……" Option=""/>
+			</Action>
+			
+			<!-- <Action Cmd="JUMP_TASK_UI" Param="不会说话的花之摩灵也许收到打击，相信她会告诉我们这片土地上发生的故事……"/> -->
+			<Action Cmd="SET_BUFFER" Panel="5" Step="5"/>
+			<Action Cmd="GO_MAP" MapID="390" MapType="0"/>
+		</EnterMap>
+	</Step>
+	<Step ID="5" TarMapID="390">
+		<EnterMap MapID="390">
+			<Action Cmd="PLAY_MOVIE" Param="201" Name="movie_201" IsBg="1" IsFullScreen="1"/>
+			<Action Cmd="DELETE_MOVIE" Param="movie_201"/>
+			
+			<Action Cmd="SAY">
+				<Talk NpcID="10287" Face="正常" Msg="做的非常好，后面我们要做的还有很多，请继续努力吧！" Option="啊？"/>
+				<Talk NpcID="10287" Face="开心" Msg="是的！后面还有好多要努力的，就看你们的了！" Option=""/>
+			</Action>
+			
+			<Action Cmd="PLAY_MOVIE" Param="104" Name="movie_104" IsBg="1" IsFullScreen="1"/>
+			<Action Cmd="DELETE_MOVIE" Param="movie_104"/>
+			
+			<Action Cmd="OVER"/>
+		</EnterMap>	
+	</Step>			
+</Tasks>
+

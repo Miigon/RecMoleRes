@@ -1,0 +1,15 @@
+﻿<Map>
+	<NpcList>
+<!-- 		<Npc ID="10308" Layer="topLevel" Name="小喵咪" Ex="0" Ey="0" Cmd="s" Param="100" /> -->
+	</NpcList>
+	
+	<Triggers>
+		<Trigger ResName="go_10" Layer="controlLevel" Ex="582" Ey="486" Cmd="alt_map" Param="10" Tips="进入开心农场"/>
+		<Trigger ResName="go_356" Layer="controlLevel" Ex="773" Ey="122" Cmd="alt_map" Param="356" Tips="进入浮冰岛海湾"/>
+	</Triggers>
+	 
+	<Talks>
+		<Talk ID="100" NpcID="10308" Face="正常" Msg="喵最喜欢小老鼠啦，萌萌哒~" Option="我发现你啦~  " Cmd="act" Param="overGame"/>
+	</Talks>
+</Map>
+

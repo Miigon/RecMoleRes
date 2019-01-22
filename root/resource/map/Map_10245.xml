@@ -1,0 +1,14 @@
+<Map>
+	<NpcList>
+		<Npc ID="10065" Layer="controlLevel" Name="小红帽" Ex="581" Ey="436" Cmd="s" Param="1" />
+	</NpcList>
+	
+	<Triggers>
+	</Triggers>
+	
+	<Talks>
+		<Talk ID="1" NpcID="10065" Face="正常" Msg="妈妈做了好多好吃的，我要赶紧送给外婆尝尝！" Option="你要去哪里呀！$下次再说" Cmd="s$none" Param="2$6" AddTaskOption="1" />
+		<Talk ID="2" NpcID="10065" Face="正常" Msg="我去给外婆送点心，不过今天外婆看上去好像和平常不太一样，很奇怪呢？" Option="你的外婆是大灰狼伪装的！$请猎人赶走大灰狼吧！" Cmd="s$none" Param="3$6" AddTaskOption="1" />
+		<Talk ID="3" NpcID="10065" Face="正常" Msg="我这就去找猎人" Option="听说丛林有一位很厉害的猎人，他的枪法非常准一定能打败大灰狼，这样森林里就安全了。" Cmd="none$none" Param="5$6" AddTaskOption="1" />
+	</Talks>
+</Map>

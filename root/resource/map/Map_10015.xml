@@ -1,0 +1,23 @@
+<Map>
+	<NpcList>
+		<Npc ID="10047" Layer="depthLevel" Name="洛克" Ex="725" Ey="260"  Cmd="s" Param="1" AddTaskOption="1" />
+	</NpcList>
+	
+	<Triggers>
+		<Trigger ResName="room_btn" Layer="controlLevel" Ex="196" Ey="328" Cmd="alt_map" Param="1" Tips="摩尔城堡" />
+		<Trigger ResName="underRoom_mask" Layer="controlLevel" Ex="202" Ey="357" Cmd="alt_map" Param="14" Tips="城堡地下" />
+		<Trigger ResName="soneRoom_btn" Layer="controlLevel" Ex="628" Ey="223" Cmd="alt_map" Param="16" Tips="城堡二楼" />
+	</Triggers>
+	
+	<Talks>
+		
+		<Talk ID="999" NpcID="10047" Face="正常" Msg="谢谢小摩尔！最近庄园的怪事挺多的，你们要小心点。" Option="好的" Cmd="act" Param="fatherDayOver" AddTaskOption="1"  />
+		
+		<Talk ID="1" NpcID="10047" Face="正常" Msg="我是洛克行政官，庄园里所有的小摩尔都要到我这里登记公民信息。公民管理处的一切事物都由我掌管。" Option="公民信息登记$没什么事" Cmd="act$none" Param="peopleResign$2"  AddTaskOption="1" />
+		
+		<Talk ID="10" NpcID="10047" Face="正常" Msg="哈哈~小摩尔别担心，我记得我还有一张多余的邀请函，可以送给你哦！"	 Option="哇~真的吗？" Cmd="s" Param="11" />
+		<Talk ID="11" NpcID="10047" Face="正常" Msg="当然！我找找看……（五分钟后）瞧我这记性，我不记得我放在哪儿了。{$username}，你能帮我找找吗？应该就在城堡大厅的某处。找到后它就归你咯！"	 Option="嗯，好呀，我试试看！" Cmd="act" Param="getInvitation" />
+		<Talk ID="12" NpcID="10047" Face="正常" Msg=""	 Option="" Cmd="s" Param="11" />
+	</Talks>
+</Map>
+

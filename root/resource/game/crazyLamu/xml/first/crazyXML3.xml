@@ -1,0 +1,49 @@
+<crazy  x="0" y="-350" maxX="1600" offsetY="360" initX="-450">
+  <floor dps="10">
+     <items x="1021.8" y="555" width="1963.6" height="10" angle="0" density="0" friction="0.5" restitution="0.3"/>
+  </floor>
+  <static>
+    <box/>
+    <other>
+      <items dps="10" density="0" friction="0.5" restitution="0.35">
+        <msg x="735" y="546"/>
+        <msg x="844" y="419"/>
+        <msg x="978" y="420"/>
+        <msg x="1101" y="548"/>
+      </items>
+    </other>
+  </static>
+  <barrier>
+    <box>
+      <items type="34" x="1399.9" y="472.9" width="66.2" height="14.3" angle="0" life="200" dps="8" density="1" friction="0.5" restitution="0.2" def = "15"/>
+      <items type="34" x="1374.1" y="516.1" width="66.2" height="14.3" angle="90" life="200" dps="8" density="1" friction="0.5" restitution="0.2" def = "15"/>
+      <items type="34" x="1428.1" y="515.8" width="66.2" height="14.3" angle="90" life="200" dps="8" density="1" friction="0.5" restitution="0.2" def = "15"/>
+      <items type="25" x="1398" y="447.7" width="66" height="31.3" angle="0" life="160" dps="4" density="1" friction="0.5" restitution="0.2" def = "10"/>
+      <items type="26" x="1397.95" y="423.9" width="138.2" height="15.4" angle="0" life="160" dps="5" density="1" friction="0.5" restitution="0.2" def = "6"/>
+      <items type="22" x="1397.25" y="407.5" width="32.2" height="15.3" angle="0" life="40" dps="1" density="1" friction="0.5" restitution="0.2" def = "6"/>
+    </box>
+    <circle>
+      <items type="43" x="908.6" y="389" width="59.35" height="59.3" angle="0" life="100000" dps="20" density="1" friction="0.5" restitution="0.1" def = "1000"/>
+      <items type="44" x="1397.6" y="370.3" width="58.85" height="58.8" angle="0" life="100000" dps="20" density="1" friction="0.5" restitution="0.1" def = "50"/>
+    </circle>
+    <octagon/>
+    <enemy>
+      <items type="1" x="1251.5" y="532.2" width="39.7" height="36.45" angle="0" life="10" dps="1" density="1" friction="0.5" restitution="0.1"/>
+      <items type="1" x="1202.55" y="531.1" width="39.7" height="36.45" angle="0" life="10" dps="1" density="1" friction="0.5" restitution="0.1"/>
+    </enemy>
+  </barrier>
+  <hero>
+    <lamu type="1" x="242.15" y="536.8" dps="10" power="0.25" upDps="0">
+      <items width="39.5" height="23.95" angle="0" density="1" friction="0.5" restitution="0.1"/>
+    </lamu>
+    <lamu type="1" x="197.1" y="537.6" dps="10" power="0.25" upDps="0">
+      <items width="39.5" height="23.95" angle="0" density="1" friction="0.5" restitution="0.1"/>
+    </lamu>
+    <lamu type="1" x="155.1" y="536.6" dps="10" power="0.25" upDps="0">
+      <items width="39.5" height="23.95" angle="0" density="1" friction="0.5" restitution="0.1"/>
+    </lamu>
+    <lamu type="1" x="115.2" y="536.8" dps="10" power="0.25" upDps="0">
+      <items width="39.5" height="23.95" angle="0" density="1" friction="0.5" restitution="0.1"/>
+    </lamu>
+  </hero>
+</crazy>

@@ -1,0 +1,23 @@
+﻿<Map>
+	<NpcList>
+		<Npc ID="10097" Layer="depthLevel" Name="龙大侠" Ex="696" Ey="346" Cmd="s" Param="431" Data="4"/>
+	</NpcList>
+	
+	<Triggers>
+		<Trigger ResName="getOff" Layer="controlLevel" Ex="684" Ey="325" Cmd="act" Param="getOff" Tips="下车" /> 
+	</Triggers>
+	
+	<Talks>
+		<Talk ID="1" NpcID="10097" Face="正常" Msg="红鼻子的朋友，多亏了你们， “龙王丸号”的排水总算疏通了！" Option=" 修水管是小事啦！" Cmd="s" Param="2" AddTaskOption="1" />
+		<Talk ID="2" NpcID="10097" Face="正常" Msg="额(X. X)……刚才老夫去检查了一下，我的宝贝机车头出故障了，得等我修好，才能再次启动！" Option="要我帮忙吗？我可修过飞船呢！" Cmd="s" Param="3" AddTaskOption="1" />
+		<Talk ID="3" NpcID="10097" Face="正常" Msg="老夫的宝贝，老夫自己修！你们年轻人也不用闲着，我这可少了不少机车零件吧，你们想办法帮我弄点来！" Option="机车零件？交通署那应该能搞到！" Cmd="act" Param="goGame4" AddTaskOption="1" />
+		
+		<Talk ID="4" NpcID="10097" Face="正常" Msg="为了迎接7月28日的夏日盛典，本车现免费接送游客。" Option="选择站点" Cmd="act" Param="Ride" AddTaskOption="1" />
+		
+		<Talk ID="11" NpcID="10097" Face="正常" Cmd="none" Param="1" AddTaskOption="1" Option="" Msg=""  />
+		
+		<Talk ID="431" NpcID="10097" Face="正常" Msg="为了迎接7月28日的夏日盛典，本车现免费接送游客。" Option="选择站点" Cmd="act" Param="Ride" AddTaskOption="1" />
+		<Talk ID="432" NpcID="10097" Face="正常" Msg="为了迎接7月28日的夏日盛典，本车现免费接送游客。" Option="龙大侠，辛苦你了！$选择站点" Cmd="s$act" Param="433$Ride" AddTaskOption="1" />
+		<Talk ID="433" NpcID="10097" Face="正常" Msg="呵呵，不辛苦，小摩尔，你要去海底乐园随时和我说，我一定将你安全送到目的地！" Option="好，谢谢龙大侠！" Cmd="act" Param="npcSwapPrize" AddTaskOption="1" Data="4"/>
+	</Talks>
+</Map>

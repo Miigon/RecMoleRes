@@ -1,0 +1,27 @@
+<Map>
+	<NpcList>
+		<Npc ID="10000" Layer="depthLevel" Name="摩乐乐" Ex="399" Ey="260" Cmd="s" Param="1" />
+	</NpcList>
+	
+	<Triggers>
+		<!--
+		<Trigger ResName="mermaid_mc" Layer="depthLevel" Ex="450" Ey="148" Cmd="p" Param="MermaidAndPrincePanel" Tips="美人鱼与王子的故事" /> 
+		-->
+	</Triggers>
+	
+	<Talks>
+		<Talk ID="1" NpcID="10000" Face="正常" Msg="你好！我是摩乐乐，刚从外面历练回来，我们能交个朋友吗？" Option="好呀！$还是算了呢！" Cmd="none$none" Param="none$none" AddTaskOption="1"/>
+		<Talk ID="121" NpcID="10000" Face="正常" Msg="中秋节快乐哈" Option="送你15个月饼" Cmd="act" Param="getMoonCakePrize" />
+		<Talk ID="122" NpcID="10000" Face="正常" Msg="嗯，谢谢你~这个就送给你了~" Option="你太客气了" Cmd="act" Param="getPrize" />
+		<Talk ID="123" NpcID="10000" Face="正常" Msg="不用这么客气，你已经送给过我月饼了" Option="嗯，好的" Cmd="none" Param="" />
+		
+		
+		<Talk ID="2" NpcID="10000" Face="正常" Msg="哇，是香喷喷的蛋挞！" Option="摩乐乐，看我给你带来了什么？" Cmd="s" Param="3" AddTaskOption="1" />
+		<Talk ID="3" NpcID="10000" Face="正常" Msg="嗯，太美味了，谢谢亲爱的小摩尔！" Option="嗯，这是我亲手制作的喔，快点尝尝吧！" Cmd="act" Param="task585Over" AddTaskOption="1" />
+		<Talk ID="4" NpcID="10000" Face="正常" Msg="很可惜小摩尔还不能请摩乐乐吃蛋挞哦！" Option="嗯!" Cmd="none" Param="none" AddTaskOption="1" />
+		<Talk ID="5" NpcID="10000" Face="正常" Msg="亲爱的小摩尔，找我什么事啊！" Option="摩乐乐，今天是我的生日，你能陪我一起过么" Cmd="s" Param="6"/>
+		<Talk ID="6" NpcID="10000" Face="正常" Msg="当然可以啦！" Option="太好了，现在就去" Cmd="alt_map" Param="203"/>
+		<Talk ID="101" NpcID="10000" Face="正常" Msg="我这里可是爱心测试最后一项啦。请听题：你说“对不起我错了”的频率多不多？" Option="很少。$没统计过，记不清了。$很多" Cmd="s$s$s" Param="102$102$102"/>
+		<Talk ID="102" NpcID="10000" Face="正常" Msg="对不起，我出的题太难了。我错了，我不该出这么难的题目。对不起我错了，都是我不对，我千不该万不该……" Option="乐乐，为什么要放弃治疗！" Cmd="act" Param="loveTestMap"/>
+	</Talks>
+</Map>

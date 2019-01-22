@@ -1,0 +1,27 @@
+<Map>
+	<NpcList>
+		<!--
+		<Npc ID="10002" Layer="controlLevel" Name="么么公主" Ex="358" Ey="460" Cmd="s" Param="1" />-->
+		<Npc ID="10100" Layer="controlLevel" Name="蒋诚信" Ex="197" Ey="227" Cmd="s" Param="2" />
+	</NpcList>
+	
+	<Triggers>
+		<Trigger ResName="go_10" Layer="buttonLevel" Ex="120" Ey="433" Cmd="alt_map" Param="10" Tips="开心农场" />
+		<Trigger ResName="go_28" Layer="buttonLevel" Ex="866" Ey="372" Cmd="alt_map" Param="28" Tips="拉姆学院" />
+		<Trigger ResName="go_85" Layer="buttonLevel" Ex="732" Ey="221" Cmd="alt_map" Param="85" Tips="交通署大厅" />
+	</Triggers>
+	
+	<Talks>
+		<!--
+		<Talk ID="1" NpcID="10015" Face="正常" Msg="Hi，你好啊。" Option="我很好" Cmd="none" Param="6" AddTaskOption="1" />
+		-->
+		<Talk ID="2" NpcID="10100" Face="正常" Msg="贝塔是全庄园最棒的司机！" Option="龙王丸号大现身" Cmd="s$act" Param="3" AddTaskOption="1" />
+		<Talk ID="3" NpcID="10100" Face="正常" Msg="是贝塔喊你过来的吧！我已经把东西打包好了！你开车送过去神秘湖码头吧！" Option="谢谢！我这就出发！" Cmd="act" Param="goGame4" AddTaskOption="1" />
+		
+		<Talk ID="99" NpcID="10100" Face="正常" Msg="" Option="" Cmd="none" Param="6" AddTaskOption="1" />
+		
+		<Talk ID="422" NpcID="10249" Face="开心" Msg="这~可不是我干的哦~~~~" Option="呃，我相信你了！" Cmd="act" Param="dandanAct" AddTaskOption="1"/>
+		<Talk ID="423" NpcID="10249" Face="开心" Msg="这~可不是我干的哦~~~~" Option="卖萌也没用！这次被我抓到了吧！" Cmd="act" Param="dandanAct" AddTaskOption="1"/>
+		
+	</Talks>
+</Map>

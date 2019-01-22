@@ -1,0 +1,31 @@
+<Map>
+	<NpcList>
+		<Npc ID="10059" Layer="controlLevel" Name="老脑袋" Ex="618" Ey="201" Cmd="s" Param="1" />
+		<Npc ID="10060" Layer="controlLevel" Name="土林长老" Ex="703" Ey="219" Cmd="s" Param="2" />
+	</NpcList>
+	
+	<Triggers>
+		<!--
+		<Trigger ResName="mermaid_mc" Layer="depthLevel" Ex="450" Ey="148" Cmd="p" Param="MermaidAndPrincePanel" Tips="美人鱼与王子的故事" /> 
+		-->
+	</Triggers>
+	
+	<Talks>
+		<Talk ID="1" NpcID="10059" Face="正常" Msg="我看不太清，你是谁？我的眼镜可能需要换一下了，土林长老那副眼镜可能也得换一副。" Option="查看训练成绩$森林训练规则$我有事，先走了！" Cmd="act$act$none" Param="turinPet_queryTrainResult$turinPet_openRuleUI$" AddTaskOption="1" />
+		
+		<Talk ID="2" NpcID="10060" Face="正常" Msg="我是土林长老！这片古老的森林训练场一直由我守护！你找我何事？" Option="我有事先走了$大长老的委托" Cmd="none$act" Param="1$selectSay" AddTaskOption="1" />
+		<Talk ID="3" NpcID="10060" Face="正常" Msg="我是土林长老！这片古老的森林训练场一直由我守护！你找我何事？" Option="是不是遇到过一个奇怪的年轻人？$地灵骑士$我有事先走了" Cmd="act$act$none" Param="moleKingStep60$hopeKnight$1" AddTaskOption="1" />
+		
+		<Talk ID="17" NpcID="10060" Face="正常" Option="谢谢你!" Cmd="act" Param="turingTaskOven" AddTaskOption="1" Msg="看来不服老不行呀，我这3张珍藏多年的卡牌就交给你了，相信森林骑士团有了你们这些新鲜的血液，一定会再现辉煌的。" />
+		<Talk ID="18" NpcID="10060" Face="正常" Msg="做的不错，给你地灵骑士资格证，加油哦~" Option="我知道了" Cmd="none" Param="1" AddTaskOption="1" />
+		<Talk ID="19" NpcID="10060" Face="正常" Msg="你还没有地灵原石，等你得到了地灵原石再来找我吧~" Option="我知道了" Cmd="none" Param="1" AddTaskOption="1" />
+		
+		<Talk ID="20" NpcID="10060" Face="正常" Msg="嗯，是啊！你怎么知道的？昨天的确有个奇怪的年轻人来过，非要和我下棋，被杀的片甲不留，灰溜溜的走了。" Option="那今天呢？" Cmd="s" Param="21" />
+		<Talk ID="21" NpcID="10060" Face="正常" Msg="本来我还想等他继续陪我下棋呢，可是今天不知为何没有来。" Option="那他有没有说过今天准备去哪？" Cmd="s" Param="22" />
+		<Talk ID="22" NpcID="10060" Face="正常" Msg="哦！对了，昨天他还问我哪里可以遇见美人鱼来着，我就告诉他海底冰泉广场的亲亲鱼池可以。" Option="哦？原来是这样！" Cmd="act" Param="moleKingStep61" />
+		
+		<Talk ID="100" NpcID="10060" Face="正常" Msg="这不是{$username}么，真是好久没见到你了呀。" Option="摩灵世界与庄园的通道开启了。这事您知道么。" Cmd="s" Param="101" />
+		<Talk ID="101" NpcID="10060" Face="正常" Msg=" 呵呵，摩灵世界的通道就在黑森林。我当然知道了。是不是那个叫泰尼的摩灵叫你来找我的？回去吧，告诉它我已经知道了。" Option="真厉害，什么都瞒不过您。" Cmd="act" Param="letterTaskOver" />
+		
+	</Talks>
+</Map>

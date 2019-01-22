@@ -1,0 +1,12 @@
+﻿<Map>
+	<NpcList>
+	
+	</NpcList>
+	
+	<Triggers>
+		<Trigger ResName="go_78" Layer="controlLevel" Ex="180" Ey="394" Cmd="alt_map" Param="78" Tips="摩尔大学大厅" />
+	</Triggers>
+	
+	<Talks>
+	</Talks>
+</Map>

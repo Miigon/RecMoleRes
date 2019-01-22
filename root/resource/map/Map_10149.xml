@@ -1,0 +1,43 @@
+<Map>
+	<NpcList>
+		<Npc ID="10058" Layer="depthLevel" Name="伊莲" Ex="503" Ey="340" Cmd="s" Param="100" />
+	</NpcList>
+	
+	<Triggers>
+		<!--
+		<Trigger ResName="mermaid_mc" Layer="depthLevel" Ex="450" Ey="148" Cmd="p" Param="MermaidAndPrincePanel" Tips="美人鱼与王子的故事" /> 
+		-->
+	</Triggers>
+	
+	<Talks>
+		<Talk ID="100" NpcID="10058" Face="正常" Msg="你好！我是伊莲，我是摩摩商会的会长伊莲哦！" Option="我想领取摩摩土地卡！$餐厅的营业时间什么?$什么是摩摩土地卡？$我有事情，先走了" Cmd="act$s$s$none" Param="eliane_cvipTalk$9$8$" AddTaskOption="1" />
+		
+		<Talk ID="1" NpcID="10058" Face="正常" Msg="每一份摩摩土地卡需要收取500摩尔豆的工本费，你确定要领取么？" Option="我确定$我再想想！" Cmd="act$none" Param="eliane_getSHZ$none" AddTaskOption="1" />
+		<!-- 
+		<Talk ID="1" NpcID="10058" Face="正常" Msg="你好！我是伊莲，我是摩摩商会的会长伊莲哦！" Option="我想领取摩摩土地卡！$餐厅的营业时间什么?$是摩摩土地卡？$我有事情，先走了" Cmd="s$s$none$none" Param="2$3" AddTaskOption="1" />
+		<Talk ID="2" NpcID="10058" Face="正常" Msg="每一份摩摩土地卡需要收取500摩尔豆的工本费，你确定要领取么？" Option="我确定$我再想想！" Cmd="none" Param="none" AddTaskOption="1" />
+		<Talk ID="3" NpcID="10058" Face="正常" Msg="小拉姆非常喜欢吃美味的食物，他们随时可能去你的餐厅吃饭哦！多准备一些可口的食物招待这群小可爱吧！" Option="恩，我知道了！" Cmd="null" Param="none" AddTaskOption="1" />
+		 -->
+		<Talk ID="4" NpcID="10058" Face="正常" Msg="啊，很抱歉，现在没有多余的摩摩土地卡了，每天中午12点或者晚上19点时侯我都会发放新的土地卡哦。" Option="知道啦！" Cmd="none" Param="none" />
+		<Talk ID="5" NpcID="10058" Face="正常" Msg="唉？你的百宝箱中好像已经有一张摩摩土地卡了呦，不要贪心哦。" Option="知道啦！" Cmd="none" Param="none" />
+		<Talk ID="6" NpcID="10058" Face="正常" Msg="好棒哟！现在你就可以去建设署找汤米帮你建设餐厅啦！经营餐厅可不是件容易的事情，要加油哦！" Option="马上过去$知道啦！" Cmd="gm$none" Param="143$none" />
+		<Talk ID="7" NpcID="10058" Face="正常" Msg="你没有足够的钱哦，不够换取摩摩土地卡了呦!" Option="知道啦！" Cmd="none" Param="none" />
+		<Talk ID="8" NpcID="10058" Face="正常" Msg="只有拥有了摩摩土地卡，才能去找汤米的建筑队，在米勒大道上修建自己的店铺。" Option="马上过去$知道啦！" Cmd="gm$none" Param="143$none" />
+		<Talk ID="9" NpcID="10058" Face="正常" Msg="小拉姆非常喜欢吃美味的食物，他们随时可能去你的餐厅吃饭哦！多准备一些可口的食物招待这群小可爱吧！" Option="我知道了！" Cmd="none" Param="none" />
+		
+		<Talk ID="20" NpcID="10058" Face="正常" Msg="大卫给我一批拉姆弹珠，你们每天可以来我这里领取5个，不过每天只能领取一次哦。" Option="我要领取" Cmd="act" Param="elaine_overJob" />
+		
+		<Talk ID="21" NpcID="10058" Face="正常" Msg="" Option="" Cmd="none" Param="none" />
+		<Talk ID="22" NpcID="10058" Face="正常" Msg="" Option="" Cmd="none" Param="none" />
+		<Talk ID="23" NpcID="10058" Face="正常" Msg="" Option="" Cmd="none" Param="none" />
+		<Talk ID="24" NpcID="10058" Face="正常" Msg="" Option="" Cmd="none" Param="none" />
+		<Talk ID="25" NpcID="10058" Face="正常" Msg="" Option="" Cmd="none" Param="none" />
+		
+		<Talk ID="30" NpcID="10058" Face="正常" Msg="" Option="" Cmd="none" Param="none" />
+		<Talk ID="31" NpcID="10058" Face="正常" Msg="" Option="" Cmd="none" Param="none" />
+		<Talk ID="32" NpcID="10058" Face="正常" Msg="" Option="" Cmd="none" Param="none" />
+		<Talk ID="33" NpcID="10058" Face="正常" Msg="" Option="" Cmd="none" Param="none" />
+		<Talk ID="34" NpcID="10058" Face="正常" Msg="" Option="" Cmd="none" Param="none" />
+		
+	</Talks>
+</Map>

@@ -1,0 +1,11 @@
+<Map>
+	 <NpcList>
+	</NpcList>
+	<Triggers>
+		<Trigger ResName="go_383" Layer="depthLevel" Ex="100" Ey="407" Cmd="alt_map" Param="383" Tips="月灵之森"/>
+		<Trigger ResName="go_384" Layer="depthLevel" Ex="616" Ey="253" Cmd="alt_map" Param="384" Tips="国家花园"/>
+	</Triggers>
+
+	<Talks>
+	</Talks>
+</Map>

@@ -1,0 +1,32 @@
+<Tasks ID="0" Name="我要成为蘑菇向导" >
+	<Step ID="1" >
+		<NPC ID="10037" Option="我要成为蘑菇向导" >
+			<Action Cmd="ACT_EVENT" Param="NPCOldJob" /><!-- 抛事件 -->
+		</NPC>
+		
+		<EnterMap MapID="100000001" >		<!-- 没开始任务 -->							
+			<Action Cmd="SAY" >
+				<Talk NpcID="10037" Face="正常" Msg="有兴趣成为一个乐于助人的向导吗？你可以点击右上角SMC徽章来获取就职任务。" Option="好的，我这就去！"/>
+			</Action>
+		</EnterMap>
+		<EnterMap MapID="100000002" >								<!-- 未完成任务 -->
+				<Action Cmd="SAY" >
+					<Talk NpcID="10037" Face="正常" Msg="嘿，要找齐四盘磁带，同时魅力值达到20以上才能成为向导哦！庄园很多小游戏都能增加魅力值！" Option="好，我再试试看！" />
+				</Action>
+		</EnterMap>
+		
+		<EnterMap MapID="100000003" >									  <!-- 已完成任务 -->
+			<Action Cmd="SAY" >
+				<Talk NpcID="10037" Face="正常" Msg="恭喜！你已经成为了一名向导。作为奖品你获得向导四件套。" Option="谢谢杰西！" />
+			</Action>
+			<Action Cmd="ACT_EVENT" Param="OVERNPCOldJob" /><!-- 抛事件 -->
+		</EnterMap>
+		<EnterMap MapID="100000004" >									  <!-- 已完成任务 -->
+			<Action Cmd="SAY" >
+				<Talk NpcID="10037" Face="正常" Msg="热心助人是每个向导的职责，更多向导任务你可以点击右上角SMC徽章获取。" Option="好的，我知道了！" />
+			</Action>
+		</EnterMap>
+		
+	</Step>
+						
+</Tasks>

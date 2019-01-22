@@ -1,0 +1,25 @@
+<Map>
+	<NpcList>
+		<Npc ID="10032" Layer="depthLevel" Name="吉娜" Ex="487" Ey="410" Cmd="s" Param="1" />
+		<Npc ID="10071" Layer="depthLevel" Name="小小亚撒" Ex="650" Ey="300" Cmd="s" Param="10" />
+	</NpcList>
+	
+	<Triggers>
+	</Triggers>
+	
+	<Talks>
+		<Talk ID="1" NpcID="10032" Face="正常" Msg="看看我穿的漂亮衣服，就知道我的眼光不会差，我挑选的东西可都是精品哦！悄悄告诉你，我的礼包里还有更好的宝贝！你想看看我的礼包吗？" Option="购买神力天使$兑换神奇天使$如何购买宝石卡" Cmd="act$act$s" Param="gina_Buy$gina_Swap$2" AddTaskOption="1" />
+		<Talk ID="2" NpcID="10032" Face="正常" Msg="这次我在黑森林发现了一种神奇的宝石卡，它可以把摩摩怪从卡牌上变成真正的神奇天使呢！" Option="好神奇的宝石卡。" Cmd="s" Param="3" AddTaskOption="1" />
+		<Talk ID="3" NpcID="10032" Face="正常" Msg="对呀，我也是意外发现的，所以我在收集更多的宝石卡，哈哈。你有宝石卡吗？可以给我，我会送你神奇的天使哟！" Option="哪里可以获得宝石卡呢？$兑换神奇天使" Cmd="s$act" Param="4$gina_Swap" AddTaskOption="1" />
+		<Talk ID="4" NpcID="10032" Face="正常" Msg="玩摩摩怪大作战就有机会得到宝石卡哟！期待你的表现哟！" Option="好的，我这就去！" Cmd="none" Param="none" AddTaskOption="1" />
+		
+		<Talk ID="10" NpcID="10071" Face="正常" Msg="我是亚撒长老的拉姆小小亚撒，我肩负着保卫摩尔庄园的使命，但是我的力量有限，希望更多的小摩尔和我共同保卫摩尔庄园。" Option="参加战斗！$我要加入！" Cmd="act$s" Param="saya358_JoinFight$11" AddTaskOption="1" />
+		<Talk ID="11" NpcID="10071" Face="正常" Msg="为了抵御黑暗势力的侵袭，为了保卫家园，我们要团结一致共同战斗。你愿意加入我们，保卫摩尔庄园的和平吗？" Option="我当然愿意啦！" Cmd="s" Param="12" />
+		<Talk ID="12" NpcID="10071" Face="正常" Msg="要成为一名优秀的战士，是需要过五关斩六将的。只有勇敢的小摩尔才能够驱除外敌哦！" Option="我最勇敢的！" Cmd="s" Param="13" />
+		<Talk ID="13" NpcID="10071" Face="正常" Msg="想通过摩摩怪大作战成为高级的摩尔斗士，就让我们勇敢的挑战一回！" Option="我准备好了！" Cmd="act" Param="saya358_ShowAngelFightDemo" />
+		
+		<Talk ID="6" NpcID="10071" Face="正常" Msg="哈哈~看来你天资聪明！若坚持训练，假以时日，必定大有成就！" Option="恩，我会努力的。" Cmd="s" Param="21" />
+		<Talk ID="21" NpcID="10071" Face="正常" Msg="从今天开始你要经常来训练场进行摩摩怪大作战的训练。只有不断提高自身的等级才能挑战越来越高的怪物，才能成为最强的摩尔斗士。" Option="恩，我会经常来训练的。" Cmd="none" Param="none" />
+		<Talk ID="22" NpcID="10071" Face="正常" Msg="" Option="" Cmd="none" Param="none" />
+	</Talks>
+</Map>

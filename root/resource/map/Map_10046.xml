@@ -1,0 +1,15 @@
+<Map>
+	<NpcList>
+		<Npc ID="10037" Layer="depthLevel" Name="杰西" Ex="730" Ey="300" Cmd="s" Param="1"  AddTaskOption="1" />
+	</NpcList>
+	
+	<Triggers>
+	
+	</Triggers>
+	
+	<Talks>
+		<Talk ID="1" NpcID="10037" Face="正常" Msg="哈哈，我是杰西，想成为爱心向导的小摩尔们，可以找我报名哟！每个向导都会竭尽全力帮助每一位需要帮助的小摩尔！" Option="谢谢，我先走啦!" Cmd="none" Param="1" AddTaskOption="1" />
+		
+		<Talk ID="2" NpcID="10037" Face="正常" Msg="恭喜你成为优秀的超级蘑菇向导，这是送你的超级蘑菇向导装。快点击菜单栏中的“向导行动”，去进行巡逻，并监督不文明的小摩尔吧！" Option="恩恩，我一定每天来巡逻！" Cmd="none" Param="1" AddTaskOption="1" />
+	</Talks>
+</Map>

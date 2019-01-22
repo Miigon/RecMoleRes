@@ -1,0 +1,31 @@
+<Map>
+	<NpcList>
+	 
+		<Npc ID="10050" Layer="depthLevel" Name="尤尤" Ex="360" Ey="360" Cmd="s" Param="1" />
+		
+	</NpcList>
+	
+	<Triggers>
+		<!--
+		<Trigger ResName="mermaid_mc" Layer="depthLevel" Ex="450" Ey="148" Cmd="p" Param="MermaidAndPrincePanel" Tips="美人鱼与王子的故事" /> 
+		-->
+	</Triggers>
+	
+	<Talks>
+	
+		<Talk ID="1" NpcID="10050" Face="正常" Msg="{$username}，见到你真是太高兴了，我有点不好意思直接说出口，可是我真的非常非常高兴见到你！" Option="嘻嘻，不给糖就捣乱！" Cmd="s" Param="3" />
+       
+        <Talk ID="3" NpcID="10050" Face="正常" Msg="啊，给，给~~我这小小的牧场，可经不起折腾呢，一会儿小动物们要被吓跑啦" Option="我有那么恐怖么o(╯□╰)o" Cmd="s" Param="4" />
+	    <Talk ID="4" NpcID="10050" Face="正常" Msg="哈哈，跟你开玩笑的呢！来，送你一些糖果，愿你永远像我的小动物那样快乐！" Option="谢谢尤尤^_^" Cmd="act$none" Param="onGetCandy" />
+	    
+	    <Talk ID="10" NpcID="10050" Face="正常" Msg="哈哈，跟你开玩笑的呢！来，送你一些糖果，愿你永远像我的小动物那样快乐！" Option="谢谢尤尤^_^" Cmd="act$none" Param="onGetCandy" />
+	    
+	    <Talk ID="30" NpcID="10050" Face="正常" Msg="耶，周年庆邀请函，我好长时间没参加舞会了，这次一定要好好跳舞。" Option="真期待你的舞蹈。" Cmd="s" Param="31" />
+		<Talk ID="31" NpcID="10050" Face="正常" Msg="嘿嘿，不过牧场有好多事情呀，我都没时间练舞啦！你能帮帮我吗？(通关阳光搬运工第一关)" Option="当然愿意。" Cmd="act" Param="beginGame"/>
+		<Talk ID="32" NpcID="10050" Face="正常" Msg="咦！这个邀请函好像不是送给我的，呜呜呜~真伤心！" Option="不好意思啦，我弄错了o(╯□╰)o" Cmd="null" Param="none" />
+		<Talk ID="101" NpcID="10050" Face="正常" Msg="你是一个尊重各种游戏规则，并遵守它们的人吗？" Option="看情况吧。$对。$不是这样的。" Cmd="s$s$s" Param="102$102$102" />
+		<Talk ID="102" NpcID="10050" Face="正常" Msg="其实养动物和做游戏一样。每个小动物都有自己的喜好，如果一定要反着来，小动物就很有可能生病甚至死亡。摩乐乐就是个对小动物很有爱心的孩子呢。" Option="我想我明白了，谢谢指点。" Cmd="act" Param="loveTestMap" />
+	</Talks>
+</Map>
+
+

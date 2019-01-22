@@ -1,0 +1,43 @@
+<Map>
+	<NpcList>
+		<Npc ID="10002" Layer="depthLevel" Name="么么公主" Ex="544" Ey="333"  Cmd="s" Param="1" AddTaskOption="1" />
+		<Npc ID="10057" Layer="depthLevel" Name="玛丽" Ex="240" Ey="360" Cmd="s" Param="2" />
+	</NpcList>
+	
+	<Triggers>
+		<Trigger ResName="go_108" Layer="controlLevel" Ex="213" Ey="502" Cmd="alt_map" Param="108" Tips="长廊" />
+		<Trigger ResName="go_229" Layer="depthLevel" Ex="351" Ey="243" Cmd="act" Param="Enter229" Tips="超级拉姆俱乐部" />
+		<Trigger ResName="go_110" Layer="depthLevel" Ex="666" Ey="263" Cmd="alt_map" Param="110" Tips="么么的卧室" />
+		<Trigger ResName="go_111" Layer="depthLevel" Ex="830" Ey="260" Cmd="alt_map" Param="111" Tips="么么的密室" />
+		<Trigger ResName="weilaixing_mc" Layer="depthLevel" Ex="532" Ey="364" Cmd="act" Param="task606" Tips="未来星" />
+	</Triggers>
+	
+	<Talks>
+		<Talk ID="121" NpcID="10224" Face="正常" Msg="中秋节快乐，嘻嘻" Option="送你25个月饼" Cmd="act" Param="getMoonCakePrize" AddTaskOption="1" />
+		<Talk ID="122" NpcID="10224" Face="正常" Msg="谢谢咯，我很高兴，那作为回礼，这个就送给你了，嘻嘻" Option="你太客气了" Cmd="act" Param="getPrize" AddTaskOption="1" />
+		<Talk ID="123" NpcID="10224" Face="正常" Msg="不用这么客气，你已经送给过我月饼了" Option="嗯，好的" Cmd="none" Param="" AddTaskOption="1" />
+	
+		<Talk ID="1" NpcID="10002" Face="正常" Msg="咦，{$username}，很高兴见到你！" Option="我也很高兴见到你。" Cmd="none" Param="null" AddTaskOption="1" />
+		
+		<Talk ID="2" NpcID="10057" Face="正常" Msg="你是么么公主的朋友吗？" Option="当然是！" Cmd="none" Param="" AddTaskOption="1" />
+		<Talk ID="3" NpcID="10002" Face="正常" Msg="首届驯兽师大赛已经正式闭幕啦。这次大赛中小摩尔优异的表现，所以么么要送给小摩尔最棒的奖励~！" Option="谢谢么么公主。" Cmd="act" Param="getTrainReward" AddTaskOption="1" />
+        
+        <Talk ID="100" NpcID="10002" Face="正常" Msg="咦，{$username}，很高兴见到你！" Option="祝公主生日快乐！$祝公主永远都美丽！$祝公主开心每一天！" Cmd="s$s$s" Param="101$102$103"  />
+        <Talk ID="101" NpcID="10002" Face="正常" Msg="{$username}，谢谢你！有你们这群好朋友陪么么过生日，么么觉得好幸福……" Option="公主不客气(*^__^*) " Cmd="act" Param="getVip"  />
+        <Talk ID="102" NpcID="10002" Face="正常" Msg="谢谢{$username}，你也一样！" Option="也谢谢公主O(∩_∩)O" Cmd="act" Param="getVip"  />
+        <Talk ID="103" NpcID="10002" Face="正常" Msg="能生活在庄园这样一个幸福的大家庭，每一天都沐浴在温暖的阳光下，么么觉得，真的好开心！" Option="嘻嘻，我也觉得！" Cmd="act" Param="getVip"  />
+	
+		<Talk ID="105" NpcID="10002" Face="正常" Msg="{$username}，今天的颁奖典礼，你要记得来参加哦！" Option="么么公主亲自主持，我肯定到！" Cmd="s" Param="106"  />
+		<Talk ID="106" NpcID="10183" Face="正常" Msg="这就是么么公主！！！哇~~~果然是名副其实最美丽的公主。瞧着气质，这打扮……高贵又可爱，太萌啦！！！我输的心服口服！！！" Option="咦~~~刚刚还一副不服气的样子，怎么变得这么快啊？？？" Cmd="s" Param="107"  />
+		<Talk ID="107" NpcID="10002" Face="正常" Msg="(*^__^*) 嘻嘻，这是你的新天使宝宝吗？嘴巴好甜，真可爱！颁奖典礼别忘了带上它一起哦！" Option="么么公主都亲自邀请了，我一定把它带上！" Cmd="act" Param="momoTalkOver"  />
+		
+		<Talk ID="108" NpcID="10002" Face="正常" Msg="亲爱的小摩尔，你是来帮忙寻找我的项链的吗？" Option="是的" Cmd="s" Param="109"  />
+		<Talk ID="109" NpcID="10002" Face="正常" Msg="太好了，那我要怎么配合你呢？" Option="恩，请详细描述一下整个过程好吗？" Cmd="s" Param="110"  />
+		<Talk ID="110" NpcID="10002" Face="正常" Msg="好的。今天上午我突然头部又晕又痛，之后就睡过去了，等我醒来发现已经睡过了一个小时，项链也就不见了。" Option="好的，我大概了解了整个过程，请允许我检查下，看看有没有什么线索。" Cmd="act" Param="kfcnackTwo"  />
+		<Talk ID="111" NpcID="10002" Face="正常" Msg="寻找项链哦 " Option="好的" Cmd="alt_map" Param="9"  />
+		<Talk ID="112" NpcID="10002" Face="正常" Msg="草、阳光、动物，不就是阳光牧场嘛！！！ " Option="现在就去看看！" Cmd="alt_map" Param="9"  />
+		
+		
+		<Talk ID="104" NpcID="10002" Face="正常" Msg="" Option="" Cmd="s" Param=""  />
+	</Talks>
+</Map>

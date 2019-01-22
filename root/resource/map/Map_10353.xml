@@ -1,0 +1,18 @@
+<Map>
+	<NpcList>
+	</NpcList>
+	
+	<Triggers>
+	</Triggers>
+	
+	<Talks>
+		<Talk ID="1" NpcID="10234" Face="正常" Msg="站住！说你呢！" Option="老摩尔王的礼物$我想来帮忙！$没什么事" Cmd="act$act$none" Param="step2Talk$helpEvent$0" />
+		<Talk ID="2" NpcID="10234" Face="正常" Msg="你说你要找尤瑞克？你们是尤瑞克的什么人？" Option="我们是他的朋友" Cmd="s" Param="3" />
+		<Talk ID="3" NpcID="10234" Face="正常" Msg="有朋友？真奇怪，他现在正在遗迹大厅那边站岗呢！" Option="遗迹大厅怎么去？" Cmd="s" Param="4" />
+		<Talk ID="4" NpcID="10234" Face="正常" Msg="那边啊？先要去到古树，然后向古树投掷10次水弹就能进去了。" Option="好的，谢谢！" Cmd="act" Param="moleKingStep3" />
+		
+		<Talk ID="5" NpcID="10234" Face="正常" Msg="帮忙？嗯！对了，我们最近刚打败黑龙，又累又饿，大家都好想饱餐一顿，给我带2只鸭子，1只红猪，5个磷虾来。" Option="这，我去去就来。$算了吧！" Cmd="s$none" Param="6$0" />
+		<Talk ID="6" NpcID="10234" Face="正常" Msg="好了吗？" Option="好了！$稍等" Cmd="act$none" Param="helpEventTask0$0" />
+		<Talk ID="11" NpcID="10234" Face="正常" Msg="哎呀，太感谢你了，这个就给你吧！明天继续来哦！" Option="不客气" Cmd="act" Param="helpTask0Over" />
+	</Talks>
+</Map>

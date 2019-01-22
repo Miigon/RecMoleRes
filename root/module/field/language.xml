@@ -1,0 +1,264 @@
+<taomee>
+	<language>
+		<!-- 常态 -->
+		<topic flag="0">
+			<common>
+				<sentence level="0" detail="听说么么公主要过生日了，有蛋糕吃吗？"/>
+				<sentence level="0" detail="听说拉姆又学会新技能啦！？"/>
+				<sentence level="0" detail="小主人要好好学习，有空来看看我们哦！"/>
+				<sentence level="0" detail="如果有个看家狗，天天照顾我们，也许我们不会逃跑哦！"/>
+				<sentence level="0" detail="建筑师造家具啦！你知道吗？"/>
+				<sentence level="1" detail="吃饱喝好，快快长大"/>
+				<sentence level="1" detail="春意浓浓，游兴高涨！"/>
+				<sentence level="1" detail="主人，要是你能在家里开餐厅，我们就能吃饱了吧！"/>
+				<sentence level="1" detail="建筑师要能给我们造个窝就好了"/>
+				<sentence level="2" detail="cold~"/>
+				<sentence level="2" detail="么么公主过生日收礼物，我也想过生日！"/>
+				<sentence level="2" detail="我也想去参加派对！"/>
+				<sentence level="2" detail="我们要健健康康的生活在庄园里。"/>
+			</common>
+			<animal id="1270001">
+				<sentence level="1" detail="猪你的鼻子有两个孔~~"/>
+				<sentence level="1" detail="小红猪，肥嘟嘟"/>
+				<sentence level="1" detail="哪一天，猪也能去做菜么？"/>
+				<sentence level="1" detail="人家都说猪是这个世界最聪明的动物"/>
+				<sentence level="2" detail="pig？"/>
+			</animal>
+			<animal id="1270002">
+				<sentence level="1" detail="嘎嘎嘎~"/>
+				<sentence level="1" detail="我是丑小鸭，要变白天鹅"/>
+				<sentence level="1" detail="小黄鸭，嘎嘎嘎！"/>
+			</animal>
+			<animal id="1270005">
+				<sentence level="1" detail="弹弹跳，跳高高"/>
+				<sentence level="1" detail="黑森林"/>
+			</animal>
+			<animal id="1270006">
+				<sentence level="1" detail="咩~"/>
+				<sentence level="1" detail="我只产羊毛"/>
+				<sentence level="1" detail="我身上的羊毛，可以帮主人做超拉战袍哦！"/>
+			</animal>
+			<animal id="1270007">
+				<sentence level="1" detail="咩~"/>
+				<sentence level="1" detail="好想出去溜溜"/>
+				<sentence level="1" detail="我身上的羊毛，可以帮主人做超拉战袍哦！"/>
+			</animal>
+			<animal id="1270015">
+				<sentence level="1" detail="小白兔，白又白"/>
+				<sentence level="1" detail="我是红眼睛，可我很健康"/>
+			</animal>
+			<animal id="1270016">
+				<sentence level="1" detail="大家都说我帅"/>
+				<sentence level="1" detail="我是不是帅得太过分了？"/>
+			</animal>
+			<animal id="1270017">
+				<sentence level="1" detail="肥不是我的错"/>
+				<sentence level="1" detail="又肥又花，肥肥花兔"/>
+			</animal>
+			<animal id="1270019">
+				<sentence level="1" detail="我讨厌感恩节"/>
+				<sentence level="1" detail="火鸡怎么飞?"/>
+				<sentence level="2" detail="好好照顾我，才会生小火鸡"/>
+				<sentence level="2" detail="我喜欢新年，却讨厌感恩节"/>
+			</animal>
+			<animal id="1270020">
+				<sentence level="1" detail="我讨厌感恩节"/>
+				<sentence level="1" detail="帮我找只母火鸡作伴吧?"/>
+				<sentence level="2" detail="我喜欢新年，却讨厌感恩节"/>
+			</animal>
+			<animal id="1270026">
+				<sentence level="1" detail="我的老家在虫虫谷"/>
+			</animal>
+			<animal id="1270027">
+				<sentence level="1" detail="只有超级拉姆才能抓到我！"/>
+			</animal>
+			<animal id="1270028">
+				<sentence level="0" detail="想念黑森林"/>
+				<sentence level="1" detail="我想飞得更高"/>
+				<sentence level="1" detail="有一天，我一定能展翅高飞"/>
+				<sentence level="1" detail="说我是加大版的火鸡？造谣！"/>
+				<sentence level="2" detail="fly"/>
+			</animal>
+			<animal id="1270036">
+				<sentence level="1" detail="我来自圣诞城"/>
+				<sentence level="1" detail="你见过圣诞老人么?"/>
+			</animal>
+			<animal id="1270037">
+				<sentence level="1" detail="虫虫谷里有同类"/>
+				<sentence level="1" detail="松鼠和老鼠不是近亲"/>
+			</animal>
+		</topic>
+		<!-- 饥饿 -->
+		<topic flag="1" >
+			<common>
+				<sentence level="0" detail="饿晕了啦"/>
+				<sentence level="0" detail="你想虐待动物么"/>
+				<sentence level="0" detail="真没吃的？"/>
+				<sentence level="0" detail="呜呜~~饿"/>
+				<sentence level="1" detail="饿的前胸贴后背了"/>
+				<sentence level="1" detail="hungry"/>
+			</common>
+			<animal id="1270001">
+				<sentence level="1" detail="想吃胡萝卜"/>
+				<sentence level="1" detail="我没肉，只有排骨"/>
+			</animal>
+			<animal id="1270002">
+				<sentence level="0" detail="赏个胡萝卜吃吃吧"/>
+			</animal>
+			<animal id="1270005">
+				<sentence level="0" detail="毛豆，毛毛豆"/>
+				<sentence level="0" detail="再饿，就瘦趴下了"/>
+			</animal>
+			<animal id="1270006">
+				<sentence level="1" detail="羊羊羊，饿饿饿"/>
+			</animal>
+			<animal id="1270015">
+				<sentence level="0" detail="红萝卜，白萝卜"/>
+			</animal>
+			<animal id="1270016">
+				<sentence level="0" detail="萝卜，给一只萝卜吧"/>
+			</animal>
+			<animal id="1270017">
+				<sentence level="0" detail="萝卜，给一只萝卜吧"/>
+			</animal>
+			<animal id="1270019">
+				<sentence level="0" detail="精致鸡饲料~"/>
+			</animal>
+			<animal id="1270020">
+				<sentence level="0" detail="精致鸡饲料"/>
+				<sentence level="0" detail="饿呀，去R4那加工点饲料给我吧！"/>
+			</animal>
+			<animal id="1270026">
+				<sentence level="0" detail="虫虫果汁，好像很美味哦"/>
+				<sentence level="0" detail="快拿点苹果加工出虫虫果汁！"/>
+			</animal>
+			<animal id="1270027">
+				<sentence level="0" detail="好想吃点什么"/>
+			</animal>
+			<animal id="1270028 ">
+				<sentence level="0" detail="我的毛毛豆在哪里"/>
+				<sentence level="1" detail="再饿我就变火鸡了"/>
+			</animal>
+			<animal id="1270036">
+				<sentence level="1" detail="咱们叫萤火草外送吧"/>
+			</animal>
+			<animal id="1270037">
+				<sentence level="1" detail="玉米，我要玉米"/>
+			</animal>
+		</topic>
+		<!-- 口渴 -->
+		<topic flag="2" >
+			<common>
+				<sentence level="1" detail="没水啦，主人在哪里"/>
+				<sentence level="1" detail="渴死啦，上壶水吧"/>
+			</common>
+		</topic>
+		<!-- 饥渴 -->
+		<topic flag="3">
+			<common>
+				<sentence level="0" detail="饿~渴~"/>
+				<sentence level="0" detail="虐待动物，没有吃喝"/>
+				<sentence level="0" detail="又饿又渴，还不如去野餐呢"/>
+				<sentence level="0" detail="什么时候开饭"/>
+				<sentence level="1" detail="你吃大鱼大肉，我却饿瘪肚皮！"/>
+				<sentence level="1" detail="我强烈要求改善伙食，好好照顾我们哦！"/>
+				<sentence level="1" detail="抗议！别让我们饿肚皮了！"/>
+				<sentence level="1" detail="再不给我吃，我就去保护小动物协会抗议！"/>
+				<sentence level="1" detail="饿！渴！作为动物我表示压力很大！"/>
+			</common>
+			<animal id="1270001">
+				<sentence level="1" detail="梦想中的胡萝卜"/>
+				<sentence level="1" detail="我现在只有排骨，减肥过度了"/>
+			</animal>
+			<animal id="1270002">
+				<sentence level="0" detail="赏个胡萝卜吃吃吧"/>
+			</animal>
+			<animal id="1270005">
+				<sentence level="0" detail="毛豆，毛毛豆"/>
+				<sentence level="0" detail="再饿，就蹦不动了"/>
+			</animal>
+			<animal id="1270006">
+				<sentence level="1" detail="羊羊羊，饿饿饿"/>
+			</animal>
+			<animal id="1270015">
+				<sentence level="0" detail="红萝卜，白萝卜"/>
+			</animal>
+			<animal id="1270016">
+				<sentence level="0" detail="萝卜，我要一只萝卜"/>
+			</animal>
+			<animal id="1270017">
+				<sentence level="0" detail="萝卜，我要一只萝卜"/>
+			</animal>
+			<animal id="1270019">
+				<sentence level="0" detail="渴望吃喝~"/>
+			</animal>
+			<animal id="1270020">
+				<sentence level="0" detail="精致鸡饲料"/>
+				<sentence level="0" detail="饿饿，去R4那加工点饲料给我吧！"/>
+			</animal>
+			<animal id="1270026">
+				<sentence level="0" detail="虫虫果汁，好像很美味哦"/>
+				<sentence level="0" detail="快拿点苹果加工出虫虫果汁！"/>
+			</animal>
+			<animal id="1270027">
+				<sentence level="0" detail="好想吃点什么"/>
+			</animal>
+			<animal id="1270028 ">
+				<sentence level="0" detail="我的毛毛豆在哪里"/>
+				<sentence level="1" detail="饿的我要变火鸡了"/>
+			</animal>
+			<animal id="1270036">
+				<sentence level="1" detail="咱们出去吃点萤火草吧"/>
+			</animal>
+			<animal id="1270037">
+				<sentence level="1" detail="玉米，我的玉米呢"/>
+			</animal>
+		</topic>
+		<!-- 鼠标点击 -->
+		<topic flag="4" >
+			<common>
+				<sentence level="1" detail="出去逛逛？"/>
+				<sentence level="1" detail="去拉姆世界逛逛？"/>
+			</common>
+			<animal id="1270026">
+				<sentence level="1" detail="去授粉？"/>
+				<sentence level="1" detail="放生是种美德"/>
+			</animal>
+		</topic>
+		<!-- 被抓获 -->
+		<topic flag="5">
+			<common>
+				<sentence level="1" detail="抓~抓~抓不到"/>
+				<sentence level="1" detail="不要抓我去做菜啊"/>
+				<sentence level="1" detail="我没肉，放过我吧"/>
+				<sentence level="1" detail="我闪，我再闪！"/>
+        <sentence level="1" detail="哎呀，被抓住了"/>
+			</common>
+		</topic>
+		<!-- 喂水 -->
+		<topic flag="6">
+			<common>
+				<sentence level="1" detail="哇，好喝"/>
+				<sentence level="1" detail="真甜啊~"/>
+				<sentence level="1" detail="喝水不会长胖"/>
+			</common>
+		</topic>
+		<!-- 喂食 -->
+		<topic flag="7" >
+			<common>
+				<sentence level="0" detail="胃口好，吃嘛都香！"/>
+				<sentence level="0" detail="多谢赏饭啦"/>
+			</common>
+			<animal id="1270028">
+				<sentence level="1" detail="吃多少我都不怕胖"/>
+			</animal>
+			<animal id="1270036">
+				<sentence level="1" detail="萤火草，我的最爱"/>
+				<sentence level="1" detail="去彩虹瀑布多割点萤火草哟！"/>
+			</animal>
+			<animal id="1270028">
+				<sentence level="1" detail="毛毛豆才好吃"/>
+			</animal>
+		</topic>
+	</language>
+</taomee>

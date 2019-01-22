@@ -1,0 +1,30 @@
+<Map>
+	<NpcList>
+		<Npc ID="10029" Layer="controlLevel" Name="弗兰克" Ex="498" Ey="209" Cmd="s" Param="1" /> 
+	</NpcList>
+	
+	<Triggers>
+		<!--
+		<Trigger ResName="mermaid_mc" Layer="depthLevel" Ex="450" Ey="148" Cmd="p" Param="MermaidAndPrincePanel" Tips="美人鱼与王子的故事" /> 
+		-->
+	</Triggers>
+	
+	<Talks>
+		<Talk ID="999" NpcID="10029" Face="正常" Msg="谢谢你们。最近前哨站有些不太平，就不留你们玩了，快些回家吧！" Option="好的，拜拜~" Cmd="act" Param="fatherDayOver" AddTaskOption="1"  />
+		
+		<Talk ID="1" NpcID="10029" Face="正常" Msg="你是想来参加骑士训练的吗？现在庄园危机四伏，每一名摩尔庄园的公民都应该加入进来，为了庄园的平安而战斗。" Option="参加森林骑士训练$参加骑士选拔赛$查看选拔赛成绩$我想挑战你$没什么事$大长老的委托" Cmd="act$act$act$act$act$act" Param="frank_checkSayWhat$frank_joinGame$frank_lookMark$frank_challenge$none$selectSay"  AddTaskOption="1" />
+		
+		<Talk ID="2" NpcID="10029" Face="正常" Msg="我真为你感到骄傲，不过你最好先通过基础的骑士选拔赛，取得红色训练服，这样你才能得到土林长老准备的礼物。你现在准备好了吗？" Option="我准备好了$参加骑士选拔赛$查看选拔赛成绩$我想挑战你" Cmd="act$act$act$act" Param="frank_jumpMap$frank_joinGame$frank_lookMark$frank_challenge" />
+		<Talk ID="3" NpcID="10029" Face="正常" Msg="我真为你感到骄傲，有你这种精神，摩尔庄园一定会解决所有危机的。对了，土林长老那里还为所有获得红色训练服的摩尔准备了礼物，你快去领取吧。" Option="马上过去$参加骑士选拔赛$查看选拔赛成绩$我想挑战你" Cmd="act$act$act$act" Param="frank_jumpMap$frank_joinGame$frank_lookMark$frank_challenge" />
+		
+		<Talk ID="10" NpcID="10029" Face="正常" Msg="喂！那个小摩尔！别站在那儿，妨碍大家训练！" Option="喂！那个小摩尔！别站在那儿，妨碍大家训练！" Cmd="s" Param="11" />
+		<Talk ID="11" NpcID="10029" Face="正常" Msg="喂！那个小摩尔！别站在那儿，妨碍大家训练！" Option="我吗？我从来不接受什么采访。" Cmd="s" Param="12" />
+		<Talk ID="12" NpcID="10029" Face="正常" Msg="喂！那个小摩尔！别站在那儿，妨碍大家训练！" Option="诶？！真的是我小时候。那时候爸爸给我买了台游戏机，我就天天打，练得技术高超，无人能敌！" Cmd="s" Param="13" />
+		<Talk ID="13" NpcID="10029" Face="正常" Msg="喂！那个小摩尔！别站在那儿，妨碍大家训练！" Option="沉迷游戏是不好，这不没考上大学，跑来参加骑士团了嘛……" Cmd="s" Param="14" />
+		<Talk ID="14" NpcID="10029" Face="正常" Msg="喂！那个小摩尔！别站在那儿，妨碍大家训练！" Option="恩，好的，我帮你盖个章！" Cmd="act" Param="task488Swap1533" />
+		
+		<Talk ID="100" NpcID="10029" Face="正常" Msg="摩界之门的开启对于庄园是个巨大的威胁。现在瑞琪不在，就由我弗兰克带领大家来抵抗邪恶摩灵的入侵！" Option="许多正义的摩灵也会与我们并肩战斗！" Cmd="s" Param="101" />
+		<Talk ID="101" NpcID="10029" Face="正常" Msg="哈哈，这真是个好消息。有了它们的帮助，我就更有信心把那些怪物阻拦在庄园之外了。帮我给大长老带句话，皇家骑士团多谢那些充满正义感的摩灵们鼎力相助。" Option="嗯嗯，皇家骑士团必胜！" Cmd="act" Param="letterTaskOver" />
+		
+	</Talks>
+</Map>

@@ -1,0 +1,56 @@
+<Tasks ID="654" Name="最终章：摩界之门" AwardMsg="恭喜你获得餐厅食材2个拉姆菌，五色浆果，10000摩尔豆" AwardBean="">
+	<Step ID="1" TarMapID="120">
+		<EnterMap MapID="120">
+			<Action Cmd="PLAY_MOVIE" Param="1" Name="movie_1" IsBg="1" IsFullScreen="1"/>
+			<Action Cmd="DELETE_MOVIE" Param="movie_1"/>
+			<Action Cmd="PLAY_MOVIE" Param="100" Name="movie_100" IsBg="1" IsFullScreen="1" IsStopSound="0"/>
+			<Action Cmd="DELETE_MOVIE" Param="movie_100" />
+			<Action Cmd="SAY">
+				<Talk NpcID="10000" Face="正常" Msg="当心点，怎么摔跤了？" Option="乐乐快看，这是公主的蝴蝶结吧？"/>
+				<Talk NpcID="10000" Face="惊讶" Msg="真的是公主的，看来公主路过这里了……" Option="肯定是进了黑森林，快去找她！！"/>
+				<Talk NpcID="10000" Face="焦急" Msg="可是那么大的黑森林，去哪里找公主？" Option="……怎么办呢？"/>
+				<Talk NpcID="10287" Face="正常" Msg="CCCCCC~CCCCC~" Option="小C你有办法？"/>
+			</Action>
+			<Action Cmd="PLAY_MOVIE" Param="101" Name="movie_101" IsBg="1" IsFullScreen="1" IsStopSound="0"/>
+			<Action Cmd="DELETE_MOVIE" Param="movie_101" />
+			<Action Cmd="JUMP_TASK_UI" Param="小C是个宝啊，竟然可以根据公主的气息，感应到公主现在的位置，简直太棒了。不过公主竟然已经走到黑森林深处了，快去找她！！"/>
+			<Action Cmd="SET_BUFFER" Panel="2" Step="2"/>
+			<Action Cmd="GO_MAP" MapID="389" MapType="0"/>
+		</EnterMap>
+	</Step>
+	<Step ID="2" TarMapID="389">
+		<EnterMap MapID="389">
+			<Action Cmd="PLAY_MOVIE" Param="2" Name="movie_2" IsBg="1" IsFullScreen="1"/>
+			<Action Cmd="DELETE_MOVIE" Param="movie_2"/>
+			<Action Cmd="PLAY_MOVIE" Param="102" Name="movie_102" IsBg="1" IsFullScreen="1" IsStopSound="0"/>
+			<Action Cmd="DELETE_MOVIE" Param="movie_102" />
+			<Action Cmd="PLAY_MOVIE" Param="3" Name="movie_3" IsBg="1" IsFullScreen="1"/>
+			<Action Cmd="SAY">
+				<Talk NpcID="10000" Face="焦急" Msg="公主……公主……怪兽你给我走开啊啊………………" Option="乐乐，冷静，别冲过去"/>
+				<Talk NpcID="10000" Face="生气" Msg="可是公主有危险，我怎么能不过去？你让我眼睁睁看着公主被怪物抓走吗？" Option="你能打败那些怪兽吗？"/>
+				<Talk NpcID="10000" Face="生气" Msg="╭(╯3╰)╮快让我去，我不管……" Option="好吧，那我们一块去……"/>
+			</Action>
+			<Action Cmd="DELETE_MOVIE" Param="movie_3"/>
+			<Action Cmd="SET_BUFFER" Panel="3" Step="3"/>
+		</EnterMap>
+	</Step>
+	<Step ID="3" TarMapID="389">
+		<EnterMap MapID="389">
+			<Action Cmd="PLAY_MOVIE" Param="4" Name="movie_4" IsBg="1" IsFullScreen="1"/>
+			<Action Cmd="DELETE_MOVIE" Param="movie_4"/>
+			<Action Cmd="PLAY_MOVIE" Param="103" Name="movie_103" IsBg="1" IsFullScreen="1" IsStopSound="0"/>
+			<Action Cmd="DELETE_MOVIE" Param="movie_103" />
+			<Action Cmd="PLAY_MOVIE" Param="104" Name="movie_104" IsBg="1" IsFullScreen="1" IsStopSound="0"/>
+			<Action Cmd="DELETE_MOVIE" Param="movie_104" />
+			<Action Cmd="PLAY_MOVIE" Param="105" Name="movie_105" IsBg="1" IsFullScreen="1" IsStopSound="0"/>
+			<Action Cmd="DELETE_MOVIE" Param="movie_105" />
+			<Action Cmd="PLAY_MOVIE" Param="106" Name="movie_106" IsBg="1" IsFullScreen="1" IsStopSound="0"/>
+			<Action Cmd="DELETE_MOVIE" Param="movie_106" />
+			<Action Cmd="PLAY_MOVIE" Param="107" Name="movie_107" IsBg="1" IsFullScreen="1" IsStopSound="0"/>
+			<Action Cmd="DELETE_MOVIE" Param="movie_107" />
+			<Action Cmd="OVER"/>
+		</EnterMap>	
+	</Step>
+</Tasks>
+
+

@@ -1,0 +1,26 @@
+<Map>
+	<NpcList>
+	</NpcList>
+	
+	<Triggers>
+		<!--
+		<Trigger ResName="mermaid_mc" Layer="depthLevel" Ex="450" Ey="148" Cmd="p" Param="MermaidAndPrincePanel" Tips="美人鱼与王子的故事" /> 
+		-->
+	</Triggers>
+	
+	<Talks>
+		<Talk ID="1" NpcID="10007" Face="正常" Msg="这次的拉姆运动会，举办胡相当成功啊" Option="运动会大队颁奖$MVP小队颁奖$拉姆装扮领取$伙还有事！$" Cmd="none" Param="6" AddTaskOption="1" />
+		<Talk ID="2" NpcID="10150" Face="正常" Msg="{$username}，谢谢你为我们传递圣火，我将施法为圣坛灌注能量，让我们共同期待3月3日19:30，圣坛被点燃的那一刻！" Option="嗯，好呀！" Cmd="act" Param="lamuSportsEnd"  />
+	</Talks>
+	
+	<Triggers>
+		<Trigger ResName="go_28" Layer="controlLevel" Ex="884" Ey="432" Cmd="alt_map" Param="28" Tips="进入拉姆学院" />
+		<!--  <Trigger ResName="go_344" Layer="controlLevel" Ex="645" Ey="195" Cmd="alt_map" Param="344" Tips="进入熔岩火山" />-->
+		<Trigger ResName="dump_btn" Layer="controlLevel" Ex="240" Ey="200" Cmd="act" Param="loadLamuDumpGame"  Tips="拉姆跳高"/>	
+		
+		
+		
+	</Triggers>
+</Map>
+
+

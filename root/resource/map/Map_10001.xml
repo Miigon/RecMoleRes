@@ -1,0 +1,39 @@
+<Map>
+	<NpcList>
+<!-- 		<Npc ID="10308" Layer="topLevel" Name="小喵咪" Ex="0" Ey="0" Cmd="s" Param="100" /> -->
+		<Npc ID="10012" Layer="depthLevel" Name="粒粒" Ex="560" Ey="390"  Cmd="s" Param="1" />
+		<Npc ID="10018" Layer="depthLevel" Name="小乖" Ex="608" Ey="409" Cmd="s" Param="2" />
+	</NpcList>
+	
+	<Triggers>
+<!-- 	Trigger ResName="mail_mc" Layer="controlLevel" Ex="162" Ey="392" Cmd="p" Param="NewTermsPlanPanel"   -->
+<!-- 		<Trigger ResName="spoof_mc" Layer="controlLevel" Ex="308" Ey="344" Cmd="p" Param="MomoBirthdayExpPanel" Tips="活动规则" /> -->
+		
+		<Trigger ResName="mail_mc" Layer="controlLevel" Ex="162" Ey="392" Cmd="act" Param="openMail" />
+		<Trigger ResName="bql_btn" Layer="controlLevel" Ex="700" Ey="376" Cmd="act" Param="openBQL"/>
+		<!--<Trigger ResName="mc_0" Layer = "depthLevel"  Ex="430" Ey="516" Cmd="act"  Param="mcClick"/>-->
+		<Trigger ResName="go_15" Layer="controlLevel" Ex="460" Ey="342" Cmd="alt_map" Param="15" Tips="城堡大厅" />
+		<Trigger ResName="go_32" Layer="controlLevel" Ex="503" Ey="140" Cmd="alt_map" Param="32" Tips="城堡书房" />
+		
+		<Trigger ResName="go_4" Layer="controlLevel" Ex="122" Ey="357" Cmd="alt_map" Param="4" Tips="摩尔拉雅山脚" />
+		<Trigger ResName="go_2" Layer="controlLevel" Ex="90" Ey="419" Cmd="alt_map" Param="2" Tips="爱心广场" />
+		<Trigger ResName="go_17" Layer="controlLevel" Ex="682" Ey="333" Cmd="alt_map" Param="17" Tips="摩尔餐厅" />
+		<Trigger ResName="go_3" Layer="controlLevel" Ex="892" Ey="432" Cmd="alt_map" Param="3" Tips="淘淘乐街" />
+	</Triggers>
+	
+	<Talks>
+		<Talk ID="1" NpcID="10012" Face="正常" Msg="你好呀！我是粒粒，很高兴认识你~" Option="涂鸦大赛奖励$淘乐节4399奖励$淘乐节7k7k奖励$账户安全$我也很高兴可以认识你" Cmd="act$act$act$p$none" Param="getTuYaReward$get4399reward$get7k7kreward$AccountSecurityPanel$null"/>
+		<Talk ID="11" NpcID="10227" Face="正常" Msg="寻找地图上的摩摩兔就可以获得哦，另外，19日至21日三天，每天13点和19点只要在线就可直接获得，每次都会持续发1小时呢！" Option="幸运月饼有什么用呢？" Cmd="s" Param="12"/>
+		<Talk ID="12" NpcID="10227" Face="正常" Msg="月饼可以直接使用，也可以送给庄园明星，说不定他们会送你一些额外惊喜哦！" Option="什么额外惊喜？" Cmd="s" Param="13"/>
+		<Talk ID="13" NpcID="10227" Face="正常" Msg="这个留给你自行发觉吧~~，不过我可以告诉你，摩乐乐，丫丽，菩提大伯，么么公主，尼尔拉法师，尤瑞克，捷克王子以及布多多，布少少他们都为小摩尔们准备了礼物哦！" Option="那怎么找到他们呢？" Cmd="s" Param="14"/>
+		<Talk ID="14" NpcID="10227" Face="正常" Msg="点击左下角的世界地图，在庄园的大地图上可以看到每个地方的庄园明星具体名字，你想找谁去对应的地图就能找到啦！" Option="太棒了！我现在就去！" Cmd="none" Param=""/>
+		
+		<Talk ID="2" NpcID="10018" Face="正常" Msg="听说庄园里来了一位珠宝商人，他正在淘淘乐街招募优秀的珠宝师哦！小摩尔，你也赶快过去瞧瞧吧！" Option="好嘞，我这就过去！" Cmd="none" Param="2" AddTaskOption="1" IsHideClose="1" />
+		<Talk ID="3" NpcID="10012" Face="正常" Msg="热情火焰队的主场在爱心广场，领队是丫丽哦；摩乐乐带领的竞速疾风队，主场就在米勒大道呢！" Option="好嘞" Cmd="s" Param="4" AddTaskOption="1" IsHideClose="1" />
+		<Talk ID="4" NpcID="10012" Face="正常" Msg="勇气激流队在遗忘田园，领队是么么公主哦；菩提大伯带领的希望大地队在尼尔拉塔呢！" Option="好嘞" Cmd="s" Param="5" AddTaskOption="1" IsHideClose="1" />
+		<Talk ID="5" NpcID="10012" Face="正常" Msg="如果你没有加入队伍，那么就赶紧去找你喜欢的队长报名吧！" Option="好的，我这就去。" Cmd="none" Param="5" AddTaskOption="1" IsHideClose="1" />
+		
+		<Talk ID="3333" NpcID="10287" Face="正常" Msg="你怎么会发现我的(┬＿┬)" Option="我和你心有灵犀(*^__^*)" Cmd="act" Param="xiaocfind" AddTaskOption="1" IsHideClose="1" />
+		<Talk ID="100" NpcID="10308" Face="正常" Msg="讨厌，被你找到了喵o(︶︿︶)o" Option="我知道你是让着我的~摸摸~" Cmd="act" Param="overGame"/>
+	</Talks>
+</Map>

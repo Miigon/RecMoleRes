@@ -1,0 +1,36 @@
+<Map>
+	<NpcList>
+		<Npc ID="10055" Layer="controlLevel" Name="丝尔特" Ex="683" Ey="343" Cmd="s" Param="1" />
+		<!-- Npc ID="10127" Layer="controlLevel" Name="炸花" Ex="380" Ey="327" Cmd="s" Param="10"  -->
+	</NpcList>
+	
+	<Triggers>
+		<!--
+		<Trigger ResName="mermaid_mc" Layer="depthLevel" Ex="450" Ey="148" Cmd="p" Param="MermaidAndPrincePanel" Tips="美人鱼与王子的故事" /> 
+		<Trigger ResName="act_btn" Layer="depthLevel" Ex="282" Ey="330" Cmd="act" Param="openDibiPanel" />
+		-->
+		
+	</Triggers>
+	
+	<Talks>
+		<Talk ID="1" NpcID="10055" Face="正常" Msg="我是摩尔大学的校长丝尔特老师，有什么可以帮你的吗？摩尔大学是庄园用来培养小摩尔们成为社会精英的地方哦！" Option="创建班级$没什么事" Cmd="act$none" Param="silky_CreateClass$6" AddTaskOption="1" />
+		
+		<Talk ID="5" NpcID="10055" Face="正常" Msg="哦，这么漂亮的蝴蝶是你抓的吗？" Option="是呀！" Cmd="s" Param="6" />
+		<Talk ID="6" NpcID="10055" Face="正常" Msg="哦，谢谢你！我会好好饲养他们的。" Option="(^.^)" Cmd="act" Param="sendButterfly"  />
+		
+		<Talk ID="10" NpcID="10127" Face="正常" Msg="我是摩尔大学名誉校长炸里格花*穆罕默德*哈里法三世，不过大家都喜欢叫我炸花。对了，可不许叫我的宝贝儿们“屎壳郎”哟，在我这里，它们都叫“史克郎”的。hiahia~" Option="顶呱呱套装$我知道了！" Cmd="act$none" Param="getCloth$0" AddTaskOption="1" />
+		
+		<Talk ID="20" NpcID="10127" Face="正常" Msg="哈哈，史克郎是世界上最吃苦耐劳的动物！再抓到好玩的史克郎，一定要带过来，和我一起玩呀！我会很乐意地接受你的邀请。" Option="一定会的啦！" Cmd="act" Param="showAwardAlert" />
+		
+		<Talk ID="30" NpcID="10127" Face="正常" Msg="校服可不能随便领的！小摩尔要先完成【礼物总动员】任务，正式入学，才能领取！赶快完成任务吧，炸花校长等着你！哦也~" Option="好的，我这就去"  />
+		
+		<Talk ID="40" NpcID="10127" Face="正常" Msg="嘿嘿，其实，MBA基地可不是人人都能进去的哦！要想进去，得通过炸花校长这一关才行！" Option="好的，没问题！$算了，我不进去！ " Cmd="s$none " Param="41$41" />
+		<Talk ID="41" NpcID="10127" Face="正常" Msg="你知道MBA的意思是什么吗？答对了才能进入MBA基地哦！" Option="是“摩尔大学教室”$是“摩尔最大的优势$是“工商管理硕士”$是“摩尔大学学生”" Cmd="s$s$s$s" Param="42$42$43$42" />
+		<Talk ID="42" NpcID="10127" Face="正常" Msg="答案不对哦，现在还不能让你进入MBA基地！" Option="好吧，我再思考下！" Cmd="none" Param="42" />
+		<Talk ID="43" NpcID="10127" Face="正常" Msg="恭喜你，答对啦！现在可以进入MBA基地咯！" Option="好的，谢谢！" Cmd="act" Param="choseCorrect" />
+		<Talk ID="101" NpcID="10055" Face="正常" Msg="你关心其他人的生活状况吗？" Option="想不关心，也不是件容易的事。$关心。$不，我不关心。" Cmd="s$s$s" Param="102$102$102" />
+		<Talk ID="102" NpcID="10055" Face="正常" Msg="丝尔特老师一直很关心每个小摩尔的成长哦。老师希望每个小摩尔都能成为社会精英！比如兔兔主编，就是一名热衷于采访的好记者。" Option="那我得去和兔兔主编讨教一下经验。" Cmd="act" Param="loveTestMap" />
+		
+		
+	</Talks>
+</Map>

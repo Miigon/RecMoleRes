@@ -1,0 +1,26 @@
+<Map>
+	<NpcList>
+		<Npc ID="10080" Layer="depthLevel" Name="小水珠" Ex="640" Ey="488" Cmd="s" Param="1" />
+		<!--
+		<Npc ID="10002" Layer="controlLevel" Name="么么公主" Ex="358" Ey="460" Cmd="s" Param="1" />
+		-->
+	</NpcList>
+	
+	<Triggers>
+		<!--
+		<Trigger ResName="mermaid_mc" Layer="depthLevel" Ex="450" Ey="148" Cmd="p" Param="MermaidAndPrincePanel" Tips="美人鱼与王子的故事" /> 
+		-->
+	</Triggers>
+	
+	<Talks>
+		<!--
+		<Talk ID="1" NpcID="10015" Face="正常" Msg="Hi，你好啊。" Option="我很好" Cmd="none" Param="6" AddTaskOption="1" />
+		-->
+		<Talk ID="1" NpcID="10080" Face="正常" Msg="如果你的拉姆没有达到高级阶段，推荐你去神殿门口的温泉里泡一泡，能加快成长哦！" Option="拼合碎片$随便聊聊" Cmd="act$rs" Param="Lamu_LamuWorldConver$2-3" Data="115$0" AddTaskOption="1" />
+		
+		<Talk ID="2" NpcID="10080" Face="正常" Msg="水珍珠非常稀有，通常只有在这里的珍珠花中出现，你要仔细看看哦！" Option="我知道了！" Cmd="none" Param="" />
+		<Talk ID="3" NpcID="10080" Face="正常" Msg="如果我能升级为第五阶段，一定要好好利用你的技能去帮助其他人哦！" Option="我知道了！" Cmd="none" Param="" />
+		<Talk ID="5" NpcID="10080" Face="正常" Msg="" Option="" Cmd="" Param="" />
+	
+	</Talks>
+</Map>

@@ -1,0 +1,20 @@
+<Map>
+	<NpcList>
+		<!--
+		<Npc ID="10002" Layer="controlLevel" Name="么么公主" Ex="358" Ey="460" Cmd="s" Param="1" />
+		-->
+	</NpcList>
+	
+	<Triggers>
+		<!--
+		<Trigger ResName="mermaid_mc" Layer="depthLevel" Ex="450" Ey="148" Cmd="p" Param="MermaidAndPrincePanel" Tips="美人鱼与王子的故事" /> 
+		-->
+	</Triggers>
+	
+	<Talks>
+		<!--
+		<Talk ID="1" NpcID="10015" Face="正常" Msg="Hi，你好啊。" Option="我很好" Cmd="none" Param="6" AddTaskOption="1" />
+		-->
+		<Talk ID="99" NpcID="10148" Face="正常" Msg="谢谢你，{$username}，又找到了一颗黑暗种子，送你一些礼物以表谢意！我们一定要阻止零的阴谋！" Option="嗯！一定不能让他得逞！" Cmd="act" Param="getItemFour" AddTaskOption="1" />
+	</Talks>
+</Map>

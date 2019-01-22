@@ -1,0 +1,59 @@
+﻿<Map>
+	<NpcList>
+	<!-- 
+		<Npc ID="10097" Layer="depthLevel" Name="龙大侠" Ex="696" Ey="346" Cmd="s" Param="3" />
+		 -->
+		<Npc ID="10105" Layer="depthLevel" Name="帕帕囧" Ex="304" Ey="444" Cmd="s" Param="431" Data="1"/>
+		
+		<Npc ID="10098" Layer="topLevel" Name="小海妖" Ex="573" Ey="474" Cmd="s" Param="434" Data="2"/>
+	</NpcList>
+	
+	<Triggers>
+		<Trigger ResName="mermaid_mc" Layer="depthLevel" Ex="906" Ey="202" Cmd="p" Param="SummerMainPanel" Tips="" />
+		
+		<Trigger ResName="panel_1" Layer="controlLevel" Ex="765" Ey="368" Cmd="pm" Param="resource/newTask/task10004/panel_1.swf" /> 
+		<Trigger ResName="panel_2" Layer="controlLevel" Ex="882" Ey="253" Cmd="pm" Param="resource/newTask/task10004/panel_2.swf" /> 
+		<Trigger ResName="panel_3" Layer="controlLevel" Ex="473" Ey="409" Cmd="pm" Param="resource/newTask/task10004/panel_3.swf" /> 
+		<Trigger ResName="panel_4" Layer="controlLevel" Ex="185" Ey="367" Cmd="pm" Param="resource/newTask/task10004/panel_4.swf" /> 
+		<Trigger ResName="panel_5" Layer="controlLevel" Ex="73" Ey="258" Cmd="pm" Param="resource/newTask/task10004/panel_5.swf" /> 
+		
+		<Trigger ResName="fish_btn" Layer="controlLevel" Ex="134" Ey="384" Cmd="act" Param="openFish" /> 
+		<Trigger ResName="tennis_btn" Layer="controlLevel" Ex="497" Ey="469" Cmd="act" Param="openTennis" /> 
+		<Trigger ResName="dingpipi_btn" Layer="controlLevel" Ex="806" Ey="378" Cmd="act" Param="openDingpipi" /> 
+		
+		<Trigger ResName="flower_mc" Layer="controlLevel" Ex="60" Ey="219" Cmd="act" Param="getFlower" /> 
+		<Trigger ResName="tomato_mc" Layer="controlLevel" Ex="60" Ey="219" Cmd="act" Param="getTomato" /> 
+		<!-- 
+		<Trigger ResName="ice_btn" Layer="controlLevel" Ex="73" Ey="258" Cmd="p" Param="IceBabyShowPanel" /> 
+		 -->
+	</Triggers>
+	
+	<Talks>
+		<Talk ID="10" NpcID="10105" Face="正常" Option="参与积分兑换奖励$我要参加智力问答$需要哪些素质呢？" Cmd="p$s$s" Param="SummerMainPanel$30$11" AddTaskOption="1" Msg="万鱼瞩目的“夏日冰泉宝贝时尚秀”又开始啦！！！欢迎大家前来报名参加！ " />
+		<Talk ID="11" NpcID="10105" Face="开心" Option="=  =喂~~" Cmd="s" Param="12" Msg="超高的人气，过人的智慧，强健的体魄，这些当然是冰泉宝贝所必须具备的条件！当然，我对相貌的要求也是很高的啦…… " />
+		<Talk ID="12" NpcID="10105" Face="正常" Option="恩，我也去试试！" Cmd="none" Param="11" Msg="{$username}，我看好你哦！刚八代！小声告诉你，每天只能上台10次哦！" />
+		
+		<Talk ID="20" NpcID="10098" Face="开心" Option="啊~这里真热闹啊！" Cmd="s" Param="21" Msg="{$username},你终于来了啊，我在这等了你好久好久~ 等得伦家花都谢了……" />
+		<Talk ID="21" NpcID="10098" Face="开心" Option="啊！好兴奋，跃跃欲试了呢！" Cmd="s" Param="22" Msg="冰泉宝贝大评选正在火热进行呢！你也快点来参加吧！" />
+		<Talk ID="22" NpcID="10098" Face="开心" Option="=  =没空陪你捉迷藏呀！" Cmd="s" Param="23" Msg="待会儿，我躲起来，你可要来找我呀！咻咻~" />
+		<Talk ID="23" NpcID="10098" Face="开心" Option="又自作主张……" Cmd="act" Param="HideSiren" Msg="嘿嘿，我去啦！一定要来哦！" />
+		
+		<Talk ID="24" NpcID="10098" Face="开心" Option="额……" Cmd="s" Param="25" Msg="你让我好无聊啊！可好歹你还是来了，嘻嘻！" />
+		<Talk ID="25" NpcID="10098" Face="开心" Option="恩，你好好玩！" Cmd="s" Param="26" Msg="难得老爸给我放假，我要去找其他海妖朋友玩啦！" />
+		<Talk ID="26" NpcID="10098" Face="开心" Option="又是捉迷藏！……" Cmd="act" Param="getSirenAward" Msg="明天再来哦，我一直在这里等你！" />
+		
+		<Talk ID="27" NpcID="10098" Face="正常" Option="" Cmd="s" Param="11" Msg="" />
+		<Talk ID="28" NpcID="10098" Face="正常" Option="" Cmd="s" Param="11" Msg="" />
+		
+		<Talk ID="30" NpcID="10105" Face="正常" Option="我有智慧我怕谁？" Cmd="s" Param="31" Msg="哈哈，我佩服你的勇气，在我这里，还没有几个人能顺利过关！你真的不怕？！" />
+		<Talk ID="31" NpcID="10105" Face="正常" Option="我准备好了$我再准备准备！" Cmd="act$none" Param="openAnswer$11" Msg="为了公平起见，每天只有3次问答机会哦！你准备好了吗？" />
+		
+		<Talk ID="431" NpcID="10105" Face="正常" Option="参与积分兑换奖励$我要参加智力问答$需要哪些素质呢？" Cmd="p$s$s" Param="SummerMainPanel$30$11" AddTaskOption="1" Msg="万鱼瞩目的“夏日冰泉宝贝时尚秀”又开始啦！！！欢迎大家前来报名参加！ " />
+		<Talk ID="432" NpcID="10105" Face="正常" Option="新的一年也多多关照$参与积分兑换奖励$我要参加智力问答$需要哪些素质呢？" Cmd="s$p$s$s" Param="433$SummerMainPanel$30$11" AddTaskOption="1" Msg="万鱼瞩目的“夏日冰泉宝贝时尚秀”又开始啦！！！欢迎大家前来报名参加！ " />
+		<Talk ID="433" NpcID="10105" Face="正常" Option="拜托，现在是冬天。。" Cmd="act" Param="npcSwapPrize" AddTaskOption="1" Msg="哦~呵呵，你也是，多多关照了，要参加“夏日冰泉宝贝时尚秀”吗？ " Data="1"/>
+		
+		<Talk ID="434" NpcID="10098" Face="开心" Option="啊~这里真热闹啊！" Cmd="s" Param="21" Msg="{$username},你终于来了啊，我在这等了你好久好久~ 等得伦家花都谢了……" />
+		<Talk ID="435" NpcID="10098" Face="开心" Option="小海妖，我来看你啦！$啊~这里真热闹啊！" Cmd="s$s" Param="436$21" Msg="{$username},你终于来了啊，我在这等了你好久好久~ 等得伦家花都谢了……" />
+		<Talk ID="436" NpcID="10098" Face="开心" Option="嗯，我会的！" Cmd="act" Param="npcSwapPrize" Msg="谢谢你~还记得我，以后多来这里陪我玩呀！" Data="2"/>
+	</Talks>
+</Map>

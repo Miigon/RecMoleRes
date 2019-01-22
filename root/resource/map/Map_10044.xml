@@ -1,0 +1,21 @@
+<Map>
+	<NpcList>
+		<Npc ID="10019" Layer="buttonLevel" Name="艾尔" Ex="521" Ey="324" Cmd="s" Param="2" AddTaskOption="1" /> 
+	</NpcList>
+	
+	<Triggers>
+	</Triggers>
+	
+	<Talks>
+		<Talk ID="999" NpcID="10019" Face="正常" Msg="谢谢呀，小摩尔。你和小C玩的时候别去太远的地方，尤其是黑森林那边！" Option="好，我们不会去的" Cmd="act" Param="fatherDayOver" AddTaskOption="1"  />
+		
+		<Talk ID="2" NpcID="10019" Face="正常" Msg="只要有我艾尔在，摩尔庄园一定会平平安安！" Option="我有事，先走了$圣诞老爷爷真的是被企鹅抓走的！" Cmd="none$act" Param="3$talkPolice"  AddTaskOption="1" />
+		<Talk ID="3" NpcID="10019" Face="正常" Msg="每个SMC警官都必须付出自己的努力，进行日常的站岗值勤。如果你想加入值勤可以直接点击右上角的SMC徽章哦！" Option="哦，我知道了！" Cmd="none" Param="3" />
+		<Talk ID="4" NpcID="10019" Face="正常" Msg="嗯，看上去的确有点像黑森林密码，但我觉得它应该属于更久远的文字吧，我建议你去问问尼尔拉大法师，也许他知道。" Option="好的，我马上就去" Cmd="act" Param="sayOver" />
+		<Talk ID="5" NpcID="10019" Face="正常" Msg="真的吗？你可有证据？" Option="我有一封它们的忏悔信，但是……" Cmd="s" Param="6" />
+		<Talk ID="6" NpcID="10019" Face="正常" Msg="没事，不用把它交给我，我相信它们这么做肯定是有苦衷的，我们这就去着手营救圣诞老人。" Option="嗯" Cmd="act" Param="sayOver" />
+		<Talk ID="7" NpcID="10019" Face="正常" Msg="你没有证据可不要乱说啊，要用证据来说话。" Option="嗯" Cmd="none" Param="" />
+		<Talk ID="11" NpcID="10019" Face="正常" Msg="这事很头疼啊！要不你帮我去巡逻一下吧，发现可疑的人物立即呼叫我！" Option="好，我知道了" Cmd="act" Param="policeOpen" />
+	</Talks>
+</Map>
+

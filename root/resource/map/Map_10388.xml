@@ -1,0 +1,37 @@
+<Map>
+	<NpcList>
+	</NpcList>
+	
+	<Triggers>
+		<Trigger ResName="go_1" Layer="controlLevel" Ex="800" Ey="456" Cmd="alt_map" Param="1" Tips="摩尔城堡" />
+		<Trigger ResName="go_9" Layer="controlLevel" Ex="325" Ey="238" Cmd="alt_map" Param="9" Tips="阳光牧场" />
+		
+		<Trigger ResName="go_18" Layer="controlLevel" Ex="684" Ey="290" Cmd="alt_map" Param="18" Tips="爱心教堂内" />
+		<Trigger ResName="go_70" Layer="controlLevel" Ex="607" Ey="287" Cmd="alt_map" Param="70" Tips="爱心救治室" />
+		
+		<Trigger ResName="go_69" Layer="controlLevel" Ex="167" Ey="327" Cmd="alt_map" Param="69" Tips="摩尔银行" />
+		
+		<Trigger ResName="go_45" Layer="controlLevel" Ex="265" Ey="161" Cmd="alt_map" Param="45" Tips="摩尔报社" />
+		<Trigger ResName="go_46" Layer="controlLevel" Ex="376" Ey="238" Cmd="alt_map" Param="46" Tips="爱心向导社" />
+		<Trigger ResName="go_222" Layer="controlLevel" Ex="177" Ey="151" Cmd="alt_map" Param="222" Tips="电视墙" />
+		<Trigger ResName="go_44" Layer="controlLevel" Ex="119" Ey="284" Cmd="alt_map" Param="44" Tips="摩尔庄园警署" />
+		
+		
+		<!-- Trigger ResName="wish_btn" Layer="depthLevel" Ex="374" Ey="439" Cmd="act" Param="openWish" Tips=""  -->
+		<!-- Trigger ResName="wish1_btn" Layer="depthLevel" Ex="374" Ey="439" Cmd="act" Param="openWish" Tips=""  -->
+			
+		
+		<Trigger ResName="mogu2_mc" Layer="depthLevel" Ex="494" Ey="325" Cmd="p" Param="MushRoomPanel" Tips="" />
+		<!-- <Trigger ResName="lollipops" Layer="depthLevel" Ex="466" Ey="270" Cmd="act" Param="getlollipops" Tips="获得红色迷你波板糖" /> -->
+	</Triggers>
+	
+	<Talks>
+		<Talk ID="1" NpcID="10013" Face="正常" Msg="快来看看花婶的压箱宝呀！压箱宝里有宝贝哟！不看不知道，一看吓一跳呀！走过路过千万别错过！" Option="我要买卖东西!$下次再来" Cmd="null" Param="2" />
+		<Talk ID="2" NpcID="10191" Face="开心" Msg="哇！这里就是摩尔庄园啊！你~你~~你~~~，真的有小摩尔啊！" Option="蒸的？还煮的呢！你是谁呀？" Cmd="s" Param="2" />
+		<Talk ID="3" NpcID="10191" Face="开心" Msg="我叫偶得，来自《宝贝》剧组，我平时最喜欢玩的就是摩尔庄园了！" Option="欢迎您" Cmd="null" Param="null" />
+		<Talk ID="4" NpcID="10207" Face="正常" Msg="我们是代表热情的火焰队，我们的口号是“激情似火，冠军归我！”我们的主场一定会是最热火朝天的一个~火元素的各位，都来给火焰队加油哦！ " Option="参加火神杯" Cmd="act" Param="sport1" />
+		<Talk ID="422" NpcID="10249" Face="开心" Msg="这~可不是我干的哦~~~~" Option="呃，我相信你了！" Cmd="act" Param="dandanAct" AddTaskOption="1"/>
+		<Talk ID="423" NpcID="10249" Face="开心" Msg="这~可不是我干的哦~~~~" Option="卖萌也没用！这次被我抓到了吧！" Cmd="act" Param="dandanAct" AddTaskOption="1"/>
+		<Talk ID="8888" NpcID="10207" Face="正常" Msg="你已经是我们火元素队的队员咯！" Option="我要交纹章$领取袖章$领取队服" Cmd="act$act$act" Param="sport2$sport3$sport4" />
+	</Talks>
+</Map>

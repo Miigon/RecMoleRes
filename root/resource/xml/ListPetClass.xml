@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListAll>   
+ 
+		<item ID="1" Type="no" Name="语言课1" Price="100" AllDays="7"/>
+		<item ID="2" Type="no" Name="语言课2" Price="100" AllDays="14"/>
+		<item ID="11" Type="1" Name="飞行课" Price="100" AllDays="7"/>
+		<item ID="12" Type="1" Name="潜水课" Price="100" AllDays="7"/>
+		<item ID="13" Type="1" Name="手工课" Price="100" AllDays="1"/>
+		<item ID="14" Type="1" Name="清泥巴课" Price="100" AllDays="7"/>
+		<item ID="15" Type="1" Name="英语课" Price="100" AllDays="14"/>
+		<item ID="16" Type="1" Name="动物课1" Price="300" AllDays="3"/>
+  
+</ListAll>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

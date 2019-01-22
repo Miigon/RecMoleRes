@@ -1,0 +1,22 @@
+<Map>
+	<NpcList>
+	</NpcList>
+	
+	<Triggers>
+		<Trigger ResName="go_112" Layer="controlLevel" Ex="920" Ey="323" Cmd="gm" Param="112" Tips="进入虫虫谷" />
+		<Trigger ResName="go_204" Layer="controlLevel" Ex="70" Ey="295" Cmd="gm" Param="204" Tips="进入天空树" />
+		<Trigger ResName="go_331" Layer="depthLevel" Ex="70" Ey="235" Cmd="gm" Param="331" Tips="誓言小屋" />
+	</Triggers>
+	
+	<Talks>
+		<Talk ID="100" NpcID="10278" Face="正常" Msg="徘徊在遗忘田园，我没有勇气推开誓言小屋的大门。" Option="为什么呢？" Cmd="s" Param="101" />
+		<Talk ID="101" NpcID="10278" Face="正常" Msg="遗忘田园还是曾经的样子，但我已不属于这里，很高兴能与你相遇，请接收我的礼物把！" Option="我也很高兴遇到你！" Cmd="act" Param="WorshipNPC_over" />
+		<Talk ID="500" NpcID="10311" Face="正常" Msg="神秘的黑衣人把我变成了满头白发的老摩尔，谁来帮我恢复青春。" Option="喂他喝药$没什么事" Cmd="act$none" Param="takeTheMedicine$null" />
+		<Talk ID="501" NpcID="10310" Face="正常" Msg="谢谢你好心的小摩尔。" Option="是谁把你变成这样的？" Cmd="act" Param="backToYouthOver" />
+		<Talk ID="502" NpcID="10310" Face="正常" Msg="我隐约看到她好像有一头长发" Option="哦，我知道了。" Cmd="act" Param="backToYouthReward" />
+		<Talk ID="503" NpcID="10310" Face="正常" Msg="她身上有阵迷人的香气" Option="哦，我知道了。" Cmd="act" Param="backToYouthReward" />
+		<Talk ID="504" NpcID="10310" Face="正常" Msg="听说吸取摩尔的青春可以让他们永葆青春" Option="哦，我知道了。" Cmd="act" Param="backToYouthReward" />
+		<Talk ID="505" NpcID="10310" Face="正常" Msg="神秘黑衣人，好可怕，我不知道，不要问我了,55555" Option="哦，我知道了。" Cmd="act" Param="backToYouthReward" />
+		<Talk ID="506" NpcID="10310" Face="正常" Msg="如果她再出现，我一定会认出她。" Option="哦，我知道了。" Cmd="act" Param="backToYouthReward" />
+	</Talks>
+</Map>

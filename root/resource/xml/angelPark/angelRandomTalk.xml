@@ -1,0 +1,4916 @@
+<!--动物变异后，id发生变化，level表示成长阶段1～3，state等于0是休眠，等于1是正常-->
+
+<root>
+	<angel id="1353201">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="Zzzzzzzzz……"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我粉色的小裙子可爱吗？"/>
+				<talk content="哇噢~空气清新，世界美好~"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1353401">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="(*^__^*) 嘻嘻……我可爱吧。"/>
+				<talk content="爱莲娜爱奔跑，爱丽娜力气大。"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1353402">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="呼噜噜噜噜……"/>
+				<talk content="枯掉……掉……掉……掉……"/>
+			</state>
+		</level>
+	</angel>
+	<angel id="1353202">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="莫莫莫莫莫莫……"/>
+				<talk content="尼尼莫莫瓜，肚子咕噜噜。"/>
+			</state>
+		</level>
+		<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="尼尼尼莫莫莫，我会变成什么呢？"/>
+				<talk content="其实我真的很想飞的！"/>
+				<talk content="就让我飞吧！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1353403">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="虫虫飞，蝴蝶舞，尼尼莫莫爱春天。"/>
+				<talk content="尼尼莫莫觉得夏天是属于尼尼莫莫的季节。"/>
+				<talk content="秋天的寒风也挡不住尼尼莫莫美丽的翅膀。"/>
+				<talk content="冬天……尼尼莫莫冬眠O(∩_∩)O~"/>
+			</state>
+		</level>
+	</angel>
+	<angel id="1353404">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="咕~~(╯﹏╰)b"/>
+				<talk content="~~~~(o_o)!~~~~"/>
+				<talk content="偶还素蝴蝶吗？还素吗？"/>
+			</state>
+		</level>
+	</angel>
+	
+	<angel id="1353203">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="皮卡皮卡，闪闪发光……"/>
+				<talk content="我是闪亮的明星。"/>
+			</state>
+		</level>
+				<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="在温柔的灵气中安心长大。"/>
+				<talk content="我要快点快点长大！"/>
+			</state>
+		</level>
+	</angel>
+	<angel id="1353405">
+		<level id="3">
+			<state id="0">
+			</state>
+				<state id="1">
+				<talk content="柔软美丽的毛发，让我安心……"/>
+				<talk content="我想一直一直呆在家里。"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1353406">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="俺怕疼……"/>
+				<talk content="不要丢下俺一个好嘛？"/>
+				<talk content="这是哪里？？？？"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1353204">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我长大会变成什么样呢？"/>
+				<talk content="妈妈说，我是最乖的乖宝宝！"/>
+				<talk content="我喜欢跳高，我可以跳很高！"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="摇啊摇，要到外婆桥。"/>
+				<talk content="我不是刺猬啦！"/>
+			</state>
+		</level>
+	</angel>
+	<angel id="1353415">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="燃烧吧，我的金色火焰。"/>
+				<talk content="厄……我其实不是很擅长说话。"/>
+				<talk content="战斗才是我的强项。"/>
+			</state>
+		</level>
+	</angel>
+	<angel id="1353416">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="你看我是不是发出月亮的光芒？"/>
+				<talk content="希望你会喜欢我。"/>
+			</state>
+		</level>
+	</angel>
+
+<angel id="1353207">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="蛋也可以是个美丽的蛋！"/>
+				<talk content="喂，这里只有我一个吗？"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="总算摆脱那个烦人的蛋壳了！"/>
+				<talk content="请相信我！"/>
+				<talk content="我粉色的小裙子可爱吗？"/>
+				<talk content="哇噢~空气清新，世界美好~"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1353407">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="让一切随风而去吧！"/>
+				<talk content="霓虹彩羽是我美丽衣装！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1353420">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="虽然我没有美丽的羽毛！"/>
+				<talk content="虽然我没有漂亮的衣衫！"/>
+				<talk content="虽然我只是平凡的我！"/>
+				<talk content="但是我也曾经闪亮过！"/>
+			</state>
+		</level>
+	</angel>
+	
+	<angel id="1353206">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我也想要发光！"/>
+				<talk content="红色的星星可爱吗？"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我是不是长大了？"/>
+				<talk content="嘿嘿，你好，我是雪兔星！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1353414">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我喜欢白色的世界，你呢？"/>
+				<talk content="这里好温暖，好舒服哦！"/>
+				<talk content="祝你每天都开心！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1353421">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="(=@__@=)！"/>
+				<talk content="(*^__^*) 嘻嘻……！"/>
+				<talk content="哇，有星星！！"/>
+			</state>
+		</level>
+	</angel>
+	
+	<angel id="1353208">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我是糕糕，蛋糕的糕！"/>
+				<talk content="你喜欢我甜甜的香味嘛？"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="让我快点长成漂亮的大蛋糕吧！"/>
+				<talk content="卷呀卷，卷呀卷……"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1353422">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="表吃我，表吃我。"/>
+				<talk content="再靠近我就用巧克力砸你！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1353423">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我绝望了！！"/>
+				<talk content="我对没有奶油的世界绝望了！"/>
+				<talk content="谁能给我奶油？"/>
+				<talk content="谁能给我可爱的巧克力果子？"/>
+			</state>
+		</level>
+	</angel>	
+	
+	<angel id="1353205">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="妈妈在哪里呢？"/>
+				<talk content="你知道小蝌蚪找妈妈的故事嘛？"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我变我变我变变变！"/>
+				<talk content="看我七十二变！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1353418">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="闪电蛙，霹雳霹雳啪。"/>
+				<talk content="赐予我力量吧！我是闪电蛙！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1353419">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="今天的课程是：数独。"/>
+				<talk content="现在就学微积分是不是有点早？"/>
+				<talk content="不行，不行，我还需要好好学习。"/>
+			</state>
+		</level>
+	</angel>	
+	
+	<angel id="1353209">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="咕噜噜……"/>
+				<talk content="噜咕咕……"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="哇，看的见了！"/>
+				<talk content="天空是蓝色的！"/>
+				<talk content="好棒！我可以说话了！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1353424">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="便便树好恐怖！"/>
+				<talk content="不要让我再被抓走了好嘛？"/>
+				<talk content="你会喜欢我嘛？"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1353425">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="没有花香"/>
+				<talk content="没有树高"/>
+				<talk content="我是一只无人问津的枯果子"/>
+			</state>
+		</level>
+	</angel>
+	
+		<angel id="1353210">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="不许动，举起手乃！"/>
+				<talk content="表以为我看不到你！"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="过来过来，例行检查！"/>
+				<talk content="我是要成为土豆将军的豆！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1353417">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk>
+				<talk content="嘿嘿，你好！"/>
+				<talk content="俺是土豆将军！"/>
+				<talk content="放心，俺会好好打仗的！"/>
+				</talk>
+			</state>
+		</level>
+	</angel>
+		<angel id="1353426">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="俺也想上战场……"/>
+				<talk content="虽然俺身体不好，但请不要歧视俺。"/>
+			</state>
+		</level>
+	</angel>
+	
+		<angel id="1353211">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="嘿嘿，空气好清新！"/>
+				<talk content="只有多多睡觉才能快快长大！"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我要快快长，我要快快帮上忙！"/>
+				<talk content="等我长大了，带我一块去打仗吧！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1353427">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="嘻嘻，我是不是很萌？"/>
+				<talk content="啦啦啦，摆摆酱最喜欢你了！"/>
+				<talk content="抱抱我吧！和我一块唱歌跳舞吧！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1353428">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="虽然我不能战斗，不要忘了我好吗？"/>
+				<talk content="其实我已经很努力了，真的！"/>
+			</state>
+		</level>
+	</angel>
+	
+		<angel id="1353212">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我是闪亮的星！"/>
+				<talk content="一闪一闪亮晶晶！"/>
+				<talk content="星星堆满天！"/>
+				<talk>
+				<talk content="我不是哭泣的流星。"/>
+				<talk content="我是伟大的小星星！"/>
+				</talk>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="闪闪，我有耀眼的光！"/>
+				<talk content="你看我的眼睛，我是不是很闪亮！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1353429">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="看我星星超级射线！"/>
+				<talk content="战斗能量不够？有我一切搞定！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1353430">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我不是星星吗？"/>
+				<talk content="( ⊙ o ⊙ )啊！我不会发光……"/>
+			</state>
+		</level>
+	</angel>
+	
+		<angel id="1353213">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="睡觉是件幸福的事！"/>
+				<talk content="有时间一定要躲起来好好睡觉！"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="呜啊~不想张开眼睛！"/>
+				<talk content="就让我多睡一会吧，就一小会！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1353431">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="多吃素菜是非常健康的！"/>
+				<talk content="潜水可以找到最最安静的地方！"/>
+				<talk content="海底真的很美很美，一定要亲眼看看！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1353432">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk>
+				<talk content="我跟你说我真的不懒~"/>
+				<talk content="困死我了~"/>
+				<talk content="还能再困一点嘛？"/>
+				<talk content="不行，我得睡会~"/>
+				</talk>
+			</state>
+		</level>
+	</angel>
+	
+			<angel id="1353214">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="长大后我要飞！"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="(*^__^*) 嘻嘻……"/>
+				<talk content="我有带爱心的尾巴哦~"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354033">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="看到我就知道什么是美妙了吧？"/>
+				<talk content="我是最美的那个天使！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354034">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="难倒我不美吗？"/>
+				<talk content="谁说我胖了？谁说的？我哪里胖了？"/>
+			</state>
+		</level>
+	</angel>
+	
+			<angel id="1353215">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="嘎？咕？呱？"/>
+				<talk content="沙漠很美很美，虽然你们都不喜欢它。"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="这里就是传说中的天使园嘛？"/>
+				<talk content="来到这里真的好幸福啊~"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354035">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk>
+				<talk content="作为一位美眉"/>
+				<talk content="我不应该说太多"/>
+				<talk content="说太多会影响优雅的仪态"/>
+				<talk content="算了算了，我还是说吧！"/>
+				<talk content="你能帮我加点灵气嘛？"/>
+				</talk>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354036">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="哎？发生什么事了？~"/>
+				<talk content="好像天黑了，是黑了嘛？~"/>
+				<talk content="天是黑的嘛？"/>
+			</state>
+		</level>
+	</angel>
+	
+			<angel id="1353216">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我觉得我可以游泳"/>
+				<talk content="如果空气是水，我就是鱼~"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk>
+				<talk content="我要快快长大~"/>
+				<talk content="长大了就可以学会游泳~"/>
+				<talk content="长大了还可以环游世界~"/>
+				<talk content="我要做探险家~"/>
+				</talk>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354037">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="要用不一样的眼睛看世界~"/>
+				<talk content="你看，你看，我两个眼睛不一样哦！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354038">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="用眼神杀死你!"/>
+				<talk content="嘿嘿，我就是很痞！"/>
+				<talk content="你想挑战我嘛？"/>
+			</state>
+		</level>
+	</angel>
+	
+				<angel id="1353217">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="霹雳霹雳~"/>
+				<talk content="表因为我个子小就小看我哦~"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="不断蓄积能量，长大了会变很厉害！"/>
+				<talk content="我会加油，你也要加油！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354039">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="不要因为我的电压很高就怕我！"/>
+				<talk content="呵呵，我喜欢跟大家做朋友~"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354040">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="哎？这是哪里？"/>
+				<talk content="你知道天使圣殿怎么走嘛？"/>
+				<talk content="啊……我回不去了，怎么办？怎么办？"/>
+			</state>
+		</level>
+	</angel>
+	
+					<angel id="1353219">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="咚咚咚，庆典活动开始了吗？"/>
+				<talk content="你有没有发现我是个艺术家？"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="彩灯彩灯亮亮亮！"/>
+				<talk content="只要你开心，每天都是庆典！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354041">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="朋友，你喜欢什么颜色？"/>
+				<talk content="让我给你上个色吧？"/>
+				<talk content="赤橙黄绿青蓝紫……"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354042">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk>
+				<talk content="转动我的发条就会有庆典音乐哦！"/>
+				<talk content="快点来转一下我的发条！"/>
+				<talk content="求你了，帮我转一下吧！"/>
+				</talk>
+			</state>
+		</level>
+	</angel>
+	
+					<angel id="1353220">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk>
+				<talk content="摇呀摇，摇呀摇！"/>
+				<talk content="海浪抱着我摇呀摇！"/>
+				<talk content="温柔的海浪就像妈妈的怀抱"/>
+				</talk>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk>
+				<talk content="泡泡浮出水面，天是蓝的！"/>
+				<talk content="泡泡沉到海底，海更加蓝！"/>
+				</talk>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354043">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk>
+				<talk content="你说我是水母还是章鱼？"/>
+				<talk content="水母还是章鱼？"/>
+				<talk content="我不是鱼！"/>
+				</talk>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354044">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk>
+				<talk content="现烤的八爪烧，鲜嫩的八爪烧！"/>
+				<talk content="小摩尔你要不要尝尝八爪烧？"/>
+				</talk>
+			</state>
+		</level>
+	</angel>
+	
+					<angel id="1353221">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk>
+				<talk content="你知道超人吗？"/>
+				<talk content="你有超级拉姆吗？"/>
+				<talk content="紫球球要当超级天使哦！"/>
+				</talk>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="每天锻炼，身体棒棒！"/>
+				<talk content="我们一块去玩蹦蹦床吧！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354045">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="放心，我会保护你的。"/>
+				<talk content="就让我来保护大家把！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354046">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk>
+				<talk content="我不是贪吃，我是美食家！"/>
+				<talk content="我不是懒，我是怕长肌肉不好看"/>
+				<talk content="你在吃什么好吃的？分我点吧！"/>
+				</talk>
+			</state>
+		</level>
+	</angel>
+	
+					<angel id="1353222">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我在修行呢，你也一块来吧！"/>
+				<talk content="我会成为最最强大的天使！"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="锻炼每天都不能间断的！"/>
+				<talk content="我会更加努力，为我加油吧！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354047">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="火焰的力量是危险的，小心使用。"/>
+				<talk content="等我长大了，带我去兜风吧！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354048">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="偶才没失败，偶长了魔鬼角！"/>
+				<talk content="有没有觉得偶的发型很拉轰？"/>
+				<talk content="不许笑我！！！"/>
+			</state>
+		</level>
+	</angel>
+	
+						<angel id="1353223">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="庄园好美！"/>
+				<talk content="果子认识了好多新朋友~"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="樱果子是不是特别可爱的？"/>
+				<talk content="我很快就会有漂亮的裙子了~"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354049">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="让我和你一块并肩战斗吧~"/>
+				<talk content="放心，我会帮你的~"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354050">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我也想去战斗"/>
+				<talk content="我不能成为战士吗？"/>
+			</state>
+		</level>
+	</angel>
+	
+						<angel id="1353224">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我要去冒险！"/>
+				<talk content="我要成为灰灰家族的骄傲！"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="和我一块在田野中奔跑吧！"/>
+				<talk content="运动让每一个天使更加闪耀~"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354051">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我是伟大的勇者！"/>
+				<talk content="你也能像我一样勇敢、坚强！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354052">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="只是吃了一只胡萝卜……"/>
+				<talk content="我还想当勇者的……"/>
+			</state>
+		</level>
+	</angel>
+	
+						<angel id="1353225">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="咩~~~~~"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="咩咩爱吃草~"/>
+				<talk content="青草嫩嫩最健康~"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354053">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="蹦跶蹦跶~"/>
+				<talk content="咩咩，蹦跶！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354054">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="只爱巧克力，不爱棉花糖~"/>
+				<talk content="我的造型其实很拉轰，对吧？"/>
+			</state>
+		</level>
+	</angel>
+	
+						<angel id="1353226">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="蛾尔的蛾是妖蛾的蛾~"/>
+				<talk content="蛾尔会快快长大的~"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="努力努力一定会变美丽的蛾子~"/>
+				<talk content="变成蛾子前我是美丽的毛毛虫~"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354055">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="武士也可以很温柔！"/>
+				<talk content="我是华丽的武士呢~"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354056">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="努力的时候不要轻易睡着~"/>
+				<talk content="坏巫师总是悄悄的使坏~"/>
+			</state>
+		</level>
+	</angel>
+	
+						<angel id="1353227">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="海王只是一种称呼~"/>
+				<talk content="我来自最深最蓝最美的大海"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="游泳是一种基本技能~"/>
+				<talk content="大洪水来的时候学游泳就来不及了~"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354057">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="嘻嘻嘻~我喜欢旅行~"/>
+				<talk content="不不不，这不叫流浪~"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354058">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk>
+				<talk content="鹦鹉嘴就不犀利了吗？"/>
+				<talk content="大海深处漆黑漆黑的~"/>
+				<talk content="没人叫我鹦鹉嘴~"/>
+				</talk>
+			</state>
+		</level>
+	</angel>
+	
+							<angel id="1353228">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="这里是摩尔庄园？"/>
+				<talk content="尼尔拉塔很温暖的！"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="谢谢你！"/>
+				<talk content="谢谢你每天关心我！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354059">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="保卫庄园！"/>
+				<talk content="我是为庄园而生的！"/>
+				<talk content="请相信我的决心和力量～"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354060">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk>
+				<talk content="请把我当做砖块！"/>
+				<talk content="让我成为庄园的一部分！"/>
+				<talk content="我会努力支撑到最后！"/>
+				</talk>
+			</state>
+		</level>
+	</angel>
+	
+		<angel id="1353229">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="水果酸奶最好喝！"/>
+				<talk content="你可以给我酸奶喝吗？"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="妙妙妙最爱水果酸奶！"/>
+				<talk content="耶，让我的力量爆发吧！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354059">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="妙妙是水果酸奶超人呢！"/>
+				<talk content="妙妙最喜欢营养丰富的水果酸奶！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354060">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk>
+				<talk content="为什么我就忘记了呢？"/>
+				<talk content="喜欢喝酸奶也有错吗？"/>
+				<talk content="酸奶的味道是妈妈的味道！"/>
+				<talk content="不就是没有变异吗？"/>
+				<talk content="我还是很可爱的天使对不对？"/>
+				</talk>
+			</state>
+		</level>
+	</angel>
+
+		<angel id="1353230">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk>
+				<talk content="一只羊"/>
+				<talk content="两只羊"/>
+				<talk content="三只羊"/>
+				<talk content="好多好多只羊"/>
+				</talk>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="呀，我长高了呀！"/>
+				<talk content="果果香吗？！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354063">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我的小门牙会一直不停的长哦！"/>
+				<talk content="我喜欢啃硬硬的坚果！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354064">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="╮(╯▽╰)╭"/>
+				<talk content="晕呼呼啊~"/>
+			</state>
+		</level>
+	</angel>
+
+		<angel id="1353231">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="你会带我一块玩吗？"/>
+				<talk content="一块玩吧，一块玩吧！"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="(*^__^*) 嘻嘻……"/>
+				<talk content="小飞的牙白吧！比白兔还白！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354065">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="飞儿有雪白美丽的翅膀！"/>
+				<talk content="长翅膀的就是天使吗？"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354066">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="外面有坏人……"/>
+				<talk content="不要丢下我，我害怕……"/>
+			</state>
+		</level>
+	</angel>
+
+		<angel id="1353232">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="金色之环是顶级天使的标志"/>
+				<talk content="金色的星星是斯达专属的标志"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="巧克力色的斯达是不是很萌？"/>
+				<talk content="等我长大你就知道厉害了！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354067">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="哈哈哈，猛犸力量！！！"/>
+				<talk content="被我强大的牙震撼到了吧？"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354068">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk>
+				<talk content="等我长大了~"/>
+				<talk content="我也会变成厉害的猛犸~"/>
+				<talk content="到时候我就能去战斗了~"/>
+				</talk>
+			</state>
+		</level>
+	</angel>
+	
+		<angel id="1353239">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk>
+				<talk content="让我作画~"/>
+				<talk content="让我涂鸦~"/>
+				<talk content="让我成为伟大的艺术家~"/>
+				</talk>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk>
+				<talk content="成长还是不成长？"/>
+				<talk content="这个问题值得思考~"/>
+				</talk>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354081">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="飞起来吧~"/>
+				<talk>
+				<talk content="我是可爱的飞天猪猪~"/>
+				<talk content="我有可爱的飞天油壶~"/>
+				</talk>
+				<talk>
+				<talk content="满满的香油~"/>
+				<talk content="让我满足~"/>					
+				</talk>	
+			</state>
+		</level>
+	</angel>
+		<angel id="1354082">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="偶感冒niao~"/>
+				<talk content="偶想睡觉~"/>
+				<talk content="涂鸦涂鸦~"/>
+			</state>
+		</level>
+	</angel>
+	
+		<angel id="1353240">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk>
+				<talk content="再旺一点~"/>
+				<talk content="再亮一点~"/>
+				<talk content="再强大一点~"/>
+				</talk>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk>
+				<talk content="K . O . "/>
+				<talk content="请让我秒杀你，谢谢~"/>
+				</talk>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354083">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="战斗吧！"/>
+				<talk content="燃烧吧！"/>
+				<talk content="爆发吧！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354084">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我来帮你做个荷包蛋吧！"/>
+				<talk content="野外烧烤，羊肉滋滋滋，香香好滋味~"/>
+			</state>
+		</level>
+	</angel>
+	
+		<angel id="1353241">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk>
+				<talk content="我是小香炉~"/>
+				<talk content="你会送我金灿灿的香吗？"/>
+				</talk>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk>
+				<talk content="你要送给我金灿灿的香哦~"/>
+				<talk content="我可以告诉你一个秘密~"/>
+				<talk content="我长大了会招财呢，真的~"/>
+				</talk>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354085">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk>
+				<talk content="嘿嘿嘿，元宝香炉参见~"/>
+				<talk content="元宝肚子，金币眼睛，金箔帽子~"/>
+				<talk content="我是豪华的元宝香炉~"/>
+				</talk>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354086">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk>
+				<talk content="什么都抢走了~"/>
+				<talk content="抢走了~"/>
+				<talk content="抢走了~"/>
+				</talk>
+			</state>
+		</level>
+	</angel>
+	
+		<angel id="1353242">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="闪亮吧~"/>
+				<talk content="我还在休息，请耐心等待~"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我的水晶刺快点长出来吧~"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354087">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk>
+				<talk content="写轮眼，发动~~"/>
+				<talk content="人家说我的眼睛是万花筒写轮眼~"/>
+				<talk content="可华丽呢~~"/>
+				</talk>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354088">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk>
+				<talk content="地下没有光~"/>
+				<talk content="我就是地下的光~"/>
+				<talk content="你说要有光，我就是你的光~"/>
+				</talk>
+			</state>
+		</level>
+	</angel>								
+		
+		<angel id="1353246">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="钱宝宝就是可以变成钱的宝宝~"/>
+				<talk content="钱生钱，钱生钱~"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我是财富的象征~"/>
+				<talk content="加油积攒更多的金币吧~"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354093">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="帽子摇啊摇~"/>
+				<talk content="金币金币都来到~"/>
+				<talk content="闪闪发光~"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354094">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="囧~~"/>
+				<talk content="囧rz"/>
+				<talk content="囧是不是也可以囧囧有神？"/>
+			</state>
+		</level>
+	</angel>		
+	
+		<angel id="1353247">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="波涛摇摇，我要睡觉~"/>
+				<talk content="洁白如玉，那是说我美丽的外衣~"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我的发型拉轰吗？"/>
+				<talk content="我要用最美的珠宝来装饰自己！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354095">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="珊瑚、玛瑙、翡翠、珍珠~"/>
+				<talk content="我最爱名贵的珠宝~"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354096">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk>
+				<talk content="不要和我说话~"/>
+				<talk content="我才不丑呢！"/>
+				</talk>
+			</state>
+		</level>
+	</angel>		
+	
+		<angel id="1353218">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="努力努力长大~"/>
+				<talk content="桶宝宝来自KFC美食王国~"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="嘿嘿，你喜欢吃甜玉米吗？"/>
+				<talk content="玉米健康美味哦~"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354097">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="让全家人一块分享吧~"/>
+				<talk content="健康的美食，才是最棒的美食~"/>
+			</state>
+		</level>
+	</angel>
+	
+			<angel id="1353244">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="滴答滴答，时间在流动！"/>
+				<talk content="时间是不是从你的指缝中溜走了？"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="滴答滴答，一寸光阴一寸金~"/>
+				<talk content="要珍惜时间哦~"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354089">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="滴答滴答，不用着急，你会好好成长~"/>
+				<talk content="滴答滴答，每天提醒自己好好努力！"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354090">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk>
+				<talk content="睡会睡会~"/>
+				<talk content="时间滴答也不能不让我休息嘛！"/>
+				<talk content="别挡着我的太阳~"/>
+				<talk content="你要来保护我吗？不错哟~"/>
+				</talk>
+			</state>
+		</level>
+	</angel>
+	
+			<angel id="1353248">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="为什么小企看到的东东在旋转来？"/>		
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk>
+				<talk content="戴上金色的圈圈，我就是国王了吗？"/>
+				<talk content="不对，我要当孙悟空！齐天大圣！！"/>
+				</talk>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354098">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我的骨头呀，我可爱的骨头呀！"/>
+				<talk content="不许和我抢骨头！当心我用骨头敲你！"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354099">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk>
+				<talk content="表理我……"/>
+				<talk content="你看见我的骨头了吗？"/>
+				<talk content="我的骨头手杖去哪里了呢？"/>
+				</talk>
+			</state>
+		</level>
+	</angel>
+	
+			<angel id="1353249">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="Zzzzzzzzzzz……"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="让我给你带来幸福吧！"/>
+				<talk content="你知道幸福是什么嘛？"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354100">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="嘻嘻，没事多笑笑，你会幸福！"/>
+				<talk content="多多睡觉，也会幸福！"/>
+				<talk content="多吃点饭饭，长壮壮也是种幸福！"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354101">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="……"/>
+			</state>
+		</level>
+	</angel>
+				
+			<angel id="1353261">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="吹个球球，大呀么大气球！"/>
+				<talk content="控制体重，控制体重！"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="完了，腰身好像有点粗！"/>
+				<talk content="我要减肥，我不要这么胖！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354124">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="幸好，一切都在我的掌握之中。"/>
+				<talk content="球球滚滚，身体棒棒！"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354125">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="减肥失败，还变得如此吓人。"/>
+			</state>
+		</level>
+	</angel>
+	
+			<angel id="1353259">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="噗……泡泡……冰冰……"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我的表情是不是很拉风？"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354122">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="长大后果然帅气不少！"/>
+				<talk content="我是冰冰，谁敢阻挠我？"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354123">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我只能慢慢的挪动了……"/>
+				<talk content="冰冰……趴下了……"/>
+			</state>
+		</level>
+	</angel>
+	
+			<angel id="1353258">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="帽子也挡不住我的香肠嘴"/>
+				<talk content="我忍……马上就能露出真面目了。"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="眼睛是心灵的窗户！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354120">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我丑故我在。"/>
+				<talk content="我是小丑，也是丑王，请叫我亨利。"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354121">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="别让我见人了。"/>
+				<talk content="呼呼……解脱了……"/>
+			</state>
+		</level>
+	</angel>
+	
+			<angel id="1353257">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="你暂时还看不到我的可爱，稍安勿躁。"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="筷子筷子，快夹住我~~~"/>
+				<talk content="我要锻炼身体，嘿咻嘿咻！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354118">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="筷子和我是天生一对！"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354119">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="苍天弄人啊！"/>
+				<talk content="不要阻止我和筷子在一起！"/>
+				<talk content="就算如此，你也赞美我一下行吗？"/>
+			</state>
+		</level>
+	</angel>
+	
+			<angel id="1353256">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="你让我说一句行吗？就一句。"/>
+				<talk content="不说话就是要我的命！"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="有嘴巴是世界上最最幸福的事情！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354116">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="啰啰嗦嗦唧唧歪歪呜呜哇哇叽里呱啦！"/>
+				<talk content="请不要阻止我说话，我会憋坏的。"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354117">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="不公平啊不公平啊不公平啊不公平……"/>
+				<talk content="我要上诉，我要反驳，别想让我闭嘴……"/>
+			</state>
+		</level>
+	</angel>
+	
+			<angel id="1353255">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我说……你不太给力啊。"/>
+				<talk content="作为一只气球，就是要直接点。"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="说实话也有错了吗？"/>
+				<talk content="这个世界好黑暗，我已忍无可忍。"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354114">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我闭嘴还不行吗？"/>
+				<talk content="全世界只有我说的话是真的。"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354115">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="别看我，你也好不到哪里去！"/>
+				<talk content="其实我们都只是茫茫人海中的一小沙粒。"/>
+			</state>
+		</level>
+	</angel>
+	
+			<angel id="1353254">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="还没长大就这么美~"/>
+				<talk content="红色代表着魅力无限！"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="真心不想长这么标致！"/>
+				<talk content="别对我抛媚眼行不？"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354112">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="超级无敌魅力的我，你喜欢吗？"/>
+				<talk content="别这样看着我，真没礼貌！"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354113">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="把世界上的镜子通通给我摔了！"/>
+				<talk content="我不信，这不是我！"/>
+				<talk content="别这样好吗？"/>
+			</state>
+		</level>
+	</angel>
+	
+			<angel id="1353253">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="嗯~~~今天你吃棒棒糖了吗？"/>
+				<talk content="抱抱~~~！抱抱~~~！"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="就是不喜欢打架。"/>
+				<talk content="我们相亲相爱不行吗？"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354110">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="嗯~~~今天你吃棒棒糖了吗？"/>
+				<talk content="我讨厌武力，请不要逼迫我好吗？"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354111">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="太棒了，可以不用打架了。"/>
+				<talk content="感谢老天让我变异失败。"/>
+			</state>
+		</level>
+	</angel>
+	
+			<angel id="1353252">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="别和我说话。"/>
+				<talk content="不知道，对，就是不知道！"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="都说了不想说话了。"/>
+				<talk content="没事别来看我，我很好。"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354108">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我只是不爱说话，没什么奇怪的。"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354109">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="不就是丑了点么。"/>
+				<talk content="哼，变异失败了？"/>
+			</state>
+		</level>
+	</angel>
+	
+			<angel id="1353251">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="黄黄的我最可爱了，你喜欢我吗？"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="咕咕，我年纪最小，我也最最可爱。"/>
+				<talk content="虾米时候才能长大捏，好期待哟！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354106">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="哇哦，棒棒糖是我的最爱！"/>
+				<talk content="我可不怕胖，棒棒糖，我舔~~~！"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354107">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="就算年纪小，也遮不住变异失败的沧桑呀！"/>
+			</state>
+		</level>
+	</angel>
+	
+			<angel id="1353250">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="气球飞呀，飞呀，飞高了就能长大吗？"/>
+				<talk content="帽子好像遮住了我明亮的双眼！"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="嘴巴长出来了有木有！"/>
+				<talk content="别以为我尾巴细，其实特别灵敏。"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354104">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="啦啦啦，棒棒糖吃嘛~"/>
+				<talk content="呼呼……呼呼……呼呼呼呼……"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354101">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我……我……为什么这么丑？"/>
+				<talk content="一切随缘！"/>
+				<talk content="事到如今，我也只能接受现实了！"/>
+			</state>
+		</level>
+	</angel>
+	
+			<angel id="1353260">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="叮叮当叮叮当驼驼小叮当~当当当~"/>
+				<talk content="我是一直被火焰包围的铃铛，请别羡慕我！"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="别看我脖子短，脑袋大，其实还挺帅气的~"/>
+				<talk content="妈妈，为什么我的脑袋这么大呢？"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354102">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我有神秘的力量庇护，请赐予我战斗。"/>
+				<talk content="铃铛和峰驼不仅是我的武器，更是我的保护罩！"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354103">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk>
+				<talk content="我……我……为什么这么丑？"/>
+				<talk content="一切随缘！"/>
+				<talk content="事到如今，我也只能接受现实了！"/>
+				</talk>
+			</state>
+		</level>
+	</angel>
+	
+			<angel id="1353245">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="身体方不代表脑袋方！"/>
+				<talk content="小时候打好基础，长大了才能刀枪不入！"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="谁敢来挑战？"/>
+				<talk content="传说中的金刚战士马上就要长大了！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354091">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="来想要挑战我的坚硬度吗？"/>
+				<talk content="金刚之王，战神在此！"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354092">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="再坚固的外表，都藏不住一颗脆弱的小心心。"/>
+			</state>
+		</level>
+	</angel>
+	
+				<angel id="1353262">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="你好，我是糯米团团"/>
+				<talk content="团团比包子可爱。"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="就算睡觉也这么有魅力。"/>
+				<talk content="粽叶瞬间就能衬托我的气质。"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354126">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我没有瞪大眼睛，我眼睛天生就大！"/>
+				<talk content="我就是比包子可爱！"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354127">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="呼呼……"/>
+				<talk content="呼噜……呼……呼噜"/>
+				<talk>
+					<talk content="做一只成天睡觉的天使"/>
+					<talk content="未尝不是一件幸福的事"/>
+					</talk>
+			</state>
+		</level>
+	</angel>	
+	
+			<angel id="1353263">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我摇，我晃，我摇晃！"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="猜猜我是谁？"/>
+				<talk content="乖仔马上就能和你见面啦~！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354128">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我喜欢被妈妈抱着的感觉。"/>
+				<talk content="我是乖仔，我是不倒翁！"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354129">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="不许摇，摇着摇着我就倒下了。"/>
+			</state>
+		</level>
+	</angel>	
+	
+			<angel id="1353264">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="妈妈咪呀，我是小小浆果！"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我有一头引以为傲的长发"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354130">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="么么，长发，就是这么自信。"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354131">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="请无视我的秀发"/>
+			</state>
+		</level>
+	</angel>	
+
+			<angel id="1353265">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="小夫子，没裤子！"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我的头顶长出叶子了！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354132">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="抓不到我，抓不到我！"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354133">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="讨厌睡觉、讨厌睡觉！"/>
+			</state>
+		</level>
+	</angel>
+	
+				<angel id="1353266">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我来自古老而神秘的黑森林"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我们的祖先曾经与黑龙战斗过！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354134">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我的羽毛都艳丽就代表我有多自信。"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354135">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我说，请赞扬我盛开的羽毛。"/>
+			</state>
+		</level>
+	</angel>
+
+				<angel id="1353268">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="虽然我现在很土，长大了就让你惊艳"/>
+				<talk content="芽芽快快长大吧。"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="粉粉~啵啵~圆嘟嘟~"/>
+				<talk content="一定要变成最美的天使!"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354136">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="哇~！这就是天使园吗？像花园一样的地方！"/>
+				<talk content="别再看我了，粉妞妞有点害羞了！"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354137">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="这让我情以何堪呀！"/>
+				<talk content="如果上天能再给我一次机会，我绝不会让自己变成这样！"/>
+				<talk content="黑夜给了我黑色的眼睛，我却只能用它翻白眼！"/>
+			</state>
+		</level>
+	</angel>
+	
+
+
+				<angel id="1353269">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="哈哈~！上辈子我是开心果！"/>
+				<talk content="啦啦啦~！想听我讲笑话吗？"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="哈哈~！我要在欢乐中长大"/>
+				<talk content="哟呵！今天你笑了吗？"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354138">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="噢耶！我长大了，太开心了！"/>
+				<talk content="每天看到我你的心情会被我感染！"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354139">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="流着泪的我的脸！"/>
+				<talk content="我就是传说中的悲伤朱丽叶吗？"/>
+				<talk content="我的世界为什么一直在下雨？"/>
+			</state>
+		</level>
+	</angel>
+
+
+																	
+
+				<angel id="1353270">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="呜呜~~一团紫雾！"/>
+				<talk content="我会变成什么样子呢？"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我的头发好茂盛！"/>
+				<talk content="长大了一定要做个漂亮的造型！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354140">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我的蓬蓬头是不是很时髦！"/>
+				<talk content="我天生就是一个完美的造型师！"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354141">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="不要，不要变成乱糟糟！"/>
+				<talk content="这不是我要的头发颜色"/>
+				<talk content="噢！NO！怎么会变成这样！"/>
+			</state>
+		</level>
+	</angel>
+
+
+				<angel id="1353271">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="盒子里面是什么呢？"/>
+				<talk content="小心轻放朝上？"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="喵喵~咕咕~妈妈"/>
+				<talk content="喵喵~呜呜~冷冷"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354142">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="请收养我吧，我会吃饭！"/>
+				<talk content="阿~喵~带我回家家！"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354143">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="喵喵~喵喵~！"/>
+				<talk content="盒子好暗，喵喵好怕！"/>
+				<talk content="不够萌自卑了！"/>
+			</state>
+		</level>
+	</angel>
+
+
+
+
+
+
+				<angel id="1353272">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="一块小树皮，眨巴眨巴眼！"/>
+				<talk content="我要长成参天大树！"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="咦！哪里来的蛋呢？"/>
+				<talk content="脑袋好沉呀，这颗蛋好重呀！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354144">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="咳咳~圣蛋长大了，我也老了！"/>
+				<talk content="我思考我存在！"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354145">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我的圣蛋碎了！"/>
+				<talk content="抖~抖~完了，蛋没了！"/>
+				<talk content="呜呜~，我不要做一颗平凡的树！"/>
+			</state>
+		</level>
+	</angel>
+
+
+
+				<angel id="1353273">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="天生我才必有我用！"/>
+				<talk content="天赋异禀就是我！"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="黄金角可不是用来好看而已！"/>
+				<talk content="锻炼肌肉，将会更有力量。"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354146">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="带上铠甲插上羽毛，全副武装！"/>
+				<talk content="我三眼金蟾是常胜将军。"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354147">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我三眼金蟾是常胜将军。"/>
+				<talk content="哎~！天要亡我呀！"/>
+				<talk content="这不是我的错！"/>
+			</state>
+		</level>
+	</angel>
+
+
+
+				<angel id="1353274">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我为闪电而生!"/>
+				<talk content="继承龙的精之神力！"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="看着我的眼睛，里面有道闪电！"/>
+				<talk content="我是黑夜中的一道闪电！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354148">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="握紧拳头蓄势待发！"/>
+				<talk content="雷电是自然最威力的武器！"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354149">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我也有一个颗成为霹雳雷龙的心呀！"/>
+				<talk content="虽然我不酷，可是我很萌！"/>
+				<talk content="我也是有龙的高贵血统呢！"/>
+			</state>
+		</level>
+	</angel>
+
+
+		<angel id="1353275">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我为火而生！"/>
+				<talk content="心中燃烧着热情的火焰！"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="靠近我，我会将你融化！"/>
+				<talk content="我是黑夜中的划过的一颗流星！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354150">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我的必杀技火龙之怒！"/>
+				<talk content="火带来温暖，也带来强大的力量！"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354151">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="不管怎么说我们拥有火一样的颜色！"/>
+				<talk content="不可否认我很呆，但我很乖！"/>
+				<talk content="把成为霹雳火力的机会让给其他的龙吧！"/>
+			</state>
+		</level>
+	</angel>
+
+
+
+	<angel id="1353276">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="蓝色泡泡蓝色的梦"/>
+				<talk content="吹个泡泡睡觉觉"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我还在喝奶哟"/>
+				<talk content="喝饱饱长大大"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354152">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我是水中的梦精灵"/>
+				<talk content="蓝色的水泡泡，很清凉"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354153">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我也想吐出蓝色的泡泡"/>
+				<talk content="你看不见我的眼泪，因为我在水中"/>
+				<talk content="啪啪啪，为自己打气吧"/>
+			</state>
+		</level>
+	</angel>
+
+
+
+
+
+
+<angel id="1353279">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我要快点长大"/>
+				<talk content="我要去黑森林"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我不是喵咪"/>
+				<talk content="我也要参加战斗"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354158">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="快带我去黑森林吧"/>
+				<talk content="有我在，不用害怕任何敌人"/>
+			</state>
+		</level>
+	</angel>
+			
+
+
+
+
+<angel id="1353277">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="人家想快快长大飞上天"/>
+				<talk content="耳朵变长长"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="其实我是飞天兔兔"/>
+				<talk content="咦，为什么耳朵不一样长？"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354154">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我飞，我飞，我飞飞飞"/>
+				<talk content="我是世界上唯一的飞天兔兔"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354155">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="呜，谁来帮我把耳朵解开？"/>
+				<talk content="为什么兔兔就不能飞上天嘛"/>
+				<talk content="其实泪儿从前也爱笑的呢"/>
+			</state>
+		</level>
+	</angel>
+
+
+
+<angel id="1353278">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="人家是世界上最神奇的蛋"/>
+				<talk content="坚硬蛋壳也掩盖不了翠儿的酷"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="翠儿是世界上最酷的小鸡"/>
+				<talk content="我有心形红印，你有吗"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354156">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="翠儿称第二，谁敢称第一"/>
+				<talk content="早上醒来，发现又变酷了"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354157">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="人家不是坏蛋嘛"/>
+				<talk content="其实墨镜让我更酷了"/>
+				<talk content="胶水呢？让我把蛋壳粘起来"/>
+			</state>
+		</level>
+	</angel>
+
+
+
+<angel id="1353280">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="总有一天我也会成为森林之王"/>
+				<talk content="英勇的大王也是从小孩子过来的"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="为了成为森林之王而努力"/>
+				<talk content="我要变得更强大，保卫家园"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354159">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我就是威风凛凛的森林之王"/>
+				<talk content="我要保卫我的整片森林"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354160">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="要当英雄首先得耐得住平凡！"/>
+				<talk content="锅盖不好看好歹也是我亲手做的"/>
+				<talk content="总有一天我也会成为森林之王"/>
+			</state>
+		</level>
+	</angel>
+
+
+<angel id="1353267">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="不嘛，人家还要睡一会儿"/>
+				<talk content="呼~呼~呼~Zzzz"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="不能光顾睡觉了，要努力学习"/>
+				<talk content="我要成为圣山的守护者"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354161">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="永远守卫我的家园"/>
+				<talk content="为了圣山的和平和宁静"/>
+			</state>
+		</level>
+	</angel>
+			
+
+
+<angel id="1353281">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我是一颗神奇的仙果"/>
+				<talk content="以后我会变成仙人"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="天地万物赐予我力量吧"/>
+				<talk content="我要学会更多的本领"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354163">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="万物是仙灵的根源"/>
+				<talk content="上天入地，飘飘然"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354164">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我的星星到底哪里去了"/>
+				<talk content="我该成为仙人才对的呀"/>
+				<talk content="还有没有重来一次的机会"/>
+			</state>
+		</level>
+	</angel>
+
+
+
+<angel id="1353282">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="小蜂蛹以后会是勇猛的武士"/>
+				<talk content="小蜂蛹要快快长大"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我要锻炼强健的体魄"/>
+				<talk content="英雄就是这样练成的"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354165">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我是世界上最勇猛的武士"/>
+				<talk content="我是比风还快的忍者蜂"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354166">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="呜呜，我要我的翅膀"/>
+				<talk content="我想飞，我想做武士"/>
+				<talk content="这就是失败的滋味吗?"/>
+			</state>
+		</level>
+	</angel>
+
+
+	<angel id="1353282">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="小蜂蛹以后会是勇猛的武士"/>
+				<talk content="小蜂蛹要快快长大"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我要锻炼强健的体魄"/>
+				<talk content="英雄就是这样练成的"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354165">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我是世界上最勇猛的武士"/>
+				<talk content="我是比风还快的忍者蜂"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354166">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="呜呜，我要我的翅膀"/>
+				<talk content="我想飞，我想做武士"/>
+				<talk content="这就是失败的滋味吗?"/>
+			</state>
+		</level>
+	</angel>
+
+
+<angel id="1353283">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我是神奇葫芦子"/>
+				<talk content="我要叶子变大大"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我的叶子会长得比别人都大"/>
+				<talk content="红花还需绿叶配"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354167">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我是神奇的大叶子"/>
+				<talk content="我的绿荫可以包围整个世界"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354168">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="谁能告诉我这是为什么"/>
+				<talk content="我想要回以前的绿叶"/>
+				<talk content="天！这一定不是我的模样"/>
+			</state>
+		</level>
+	</angel>
+
+
+<angel id="1353284">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="人家不是小兔子"/>
+				<talk content="我会长成美丽的吧啦鸟"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="克里克里吧啦变"/>
+				<talk content="吧啦吧啦变美丽"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354169">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我是神奇的吧啦鸟"/>
+				<talk content="我会给大家带来祝福"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354170">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="为啥我就不能变好看"/>
+				<talk content="世界上还有比长翅膀更难的事吗"/>
+				<talk content="改天做件漂亮的衣服去"/>
+			</state>
+		</level>
+	</angel>
+
+
+<angel id="1353285">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="吸收阳光，吸收雨露"/>
+				<talk content="狐狸和苗苗一起成长"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="好好努力，快快成长"/>
+				<talk content="狐狸和苗苗是好伙伴"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354171">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我是最最厉害的狐狸苗苗"/>
+				<talk content="狐狸和苗苗永远在一起"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354172">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="太阳之神救救木乃苗苗"/>
+				<talk content="我想重新拥有力量"/>
+				<talk content="狐狸和苗苗说好要在一起的"/>
+			</state>
+		</level>
+	</angel>
+
+
+
+<angel id="1353286">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我是来自火海的刺团"/>
+				<talk content="火焰在的地方就是我的家"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我要快快长大"/>
+				<talk content="要像火一般的坚强"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354173">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="让火焰赐予我力量吧"/>
+				<talk content="我的力量将像火焰一样蔓延"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354174">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="呜，好冷！"/>
+				<talk content="多么期待冬天里的一把火"/>
+				<talk content="谁能赐予我一些力量呢"/>
+			</state>
+		</level>
+	</angel>
+
+<angel id="1353287">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我是美丽的花蟹苞"/>
+				<talk content="每天长大一点点"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="缤纷灿烂就是我"/>
+				<talk content="每天都要更美丽"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354175">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我是最最漂亮的彩蟹妹"/>
+				<talk content="妈妈说钳子大才漂亮"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354176">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="妈妈说钳子大才漂亮！"/>
+				<talk content="健康的身体才最漂亮呀"/>
+				<talk content="健康的身体才最漂亮呀"/>
+			</state>
+		</level>
+	</angel>
+
+
+<angel id="1353288">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="有一天我要成为英雄"/>
+				<talk content="我以后要维护黑森林的正义"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="锻炼好身体，长大当英雄"/>
+				<talk content="我要像超人一样勇敢"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354177">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我是黑森林的正义使者"/>
+				<talk content="我要帮助需要帮助的人"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354178">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="呜，该好好注意营养的"/>
+				<talk content="健康的身体才最漂亮呀"/>
+				<talk content="为什么我要变得这么难看?"/>
+			</state>
+		</level>
+	</angel>
+
+
+<angel id="1353289">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我是神奇的磁力蛋"/>
+				<talk content="太阳和月亮让我快快成长"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="一天一天变强壮"/>
+				<talk content="我要成为黑森林的勇士"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354179">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="磁圈仔有着无限的力量"/>
+				<talk content="我是黑森林里强壮的勇士"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354180">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="谁把我的磁圈弄坏了"/>
+				<talk content="太阳和月亮不要我了吗"/>
+				<talk content="我也想要恢复生机"/>
+			</state>
+		</level>
+	</angel>
+
+
+
+	<angel id="1353290">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我不是梨子，是猫核儿"/>
+				<talk content="我是可爱的小天使"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="加油快快长大"/>
+				<talk content="你见过会动的梨子吗"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354181">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我就是传说中的猫梨熊"/>
+				<talk content="梨子没我大，熊猫没我可爱"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354182">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="梨子竟然变成苹果了"/>
+				<talk content="人家不是狸猫啊"/>
+				<talk content="呜，这下没熊猫可爱了"/>
+			</state>
+		</level>
+	</angel>
+
+
+	<angel id="1353291">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我是大自然孕育的精灵"/>
+				<talk content="在大自然的怀抱中快快成长"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="努力变得更强壮"/>
+				<talk content="希望能早日飞向天空"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354183">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我是神奇的荷鲁斯"/>
+				<talk content="我要守卫我们的大自然"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354184">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="为什么我会变成这样"/>
+				<talk content="没办法飞起来了吗"/>
+				<talk content="我也想要变强壮"/>
+			</state>
+		</level>
+	</angel>
+
+<angel id="1353292">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我是草原之子辛巴"/>
+				<talk content="我是草原上初生的太阳"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我要努力变强壮"/>
+				<talk content="我要护卫我的整片草原"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354185">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="斯芬克斯要和草原同在"/>
+				<talk content="像太阳一般带给草原光芒"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354186">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="再也做不成草原的主人了吗?"/>
+				<talk content="现在成草原上的落日了"/>
+				<talk content="为什么我会变成这样?"/>
+			</state>
+		</level>
+	</angel>
+
+<angel id="1353293">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我是来自月宫的小小月"/>
+				<talk content="我像一块大月饼吗"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="快快长大，变成漂亮仙女"/>
+				<talk content="代表月亮祝福你"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354187">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我是神奇的月月仙女"/>
+				<talk content="我要把祝福洒满人间"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354188">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="谁把我咬了一口?"/>
+				<talk content="这下我真的成了大月饼了"/>
+				<talk content="我不想做残缺月"/>
+			</state>
+		</level>
+	</angel>
+
+
+<angel id="1353294">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我是童话精灵斑比"/>
+				<talk content="我要快快长大"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="努力变得更漂亮"/>
+				<talk content="我要成为美丽的五斑灵鹿"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354189">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我是美丽的五斑灵鹿"/>
+				<talk content="我是被圣光笼罩的精灵"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354190">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="为什么我没有五花瓣?"/>
+				<talk content="我也想要漂亮的光芒"/>
+				<talk content="我是被遗忘的可怜虫"/>
+			</state>
+		</level>
+	</angel>
+
+
+
+<angel id="1353295">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我是雷电的孩子多利"/>
+				<talk content="在电光的照耀下成长"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="大自然赐予我力量吧"/>
+				<talk content="让电光笼罩整个世界"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354191">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我是神奇的雷角多利"/>
+				<talk content="雷电的力量就是我的力量"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354192">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="竟然被烧焦了"/>
+				<talk content="雷电是最可怕的东西"/>
+				<talk content="这下成了失去力量的小绵羊"/>
+			</state>
+		</level>
+	</angel>
+
+
+
+<angel id="1353297">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="咕叽咕叽咕叽"/>
+				<talk content="我想要快快长大"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="每天长大一点点"/>
+				<talk content="以后我会比宇宙还大"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354195">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="宇宙精灵帕帕露"/>
+				<talk content="我可不是普通的小毛球"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354196">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="啊！我怎么变成了这样"/>
+				<talk content="这下真的没法长大了"/>
+				<talk content="不许说人家是小煤球"/>
+			</state>
+		</level>
+	</angel>
+
+
+<angel id="1353296">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="圈圈喜欢海洋"/>
+				<talk content="自由自在到处游"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="和我的圈圈共成长"/>
+				<talk content="呼呼呼~大海的声音"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354193">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="听海豹圈圈歌唱"/>
+				<talk content="在大海里尽情遨游"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354194">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="哎呀，走不动了"/>
+				<talk content="肚子一天比一天更大了"/>
+				<talk content="真后悔锻炼太少了呀"/>
+			</state>
+		</level>
+	</angel>
+
+
+
+
+
+	<angel id="1353299">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="小角是最勇敢的小羊"/>
+				<talk content="一定要走遍整个世界"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="呼哧呼哧，加油锻炼"/>
+				<talk content="锻炼强健的体魄"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354199">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="六角羚羊的身影无处不在"/>
+				<talk content="环游世界，我来啦"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354200">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="青草怎么这么好吃呢"/>
+				<talk content="还不够，再来一点儿"/>
+				<talk content="锻炼？啊~吃了饭再说吧"/>
+			</state>
+		</level>
+	</angel>
+
+
+
+	<angel id="1353300">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我是深海小璐璐"/>
+				<talk content="变大变漂亮"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="小荷才露尖尖角"/>
+				<talk content="璐璐早已变漂亮"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354201">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="海之精灵美人璐璐"/>
+				<talk content="听见大海的歌声了吗"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354202">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="该去做做美容的"/>
+				<talk content="眼睛也不咋能看清了"/>
+				<talk content="等会儿，打扮一下先"/>
+			</state>
+		</level>
+	</angel>
+
+
+	<angel id="1353298">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="花苞虽小却活力四射"/>
+				<talk content="阳光照射，雨露滋养"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我要快快长大"/>
+				<talk content="投向大自然的怀抱"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354197">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="梅鲁魅力无人可挡"/>
+				<talk content="哟呼~飞起来吧"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354198">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="营养不良的小青菜"/>
+				<talk content="呜~我的阳光在哪里"/>
+				<talk content="谁来和我做朋友?"/>
+			</state>
+		</level>
+	</angel>
+
+
+	<angel id="1353301">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="想和我玩的快报名咯"/>
+				<talk content="一二三四五，睡睡再读书"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="天空为什么那么蓝？"/>
+				<talk content="今晚妈妈做什么好吃的？"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354203">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="再看我就把你吃掉"/>
+				<talk content="魔角巴鲁的威严不容小视"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354204">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="哎呀，什么，是什么？"/>
+				<talk content="今天可以干什么呢？"/>
+				<talk content="呼~呼~是左，还是右？"/>
+			</state>
+		</level>
+	</angel>
+
+
+<angel id="1353302">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="小羽漂亮吗？"/>
+				<talk content="小羽想要快快长大！"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="美丽才露尖尖角！"/>
+				<talk content="鹦鹉天使的序章！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354205">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="鹦鹉之神从天而降！"/>
+				<talk content="给世间带来美丽！"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354206">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="呜，不好意思见人了！"/>
+				<talk content="我怎么会变成这样！"/>
+				<talk content="想要件漂亮衣服嘛！"/>
+			</state>
+		</level>
+	</angel>
+
+
+<angel id="1353303">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="好想快快长大"/>
+				<talk content="我要到处去玩儿去"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="蹦蹦跳跳真有趣"/>
+				<talk content="世界真是美妙"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354207">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我就是可爱的松鼠果果"/>
+				<talk content="到处去发现小惊喜"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354208">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="呜呜，怎么越来越胖了"/>
+				<talk content="这下都跑不动了"/>
+				<talk content="人家想到处去玩嘛"/>
+			</state>
+		</level>
+	</angel>
+
+<angel id="1353304">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="嘻嘻~世界多美好"/>
+				<talk content="想和笑笑蛛一起玩吗?"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="小蜘蛛，快长大"/>
+				<talk content="织网布天下"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354209">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我是神奇金福蛛"/>
+				<talk content="给大家带来好运和福气"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354210">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="呜呜~呜呜~"/>
+				<talk content="想笑却根本笑不起来"/>
+				<talk content="我的福气哪里去了"/>
+			</state>
+		</level>
+	</angel>
+
+
+<angel id="1353305">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="大雪天，多美妙"/>
+				<talk content="我的圣诞礼物在哪里？"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="叮叮当，叮叮当~"/>
+				<talk content="铃儿响叮当~"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354211">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="天天都是圣诞节！"/>
+				<talk content="祝福洒满庄园！"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354212">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="没有礼物的圣诞节"/>
+				<talk content="这下成了剩蛋节"/>
+				<talk content="孤零零的蓝鼻恰克"/>
+			</state>
+		</level>
+	</angel>
+
+
+	<angel id="1353306">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="什么时候能下雪呢？"/>
+				<talk content="雪花飘，多美妙！"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="冬天快快来吧！"/>
+				<talk content="好想打雪仗！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354213">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="雪花在天地间飞舞！"/>
+				<talk content="斯诺伊展现的时刻到了！"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354214">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我是要融化了吗？"/>
+				<talk content="不要做扑扑伊"/>
+				<talk content="我想出去打雪仗"/>
+			</state>
+		</level>
+	</angel>
+
+	<angel id="1353307">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="咿呀咿呀咿呀呀"/>
+				<talk content="出去玩呀出去玩"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="不想吃饭，不想睡觉"/>
+				<talk content="我只想出去玩"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354215">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="莫古苏想要去世界各地"/>
+				<talk content="新鲜东西最好玩"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354216">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="为什么会变成这样"/>
+				<talk content="哪里来的刺球？"/>
+				<talk content="我以后一定乖乖的"/>
+			</state>
+		</level>
+	</angel>
+
+	<angel id="1353308">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我要快快长大"/>
+				<talk content="幸福的每一天"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="你知道我是谁吗？"/>
+				<talk content="我是福音之子"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354217">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="祥云九尾踏七彩而来"/>
+				<talk content="福音洒遍大地"/>
+			</state>
+		</level>
+	</angel>
+
+
+	<angel id="1353309">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="瓶子虽小，想法不少"/>
+				<talk content="我想快快长成大瓶子"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="长出了漂亮的耳朵"/>
+				<talk content="小瓶子也可以很漂亮"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354218">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我是快乐的水之宝瓶"/>
+				<talk content="将祝福洒向整个世界"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354219">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="别理我！除非你给我点水"/>
+				<talk content="哼哼，我快渴死了"/>
+				<talk content="我也不是故意赌气的嘛"/>
+			</state>
+		</level>
+	</angel>
+
+		<angel id="1353310">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="叮叮当，叮叮当~"/>
+				<talk content="铃儿响叮当"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我是可爱小铃铛"/>
+				<talk content="叮叮当当快成长"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354220">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="祥瑞摇铃就是我"/>
+				<talk content="福气送给千万家"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354221">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="谁把我弄成这个样子啦"/>
+				<talk content="摇啊摇，却没有声音呀"/>
+				<talk content="可怜我成了破铃铛"/>
+			</state>
+		</level>
+	</angel>
+	<angel id="1353311">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="快让我诞生吧"/>
+				<talk content="我要融入冰雪的世界"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="在天地间奔跑"/>
+				<talk content="有冰雪的地方就是我的家"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354224">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="强大的冰雪精灵龙"/>
+				<talk content="这是我的世界"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354225">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="哼哼，我就是冷冰冰"/>
+				<talk content="冷冰冰又怎样嘛"/>
+				<talk content="管我的呢"/>
+			</state>
+		</level>
+	</angel>
+
+<angel id="1353312">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="快快长大吧"/>
+				<talk content="我要成为美丽的雪精灵"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="啊呼呼~啊呼呼~"/>
+				<talk content="翅膀什么时候能长出呢?"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354222">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我是神奇可爱的雪精灵"/>
+				<talk content="翩翩飞舞天地间"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354223">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="啊，你在说什么呢?"/>
+				<talk content="我也不想这样呆呆的嘛~"/>
+				<talk content="1、2、3、4、5……"/>
+			</state>
+		</level>
+	</angel>
+
+	<angel id="1353313">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="小鱼快快长"/>
+				<talk content="永远不分离"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="小鱼小鱼，天天在一起"/>
+				<talk content="小鱼天下游"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354226">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我们是神奇的双鱼天使"/>
+				<talk content="我们就是最佳拍档"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354227">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="明明是最佳拍档的嘛"/>
+				<talk content="怎么会变这样~"/>
+				<talk content="谁来帮帮我们?"/>
+			</state>
+		</level>
+	</angel>
+  
+  <angel id="1354228">
+		<level id="4">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="冰雪之王雪麒麟！"/>
+				<talk content="天地为我而冰封！"/>
+			</state>
+		</level>
+	</angel>
+  
+  	<angel id="1353314">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="小小魔书力量大！"/>
+				<talk content="猜猜我是谁！"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="天天努力练本领！"/>
+				<talk content="把知识全装进肚子里！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354229">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="神奇的时光魔书！"/>
+				<talk content="穿梭于时光之间！"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354230">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="你说什么？什么东西？"/>
+				<talk content="哎，老了老了！"/>
+				<talk content="越来越看不清啦！"/>
+			</state>
+		</level>
+	</angel>
+  
+  	<angel id="1353315">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="咩咩~咩咩~"/>
+				<talk content="机械咩咩想出去玩！"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="想挑战吗？哈哈~"/>
+				<talk content="活力咩咩快长大！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354231">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="白羊天使走遍天下！"/>
+				<talk content="冒险、创造，这就是我！"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354232">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="哎呀，看不清！"/>
+				<talk content="该换个轻一点的钢盔的！"/>
+				<talk content="嘿，躲开点儿~"/>
+			</state>
+		</level>
+	</angel>
+  
+  	<angel id="1353316">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="知道我是谁吗？"/>
+				<talk content="我是小吼姆！"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="哗啦~肚子饿！"/>
+				<talk content="可以和你交个朋友吗？"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354233">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我会招财哟，嘻嘻~"/>
+				<talk content="吼姆爱财，取之有道！"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354234">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="谁来帮我洗洗干净嘛！"/>
+				<talk content="我也不想脏脏！"/>
+				<talk content="嘿，我可以招财的！"/>
+			</state>
+		</level>
+	</angel>
+
+  	<angel id="1353317">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="小青虫，快长大！"/>
+				<talk content="咿呀咿呀咿呀呀~"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我是不是越来越美丽了？"/>
+				<talk content="我是蝴蝶还是花苞呢？"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354235">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我是美丽的幻彩蝴蝶！"/>
+				<talk content="你也喜欢灵萌果实吗？"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354236">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我还是当毛青虫好了！"/>
+				<talk content="我不认识幻彩蝴蝶！"/>
+				<talk content="哎，回去洗个澡吧！"/>
+			</state>
+		</level>
+	</angel>
+
+  <angel id="1353318">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="大海是豚豚的家！"/>
+				<talk content="豚豚要快快长大！"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="在海之怀抱中畅游！"/>
+				<talk content="你也想来海里玩玩吗？"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354237">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我是海里的华冠海豚！"/>
+				<talk content="聆听海的歌声！"/>
+			</state>
+		</level>
+	</angel>
+  
+  	<angel id="1353319">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="火苗，真可爱！"/>
+				<talk content="你也想和小火苗玩吗？"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="在火焰中成长！"/>
+				<talk content="吸收火焰的力量！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354238">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我是强力的火焰金牛！"/>
+				<talk content="力量随着火焰而蔓延！"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354239">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="哇呜，不要做牛排！"/>
+				<talk content="别拍我！别拍我！"/>
+				<talk content="回去洗洗睡了吧！"/>
+			</state>
+		</level>
+	</angel>  
+  
+  	<angel id="1353320">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我是机械龙宝宝！"/>
+				<talk content="可不许小看我哦！"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="一天天变强大！"/>
+				<talk content="想和我比比看吗？"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354240">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我是威风机械龙！"/>
+				<talk content="感受到我的威风了吗？"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354241">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="哎呀，谁拍我？"/>
+				<talk content="人家都看不见了~"/>
+				<talk content="一点也不威风了嘛！"/>
+			</state>
+		</level>
+	</angel>    
+  
+  	<angel id="1353321">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我的名字叫露丝！"/>
+				<talk content="你好呀，很高兴见到你！"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="人家可是淑女哟！"/>
+				<talk content="嘻嘻嘻~笑不露齿！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354242">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我是淑女露丝！"/>
+				<talk content="想和我做朋友吗？"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354243">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="怎么会这样嘛？"/>
+				<talk content="人家是淑女，淑女！"/>
+				<talk content="谁能明白我的心思呢？"/>
+			</state>
+		</level>
+	</angel> 
+
+  	<angel id="1353322">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我是神奇孪生子！"/>
+				<talk content="天使的光环护佑着我！"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="永远的好朋友！"/>
+				<talk content="天天在一起哟！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354244">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我们是双子天使！"/>
+				<talk content="永远都不要分离！"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354245">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="以后再也不淘气啦！"/>
+				<talk content="呜~呜呜呜~"/>
+				<talk content="谁会喜欢淘气兄弟呢？"/>
+			</state>
+		</level>
+	</angel> 
+
+  	<angel id="1353323">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我是可爱蟹宝宝！"/>
+				<talk content="你想跟我玩吗？"/>
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="来吧来吧，咔咔~"/>
+				<talk content="咱们来比比谁更厉害！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354246">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我是巨蟹天使！"/>
+				<talk content="看我帅气吗？"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354247">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="贝壳就是我的家！"/>
+				<talk content="哎哟~小声点儿！"/>
+				<talk content="其实我还是挺可爱的啦！"/>
+			</state>
+		</level>
+	</angel> 
+	
+	<angel id="1353324">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="聪慧的星尾幼狮！"/>
+				<talk content="让我来考考你吧！"/>   
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="威风凛凛，哈哈~"/>
+				<talk content="高贵与威严的象征！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354249">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我是金翼狮王！"/>
+				<talk content="想和比比谁更厉害吗？"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354248">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我是气质兜兜狮！"/>
+				<talk content="呜呜~别笑话我！"/>
+				<talk content="我的兜兜好看吧？"/>
+			</state>
+		</level>
+	</angel> 
+	
+		<angel id="1353325">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="萌萌的春芽小仙！"/>
+				<talk content="不要吵我睡觉哦！"/>   
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="气质小淑女！~"/>
+				<talk content="我是安静的乖乖女！！"/>
+			</state>
+		</level>
+	</angel>
+		<angel id="1354251">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我是处女座天使！"/>
+				<talk content="我的百花头饰好看吗？"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1354250">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我是优雅折翼天使！"/>
+				<talk content="呜呜~别再看我了！"/>
+				<talk content="其实有痘痘也挺可爱的！"/>
+			</state>
+		</level>
+	</angel> 
+	
+			<angel id="1353326">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="可爱的天秤小萌宠！"/>
+				<talk content="不要捏我脸蛋哦！"/>   
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="优雅中透着小调皮！~"/>
+				<talk content="我是可爱的天使！！"/>
+			</state>
+		</level>
+	</angel>
+	<angel id="1354253">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我是天秤座天使！"/>
+				<talk content="我的优雅气质无可比拟!!"/>
+			</state>
+		</level>
+	</angel>
+	<angel id="1354252">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我是可爱呆呆小天秤！！"/>
+				<talk content="呜呜~别打扰我哦！！"/>
+				<talk content="我没发呆，我在思考！"/>
+			</state>
+		</level>
+	</angel>
+			<angel id="1353327">
+		<level id="1">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="可爱的笑面小蝎！"/>
+				<talk content="我是善良的小蝎子！"/>   
+			</state>
+		</level>
+			<level id="2">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="明亮的双眼直视前方！~"/>
+				<talk content="我是可爱的天蝎！"/>
+			</state>
+		</level>
+	</angel>
+	<angel id="1354255">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我是天蝎座天使！"/>
+				<talk content="我永远不会认输！"/>
+			</state>
+		</level>
+	</angel>
+	<angel id="1354254">
+		<level id="3">
+			<state id="0">
+			</state>
+			<state id="1">
+				<talk content="我是变异小天蝎！"/>
+				<talk content="呜呜~不许嘲笑我！"/>
+				<talk content="我不认输，我要重新战斗！"/>
+			</state>
+		</level>
+	</angel> 
+</root>

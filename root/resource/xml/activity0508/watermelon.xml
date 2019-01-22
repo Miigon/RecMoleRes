@@ -1,0 +1,5 @@
+<data>
+	<get_pt_desc><![CDATA[本局时间到。恭喜你获得{0}积分。]]></get_pt_desc>
+	<no_pt_desc><![CDATA[本局时间到，很遗憾你保卫西瓜失败了。请再接再厉。]]></no_pt_desc>
+	<goto_map>3</goto_map>
+</data>

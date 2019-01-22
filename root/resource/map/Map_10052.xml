@@ -1,0 +1,22 @@
+<Map>
+	<NpcList>
+		<Npc ID="10038" Layer="depthLevel" Name="凯文" Ex="631" Ey="330"  Cmd="s" Param="1" />
+	</NpcList>
+	
+	<Triggers>
+		<!--
+		<Trigger ResName="mermaid_mc" Layer="depthLevel" Ex="450" Ey="148" Cmd="p" Param="MermaidAndPrincePanel" Tips="美人鱼与王子的故事" /> 
+		-->
+	</Triggers>
+	
+	<Talks>
+		<Talk ID="999" NpcID="10038" Face="正常" Msg="谢谢小摩尔还惦记着我~小C越来越可爱了！" Option="^__^" Cmd="act" Param="fatherDayOver" AddTaskOption="1"  />
+		
+		<Talk ID="1" NpcID="10038" Face="正常" Msg="你好{$username}，我是凯文老师，拉姆学院飞行、潜水、动物课的考官！" Option="介绍拉姆课堂$没什么事！" Cmd="s$none" Param="2$3" AddTaskOption="1" />
+		<Talk ID="2" NpcID="10038" Face="正常" Msg="我右手边楼上是飞行考试的地方，我身后是潜水考试项目！黑板上有动物考试的海报！想参加考试，要带上你的拉姆去学院教导处找菩提大伯参加课程学习哦！" Option="恩，我知道了！" Cmd="none" Param="4" AddTaskOption="1" />
+		
+		<!-- 教师节活动 -->
+		<Talk ID="10" NpcID="10038" Face="正常" Msg="哈哈，谢谢你小摩尔，你真是有心啊！很浪漫的礼物，我先收下啦！" Option="你会用他们做什么呀？" Cmd="s" Param="11" IsHideClose="1" />
+		<Talk ID="11" NpcID="10038" Face="正常" Msg="我会在晚上把萤火虫释放到黑森林的沿路，为行人点亮道路!" Option="凯文老师真是个热心人！" Cmd="act" Param="showAward" />
+	</Talks>
+</Map>

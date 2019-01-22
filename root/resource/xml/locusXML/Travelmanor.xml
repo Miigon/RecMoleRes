@@ -1,0 +1,5 @@
+<travelmanor>
+	<level url="module/game/Travelmanor/NewLevel1.swf" endurl="module/game/Travelmanor/Level1End.swf" colorbg="1" />
+	<level url="module/game/Travelmanor/NewLevel2.swf" endurl="module/game/Travelmanor/Level2End.swf" colorbg="1" />
+	<level url="module/game/Travelmanor/NewLevel3.swf" endurl="module/game/Travelmanor/Level2End.swf" colorbg="1" />
+</travelmanor>

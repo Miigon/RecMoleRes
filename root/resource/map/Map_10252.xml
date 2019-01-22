@@ -1,0 +1,27 @@
+<Map>
+	<NpcList>
+	
+	</NpcList>
+	
+	<Triggers>
+		<!-- 
+		<Trigger ResName="country_mc" Layer="depthLevel" Ex="678" Ey="488" Cmd="p" Param="MermaidCountrySchedulePanel" />
+		<Trigger ResName="spaceIntro_btn" Layer="depthLevel" Ex="433" Ey="483" Cmd="p" Param="TimeGateSecretPanel" />
+		 -->
+	</Triggers>
+	
+	<Talks>
+		<Talk ID="1" NpcID="10015" Face="正常" Msg="什么时候我要去采访一下天使，天使真是太厉害了，我亲眼见过天使把暗黑势力给打败了。" Option="我知道啦！" Cmd="none" Param="1" AddTaskOption="1" />
+		
+		
+		<Talk ID="2" NpcID="10067" Face="正常" Msg="是谁在呼唤我…我到底沉睡了多久...你们是什么人？" Option="人鱼国度的秘密？" Cmd="s" Param="3"  />
+		<Talk ID="3" NpcID="10067" Face="正常" Msg="我们人鱼国的秘密是不能告诉外来种族的，你还是快离开吧！" Option="用琴声来证明！" Cmd="g" Param="PianoGame" />
+		
+		<Talk ID="4" NpcID="10067" Face="正常" Msg="那个家伙果然知道了净化海妖的秘密，海妖国的10大祭司也被黑化了，你赶快去调查一下吧！" Option="我该怎么办？" Cmd="s" Param="5"  />
+		<Talk ID="5" NpcID="10067" Face="正常" Msg="看到我右边那颗巨大的红色千年珊瑚了吗？去向他请教一下吧！" Option="我这就去！" Cmd="act" Param="THREE_SAY_OVEN_ONE" />
+		
+		<Talk ID="6" NpcID="10069" Face="正常" Msg="呼呼，你是谁啊？你想要干什么啊？" Option="我这就去！" Cmd="s" Param="7" />
+		<Talk ID="7" NpcID="10069" Face="正常" Msg="你想要知道这么绝密的事情啊？如果你能猜中我刚才吐了几个泡泡我就告诉你！" Option="6个$7个$8个$9个$10个"  Cmd="act$act$act$act$act" Param="task_oven0$task_oven1$task_oven2$task_oven3$task_oven4" />
+		
+	</Talks>
+</Map>

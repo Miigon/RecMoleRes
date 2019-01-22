@@ -1,0 +1,27 @@
+<Map>
+	<NpcList>
+        <Npc ID="10294" Layer="depthLevel" Name="大长老泰尼" Ex="415" Ey="435"  Cmd="act" Param="selectSay" /> 
+	</NpcList>
+	<Triggers> 
+		<Trigger ResName="go_391" Layer="controlLevel" Ex="740" Ey="255" Cmd="alt_map" Param="391"  Tips="珊瑚平原"/>  
+		<Trigger ResName="bossBtn" Layer="controlLevel" Ex="0" Ey="0" Cmd="act" Param="clickBoss"  Tips=""/>  
+<!--  		<Trigger ResName="" Layer="depthLevel" Ex="415" Ey="435" Cmd="act" Param="selectSay"  Tips="大长老泰尼"/>  -->
+	</Triggers>
+	<Talks>
+		<Talk ID="1" NpcID="10294" Face="正常" Msg="小摩尔，你好。我是泰尼，摩灵世界的大长老。" Option="" Cmd="none" Param="0" AddTaskOption="1"/>
+		<Talk ID="2" NpcID="10294" Face="正常" Msg="小摩尔，别着急。摩灵世界与摩尔庄园的通道刚打开不久，还不够稳定。我需要多了解一些关于庄园的人、事、物，以便我日后开展行动。你可以帮助我么？只要你帮我，我就会告诉你一些关于摩灵世界的线索。" Option="没问题。乐于助人是小摩尔最基本的品质。" Cmd="act" Param="startTask" AddTaskOption="1"/>
+		
+		<Talk ID="3" NpcID="10294" Face="正常" Msg="谢谢你，小摩尔。今天已经听你讲了许多关于摩尔庄园的事情了。该休息休息了。明天再来吧~还有下次记得不要叫我大长老，叫我帅哥泰尼就行。" Option="……好的帅哥泰尼。帅哥泰尼再见。" Cmd="act" Param="taskOver" AddTaskOption="1"/>
+		<Talk ID="4" NpcID="10294" Face="正常" Msg="是不是被花园深处关卡1难住了？承认失败并不丢脸。只有认识到自身的不足，，才能进步的更快。" Option="不，我不会放弃的。$感谢大长老的指点，我会去努力锻炼一下，再来重新挑战的。" Cmd="none$act" Param="1$taskOver" AddTaskOption="1"/>
+		<Talk ID="5" NpcID="10294" Face="正常" Msg="是不是被花园禁地关卡3难住了？承认失败并不丢脸。只有认识到自身的不足，，才能进步的更快。" Option="不，我不会放弃的。$感谢大长老的指点，我会去努力锻炼一下，再来重新挑战的。" Cmd="none$act" Param="1$taskOver" AddTaskOption="1"/>
+		<Talk ID="10" NpcID="10294" Face="正常" Msg=" 摩尔庄园里资历最老的人是谁？我需要和他沟通一下关于庄园和摩灵世界现在的情况。" Option=" 这个简单，我现在就带你去。" Cmd="act" Param="task1" AddTaskOption="1"/>
+		
+		<Talk ID="20" NpcID="10294" Face="正常" Msg="听说摩尔庄园也有一位长老。不仅能力超群，而且慈祥有责任心，长期驻扎在黑森林，关注着龙族的行动，是摩尔庄园的守护者。" Option="你说的一定是森林训练场的土林长老。" Cmd="act" Param="task2" AddTaskOption="1"/>
+		
+		<Talk ID="30" NpcID="10294" Face="正常" Msg="对抗那些被黑化的摩灵，需要摩灵和摩尔共同的努力。所以我很想知道，摩尔庄园最强的力量：皇家骑士团，到底有没有传说中的那么厉害。" Option="可惜瑞琪团长不知道在哪……不过骑士团代理团长弗兰克也是很厉害的！" Cmd="act" Param="task3" AddTaskOption="1"/>
+		
+		<Talk ID="40" NpcID="10294" Face="正常" Msg="小摩尔，虽然你是好心，但是你并不了解那些邪恶摩灵的可怕之处。去花园深处关卡1检验一下你的实力吧，只有打败它们，才能证明你有能力帮助我。" Option="这点小怪物还难不倒我。$我决定准备一下再来。" Cmd="act$none" Param="combatMission1$1" AddTaskOption="1"/>
+
+		<Talk ID="50" NpcID="10294" Face="正常" Msg=" 摩灵世界与庄园之前的通道打开时间还不长，想必你也没有遇到真正可怕的怪物。小摩尔，考虑清楚了。这个怪物可不是你想象中那么简单的。如果你能挑战花园禁地关卡3成功的话，我会给予你我所能给予的最大的程度的奖励。" Option="我考虑清楚了，来，战个痛快。$我决定准备一下再来。" Cmd="act$none" Param="combatMission2$1" AddTaskOption="1"/>
+	</Talks>
+</Map>

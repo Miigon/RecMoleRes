@@ -1,0 +1,156 @@
+<Tasks ID="601" Name="悲剧初演" AwardMsg="恭喜你获得2个经验药剂、书与笔！" AwardBean="" >
+
+	<!-- 城堡书房 -->
+	<Step ID="1" TarMapID="32">
+		<NPC ID="10036" Option="悲剧初演"  >
+			<Action Cmd="SAY" >
+				<Talk NpcID="10036" Face="焦急" Msg="最近书房里发生了好多怪事啊！不知道谁把书丢得满地都是，打开一看，全是一样的内容……" Option=""/>
+				<Talk NpcID="10036" Face="焦急" Msg="当我例行检查书柜里那些藏书的时候，更奇怪的事情发生了。不管是古书还是新书，全都变成同一本书了！" Option="书的内容是？"/>
+				<Talk NpcID="10036" Face="焦急" Msg="是一个署名“莎士摩亚”的疯狂剧作家写的《王子复仇记》，但是，好像只有一个序，后面都是空白的。你来看看？" Option=""/>
+			</Action>
+			
+			<Action Cmd="PLAY_MOVIE" Param="200" Name="movie_200" IsBg="1" IsFullScreen="1" />
+			<Action Cmd="DELETE_MOVIE" Param="movie_200" />
+			
+			<Action Cmd="SAY" >
+				<Talk NpcID="10036" Face="焦急" Msg="怎……怎么回事？！竟然又出现了一页！而且，这个哈姆雷特长得好像么么啊，难道……" Option="我去看看么么公主！"/>
+			</Action>
+			
+			<Action Cmd="PLAY_MOVIE" Param="1000" Name="movie_1000" IsBg="1" IsFullScreen="1" />
+			<Action Cmd="DELETE_MOVIE" Param="movie_1000" />
+			
+			<Action Cmd="SET_BUFFER" Panel="2" Step="2" />
+			<Action Cmd="GO_MAP" MapID="109" MapType="0" />
+		</NPC>	
+	</Step>
+	
+	<!-- 	城堡露天花园 -->
+	<Step ID="2" TarMapID="109">
+		<EnterMap MapID="109">
+			<Action Cmd="SET_ATTRIBUTE" Level="depthLevel" ResName="npc_10002" Visible="0" />
+			<Action Cmd="SET_ATTRIBUTE" Level="depthLevel" ResName="npc_10057" Visible="0" />
+			
+			<Action Cmd="PLAY_MOVIE" Param="1" Name="movie_1" IsBg="1" IsFullScreen="1" />	
+			<Action Cmd="SAY" >
+				<Talk NpcID="10057" Face="悲伤" Msg="{$username}，我可算找到一个小摩尔了！刚……刚才发生了好诡异的事！我我我我看见……那……那个……" Option="玛丽别着急，慢慢说"/>
+				<Talk NpcID="10057" Face="悲伤" Msg="我怎么能不急啊！！刚才么么公主在卧室里休息，忽然过世的摩尔王灵魂出现了！我吓死了，赶紧逃出来……咦？么么公主呢？" Option="她没有跟你一起出来？"/>
+				<Talk NpcID="10057" Face="惊讶" Msg="奇怪，难道是我看花眼了？{$username}，你陪我再去看一眼吧！" Option="走吧！"/>
+			</Action>
+			<Action Cmd="DELETE_MOVIE" Param="movie_1" />
+			
+			<Action Cmd="PLAY_MOVIE" Param="2" Name="movie_2" IsBg="1" IsFullScreen="1" />	
+			<Action Cmd="DELETE_MOVIE" Param="movie_2" />
+			<Action Cmd="GO_MAP" MapID="110" MapType="0" />
+		</EnterMap>
+			
+		<EnterMap MapID="110">
+			<Action Cmd="PLAY_MOVIE" Param="3" Name="movie_3" IsBg="1" IsFullScreen="1" />	
+			<Action Cmd="SAY" >
+				<Talk NpcID="10057" Face="惊讶" Msg="咦？刚才不是这样的！" Option="我说你，是不是睡糊涂了= ="/>
+				<Talk NpcID="10057" Face="惊讶" Msg="难道真是我睡糊涂了……啊！{$username}，你看那衣橱是不是被人动过了？" Option="难道是小偷？！我去看看"/>
+			</Action>
+			<Action Cmd="DELETE_MOVIE" Param="movie_3" />
+			
+			<Action Cmd="PLAY_MOVIE" Param="4" Name="movie_4" IsBg="1" IsFullScreen="1" />	
+			<Action Cmd="DELETE_MOVIE" Param="movie_4" />
+			<Action Cmd="GO_MAP" MapID="348" MapType="0" />
+		</EnterMap>
+		
+		<EnterMap MapID="348">
+			<Action Cmd="PLAY_MOVIE" Param="5" Name="movie_5" IsBg="1" IsFullScreen="1" />	
+			<Action Cmd="SAY" >
+				<Talk NpcID="10057" Face="惊讶" Msg="出出出出出现了！！！刚才的幽灵！)*^$%($^！" Option="玛丽你醒醒！别昏过去啊！"/>
+				<Talk NpcID="10223" Face="正常" Msg="哈姆雷特啊，是我的弟弟克洛帝阿斯和皇后联手杀害了我，谋图篡位。我命令你，一定要为我报仇！" Option="哈姆雷特？这不是和小说写得一样吗！"/>
+				<Talk NpcID="10197" Face="惊讶" Msg="等等，摩尔王！我是{$username}，不是哈姆雷特！请您清醒一点！" Option=""/>
+				<Talk NpcID="10223" Face="正常" Msg="{$username}……呜……这该死的诅咒……" Option="摩尔王，您怎么了！"/>
+				<Talk NpcID="10223" Face="正常" Msg="你说你叫{$username}？{$username}，你听好，摩尔庄园被邪恶的剧作家诅咒了，我的女儿么么也被卷入其中。" Option="么么公主她？"/>
+				<Talk NpcID="10223" Face="正常" Msg="不光是么么，很多在摩尔庄园生活的摩尔们，还有像我一样，本不应该出现的摩尔们，都受到诅咒的影响，变成了这《王子复仇记》中的角色之一" Option=""/>
+				<Talk NpcID="10223" Face="正常" Msg="受诅咒的摩尔，将无法摆脱台词的束缚，只能根据疯狂剧作家的剧本，不停地表演，直至表演的终结——哈姆雷特之死！" Option="糟了，这诅咒要怎么解开啊？"/>
+				<Talk NpcID="10223" Face="正常" Msg="用你的智慧去避免悲剧，改变角色们的命运吧！每次疯狂剧作家都会将剧本写在那本《王子复仇记》的书中，根据文字，就可以知道下一个悲剧会怎样发生！" Option="原来如此！"/>
+				<Talk NpcID="10223" Face="正常" Msg="刚才，扮演哈姆雷特的么么公主已经去了粒粒小广场，你赶紧去看看吧，那里应该还有扮演皇后和国王弟弟的两个摩尔。" Option="我这就去！"/>
+			</Action>
+			<Action Cmd="DELETE_MOVIE" Param="movie_5" />
+			
+			<Action Cmd="PLAY_MOVIE" Param="1001" Name="movie_1001" IsBg="1" IsFullScreen="1" />	
+			<Action Cmd="DELETE_MOVIE" Param="movie_1001" />
+			
+			<Action Cmd="SET_BUFFER" Panel="3" Step="3" />
+			<Action Cmd="GO_MAP" MapID="47" MapType="0" />
+		</EnterMap>
+	</Step>
+	
+	<!--	粒粒小广场 -->
+	<Step ID="3" TarMapID="47">
+		<EnterMap MapID="47">
+<!-- 			<Action Cmd="SET_ATTRIBUTE" Level="controlLevel" ResName="npc_10053" Visible="0" /> -->
+			
+			<Action Cmd="PLAY_MOVIE" Param="6" Name="movie_6" IsBg="1" IsFullScreen="1" />	
+			<Action Cmd="SAY" >
+				<Talk NpcID="10225" Face="正常" Msg="哈姆雷特，你什么意思，叫来这么烂的戏班子，让我这个新国王实在看不下去！" Option=""/>	
+				<Talk NpcID="10224" Face="正常" Msg="叔父……国王陛下，请原谅那群流浪艺人吧！" Option=""/>
+				<Talk NpcID="10225" Face="生气" Msg="不看了！皇后，我们回宫！" Option=""/>
+				<Talk NpcID="10226" Face="悲伤" Msg="是，陛下……" Option=""/>
+			</Action>
+			<Action Cmd="DELETE_MOVIE" Param="movie_6" />
+			
+			<Action Cmd="PLAY_MOVIE" Param="7" Name="movie_7" IsBg="1" IsFullScreen="1" />	
+			<Action Cmd="SAY" >
+				<Talk NpcID="10224" Face="生气" Msg="绝对没错，是叔父和母后杀害了父王，父王的灵魂没有说谎，我一定要为父王报仇！" Option=""/>
+			</Action>
+			<Action Cmd="DELETE_MOVIE" Param="movie_7" />
+			
+			<Action Cmd="PLAY_MOVIE" Param="8" Name="movie_8" IsBg="1" IsFullScreen="1" />	
+			<Action Cmd="SAY" >
+				<Talk NpcID="10227" Face="焦急" Msg="哈姆雷特王子殿下！听说您又惹国王陛下不高兴了，请您还是慎言慎行啊，这也是为了我们好……为了我们能永远在一起。" Option=""/>	
+				<Talk NpcID="10228" Face="正常" Msg="我的女儿欧菲莉亚，你干嘛为这样的未婚夫伤神！这种装疯卖傻的小子，我可看不惯！" Option=""/>
+				<Talk NpcID="10229" Face="正常" Msg="父亲大人请息怒，哈姆雷特与我自小一起长大，为人正义，将妹妹嫁给他是最好的选择，我这个做哥哥的可以作担保！" Option=""/>
+				<Talk NpcID="10224" Face="正常" Msg="欧菲莉亚，我的未婚妻啊，这事与你无关。还有，请你以后不要再来找我了，我不能让你涉足危险！我们就此分别吧！" Option=""/>
+				<Talk NpcID="10227" Face="焦急" Msg="咦……怎么这样……" Option=""/>	
+				<Talk NpcID="10228" Face="正常" Msg="你……你小子什么意思？竟然伤我宝贝女儿的心！" Option=""/>
+				<Talk NpcID="10229" Face="正常" Msg="是啊，哈姆雷特，你若是让我妹妹欧菲莉亚伤心，我保证让你后……喂！喂你给我站住！哈姆雷特！" Option=""/>
+			</Action>
+			<Action Cmd="DELETE_MOVIE" Param="movie_8" />
+			
+			<Action Cmd="PLAY_MOVIE" Param="9" Name="movie_9" IsBg="1" IsFullScreen="1" />	
+			<Action Cmd="SAY" >
+				<Talk NpcID="10036" Face="正常" Msg="他们这是在干嘛？还有粒粒也在，好久没看她换新衣服了，一换就穿得那么花哨！" Option="粒粒她中诅咒了……"/>
+				<Talk NpcID="10036" Face="焦急" Msg="诅咒？是那种会让人发烧起不了床的诅咒？不像啊。" Option="把疯狂剧作家的诅咒告诉捷克"/>
+				<Talk NpcID="10036" Face="焦急" Msg="这么说来，刚才那走过去的粒粒、菩提，还有一个看起来很像《十年前的黑森林》里记录过的那位塞拉王子，他们都是被诅咒的摩尔？" Option="什么……竟然连塞拉王子也……！"/>
+				<Talk NpcID="10036" Face="焦急" Msg="{$username}，你快告诉我，还有哪些摩尔也中了诅咒？！" Option="还有摩尔王八世、哈娜皇后、库拉"/>	
+				<Talk NpcID="10036" Face="焦急" Msg="果然如摩尔王的灵魂所说，无论是存在的、或是不存在的摩尔，都被诅咒影响到了，整个摩尔庄园被这个剧本搅得乱七八糟！" Option=""/>
+				<Talk NpcID="10036" Face="焦急" Msg="对了，你说那个剧本里预告了即将发生的悲剧？糟了，刚才好像又出现了三页，我就是为此来找你的，我们赶紧回城堡书房看看！" Option="走吧！"/>
+			</Action>
+			<Action Cmd="DELETE_MOVIE" Param="movie_9" />
+			
+			<Action Cmd="PLAY_MOVIE" Param="1002" Name="movie_1002" IsBg="1" IsFullScreen="1" />	
+			<Action Cmd="DELETE_MOVIE" Param="movie_1002" />
+			
+			<Action Cmd="SET_BUFFER" Panel="4" Step="4" />
+			<Action Cmd="GO_MAP" MapID="32" MapType="0" />
+		</EnterMap>	
+	</Step>
+	
+	<!-- 城堡书房 -->
+	<Step ID="4" TarMapID="32">
+		<NPC ID="10036" Option="悲剧初演"  >
+		
+			<Action Cmd="SAY" >
+				<Talk NpcID="10036" Face="正常" Msg="{$username}，快来看看这个剧本，又多出了三页！" Option=""/>	
+			</Action>
+			
+			<Action Cmd="PLAY_MOVIE" Param="201" Name="movie_201" IsBg="1" IsFullScreen="1" />	
+			<Action Cmd="DELETE_MOVIE" Param="movie_201" />
+			
+			<Action Cmd="SAY" >
+				<Talk NpcID="10036" Face="焦急" Msg="看来，《王子复仇记》真是一本彻头彻尾的悲剧！难道说，扮演哈姆雷特的么么公主，还有粒粒他们，都会像剧中所写地这样死去？" Option=""/>	
+				<Talk NpcID="10036" Face="正常" Msg="哈娜皇后竟然也被牵扯进来，这简直太令人愤怒了！虽然很有可能那并不是真的哈娜皇后，就和那个库拉一样不过是个人偶，但是随便亵渎灵魂的事情是不可饶恕的！" Option=""/>	
+				<Talk NpcID="10036" Face="正常" Msg="{$username}，请你一定要阻止悲剧的发生。如果按照剧情的发展，下一个要被刺死的就是菩提大伯！" Option="我一定会想办法破除诅咒！"/>	
+			</Action>
+			
+			<Action Cmd="PLAY_MOVIE" Param="100" Name="movie_100" IsBg="1" IsFullScreen="1" />	
+			<Action Cmd="DELETE_MOVIE" Param="movie_100" />
+			
+			<Action Cmd="OVER"/>
+		</NPC>	
+	</Step>
+</Tasks>

@@ -1,0 +1,26 @@
+<Map>
+	<NpcList>
+	<!-- 
+		<Npc ID="10001" Layer="controlLevel" Name="拉仔" Ex="358" Ey="460" Cmd="s" Param="1" />
+		 -->
+	</NpcList>
+	
+	<Triggers>
+		<!--
+		<Trigger ResName="mermaid_mc" Layer="depthLevel" Ex="450" Ey="148" Cmd="p" Param="MermaidAndPrincePanel" Tips="美人鱼与王子的故事" /> 
+		-->
+	</Triggers>
+	
+	<Talks>
+	<!--
+		<Talk ID="1" NpcID="10089" Face="正常" Msg="Bibo~帮帮我，我被树枝卡住了！" Option="别急，我来帮你！" Cmd="act" Param="helpPet" IsHideClose="1" />
+		
+		<Talk ID="2" NpcID="10089" Face="正常" Msg="Bibo~谢谢你把我救出来！我是拉姆，原本生活在黑森林。在这里遇到你一定是上天的安排，请做我的主人吧！" Option="好啊，请多关照，小拉姆！" Cmd="s" Param="3" IsHideClose="1"  />
+		<Talk ID="3" NpcID="10089" Face="正常" Msg="Bibo~~bibo!!!我有主人啦！好开心！对了对了，主人你的名字叫什么呢？" Option="我叫" Cmd="act" Param="newPets_openAlt"  IsHideClose="1" />
+		
+		<Talk ID="4" NpcID="10089" Face="正常" Msg="{$username}，真好听，我会牢牢记住的，因为你是我重要的主人！主人，你身上黑漆漆的呢，你是黑色的摩尔吗？" Option="不不，是身上弄脏了。其实我是" Cmd="act" Param="newPets_loadPan" IsHideClose="1"  />
+		
+		<Talk ID="5" NpcID="10089" Face="正常" Msg="原来你的肤色是这样，真漂亮！对了主人，这里前方就是摩尔庄园！听说那里有许多勤劳可爱的摩尔，还有大大的房子和农田，会发生许多有趣的事情。我们一起去那里看看吧！" Option="走，我们一起去摩尔庄园！" Cmd="act" Param="newPets_newTaskOven"  IsHideClose="1"  />
+		-->
+	</Talks>
+</Map>

@@ -1,0 +1,24 @@
+<Map>
+	<NpcList>
+<!-- 		<Npc ID="10308" Layer="topLevel" Name="小喵咪" Ex="0" Ey="0" Cmd="s" Param="1" /> -->
+	</NpcList>
+	
+	<Triggers>
+		<Trigger ResName="go_80" Layer="controlLevel" Ex="123" Ey="511" Cmd="alt_map" Param="80" Tips="尼尔拉塔" />
+		<Trigger ResName="go_36" Layer="controlLevel" Ex="276" Ey="207" Cmd="alt_map" Param="36" Tips="摩摩赛车场" />
+		<Trigger ResName="go_7" Layer="controlLevel" Ex="908" Ey="385" Cmd="alt_map" Param="7" Tips="东部游乐场" />
+		<Trigger ResName="gameRomm" Layer="controlLevel" Ex="159" Ey="280" Cmd="alt_map" Param="22" Tips="游戏小屋" />
+		<Trigger ResName="slide_btn" Layer="controlLevel" Ex="730" Ey="275" Cmd="act" Param="Sliding" Tips="大变摩尔" />
+		<Trigger ResName="intro" Layer="controlLevel" Ex="313" Ey="465" Cmd="act" Param="nomoplayIntro" Tips="大富翁游戏说明"/>	
+	</Triggers>
+	
+	<Talks>
+		<Talk ID="1" NpcID="10308" Face="正常" Msg="你发现喵了(┬＿┬)" Option="我和你心有灵犀(*^__^*)" Cmd="act" Param="overGame"/>
+		
+		<Talk ID="99" NpcID="10148" Face="正常" Msg="谢谢你，{$username}，又找到了一颗黑暗种子，送你一些礼物以表谢意！我们一定要阻止零的阴谋！" Option="嗯！一定不能让他得逞！" Cmd="act" Param="getItemFive" AddTaskOption="1" />
+		
+		<Talk ID="422" NpcID="10249" Face="开心" Msg="这~可不是我干的哦~~~~" Option="呃，我相信你了！" Cmd="act" Param="dandanAct" AddTaskOption="1"/>
+		<Talk ID="423" NpcID="10249" Face="开心" Msg="这~可不是我干的哦~~~~" Option="卖萌也没用！这次被我抓到了吧！" Cmd="act" Param="dandanAct" AddTaskOption="1"/>
+	</Talks>
+</Map>
+
